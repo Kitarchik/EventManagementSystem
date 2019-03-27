@@ -5,7 +5,7 @@ using Experiment.LogicLayer;
 using Experiment.Model;
 using SupportFragment = Android.Support.V4.App.Fragment;
 
-namespace Experiment.Fragments
+namespace Experiment.Fragments.ProjectFragments
 {
     public class ProjectViewFragment : SupportFragment
     {

@@ -2495,8 +2495,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080069
 			public const int action_mode_close_button = 2131230825;
 			
-			// aapt resource value: 0x7f0800e0
-			public const int action_search = 2131230944;
+			// aapt resource value: 0x7f0800e1
+			public const int action_search = 2131230945;
 			
 			// aapt resource value: 0x7f0800ae
 			public const int action_text = 2131230894;
@@ -2783,8 +2783,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b4
 			public const int notification_main_column_container = 2131230900;
 			
-			// aapt resource value: 0x7f0800df
-			public const int organizers = 2131230943;
+			// aapt resource value: 0x7f0800e0
+			public const int organizers = 2131230944;
 			
 			// aapt resource value: 0x7f080066
 			public const int overshoot = 2131230822;
@@ -2824,6 +2824,9 @@ namespace Experiment
 			
 			// aapt resource value: 0x7f080082
 			public const int radio = 2131230850;
+			
+			// aapt resource value: 0x7f0800df
+			public const int resourceCalculator = 2131230943;
 			
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
