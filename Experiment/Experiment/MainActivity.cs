@@ -133,7 +133,7 @@ namespace Experiment
             if (!string.IsNullOrEmpty(_searchQuery))
             {
                 _searchMenuItem.ExpandActionView();
-                _searchView.SetQuery(_searchQuery, false);
+                _searchView.Post(() => _searchView.SetQuery(_searchQuery, false));
             }
 
             return true;
