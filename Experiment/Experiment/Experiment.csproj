@@ -59,9 +59,9 @@
   <ItemGroup>
     <Compile Include="DataLayer\ProjectsDataAccess.cs" />
     <Compile Include="DataLayer\RulesDataAccess.cs" />
-    <Compile Include="Fragments\ProjectRecyclerViewAdapter.cs" />
-    <Compile Include="Fragments\ProjectsListFragment.cs" />
-    <Compile Include="Fragments\ProjectViewFragment.cs" />
+    <Compile Include="Fragments\ProjectFragments\ProjectRecyclerViewAdapter.cs" />
+    <Compile Include="Fragments\ProjectFragments\ProjectsListFragment.cs" />
+    <Compile Include="Fragments\ProjectFragments\ProjectViewFragment.cs" />
     <Compile Include="Fragments\RulesFragments\BaseRulesFragment.cs" />
     <Compile Include="Fragments\RulesFragments\RulesExpandableRecyclerViewAdapter.cs" />
     <Compile Include="Fragments\RulesFragments\RulesImagesRecyclerViewAdapter.cs" />
@@ -236,6 +236,9 @@
     <AndroidResource Include="Resources\layout\rulesSearchRow.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fragments\ResourceCalculatorFragments\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

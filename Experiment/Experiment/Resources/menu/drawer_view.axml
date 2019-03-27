@@ -22,6 +22,10 @@
           android:id="@+id/rules"
           android:title="Правила"
           android:checkable="true"/>
+        <item 
+          android:id="@+id/resourceCalculator"
+          android:title="Калькулятор ресурсов"
+          android:checkable="true" />
         <item
           android:id="@+id/organizers"
           android:title="Организаторы"

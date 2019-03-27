@@ -6,14 +6,13 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Experiment.Fragments;
 using Experiment.Fragments.RulesFragments;
 using Experiment.LogicLayer;
 using Experiment.Model;
 using Experiment.Search;
 using System;
 using System.Linq;
-using Java.Lang;
+using Experiment.Fragments.ProjectFragments;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using SupportFragmentManager = Android.Support.V4.App.FragmentManager;
@@ -133,10 +132,10 @@ namespace Experiment
             if (!string.IsNullOrEmpty(_searchQuery))
             {
                 _searchMenuItem.ExpandActionView();
-                _searchView.SetQuery(_searchQuery, false);
+                _searchView.SetQuery(_searchQuery, true);
             }
 
-            return true;
+            return base.OnCreateOptionsMenu(menu);
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
@@ -173,6 +172,10 @@ namespace Experiment
                         }
                         break;
                     }
+                case Resource.Id.resourceCalculator:
+                {
+                    break;
+                }
             }
         }
 
