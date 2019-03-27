@@ -13,6 +13,7 @@ using Experiment.Model;
 using Experiment.Search;
 using System;
 using System.Linq;
+using Java.Lang;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using SupportFragmentManager = Android.Support.V4.App.FragmentManager;
@@ -28,6 +29,8 @@ namespace Experiment
         private IMenuItem _previousMenuItem;
         private IMenuItem _searchMenuItem;
         private SearchView _searchView;
+
+        private string _searchQuery = string.Empty;
 
         public Project CurrentProject { get; set; }
         public Android.Widget.IFilterable SearchAdapter { get; set; }
@@ -50,11 +53,21 @@ namespace Experiment
             }
 
             var projectName = savedInstanceState?.GetString("projectName");
+            var previousMenuItem = savedInstanceState?.GetInt("menuItem");
             if (projectName != null)
             {
                 CurrentProject = ProjectsLogic.DownloadProjects().Find(p => p.Name == projectName);
                 CurrentProject.ProjectRules = RulesHelper.DownloadRules(Assets);
+                ActivateProjectSubmenu(CurrentProject);
             }
+
+            if (previousMenuItem != null && _navigationView !=null)
+            {
+                 _previousMenuItem = _navigationView.Menu.FindItem((int)previousMenuItem);
+                _previousMenuItem.SetChecked(true);
+            }
+
+            _searchQuery = savedInstanceState?.GetString("searchQuery") ?? string.Empty;
 
             base.OnCreate(savedInstanceState);
             if (savedInstanceState == null)
@@ -69,6 +82,17 @@ namespace Experiment
             {
                 outState.PutString("projectName",CurrentProject.Name);
             }
+
+            if (_previousMenuItem != null)
+            {
+                outState.PutInt("menuItem", _previousMenuItem.ItemId);
+            }
+
+            if (_searchView != null)
+            {
+                outState.PutString("searchQuery", _searchView.Query);
+            }
+
             base.OnSaveInstanceState(outState);
         }
 
@@ -90,6 +114,7 @@ namespace Experiment
             MenuInflater.Inflate(Resource.Menu.toolbarMenu, menu);
             _searchMenuItem = menu.FindItem(Resource.Id.action_search);
             _searchView = (SearchView)_searchMenuItem.ActionView;
+            _searchView.MaxWidth = int.MaxValue;
             _searchMenuItem.SetOnActionExpandListener(new SearchExpandListener(this));
 
             _searchView.QueryTextChange += (s, e) =>
@@ -104,6 +129,12 @@ namespace Experiment
                     e.Handled = true;
                 }
             };
+
+            if (!string.IsNullOrEmpty(_searchQuery))
+            {
+                _searchMenuItem.ExpandActionView();
+                _searchView.SetQuery(_searchQuery, false);
+            }
 
             return true;
         }
@@ -168,36 +199,40 @@ namespace Experiment
 
         public void LoadProjectViewFragment(Project project)
         {
+            ActivateProjectSubmenu(project);
+            var projectViewFragment = new ProjectViewFragment(project);
+            PushFragment(projectViewFragment);
+        }
+
+        private void ActivateProjectSubmenu(Project project)
+        {
             var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
             projectMenu.SetVisible(true);
             projectMenu.SetTitle(project.Name);
             CurrentProject = project;
-            
-            ProjectViewFragment projectViewFragment = new ProjectViewFragment(project);
-            PushFragment(projectViewFragment);
         }
 
         private void LoadProjectsListFragment()
         {
-            ProjectListFragment projectListFragment = new ProjectListFragment();
+            var projectListFragment = new ProjectListFragment();
             PushFragment(projectListFragment);
         }
 
         public void LoadRulesSectionsFragment(Rules ruleSet)
         {
-            RulesSectionsFragment rulesSectionsFragment = new RulesSectionsFragment(ruleSet);
+            var rulesSectionsFragment = new RulesSectionsFragment(ruleSet);
             PushFragment(rulesSectionsFragment);
         }
 
         public void LoadRulesSubsectionsFragment(Rules ruleSet)
         {
-            RulesSubsectionsFragment rulesSubsectionsFragment = new RulesSubsectionsFragment(ruleSet);
+            var rulesSubsectionsFragment = new RulesSubsectionsFragment(ruleSet);
             PushFragment(rulesSubsectionsFragment);
         }
 
         public void LoadRulesSearchFragment()
         {
-            RulesSearchFragment rulesSearchFragment = new RulesSearchFragment(CurrentProject.ProjectRules);
+            var rulesSearchFragment = new RulesSearchFragment(CurrentProject.ProjectRules);
             PushFragment(rulesSearchFragment);
         }
 
