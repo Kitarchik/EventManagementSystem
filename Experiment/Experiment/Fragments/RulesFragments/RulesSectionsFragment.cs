@@ -7,31 +7,23 @@ namespace Experiment.Fragments.RulesFragments
 {
     public class RulesSectionsFragment : BaseRulesFragment
     {
-        private Rules rules;
-        private RecyclerView rulesExpandableRecyclerView;
+        private RecyclerView _rulesExpandableRecyclerView;
 
-        public RulesSectionsFragment(Rules rules)
-        {
-            this.rules = rules;
-        }
-
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-        }
+        public RulesSectionsFragment() { }
+        public RulesSectionsFragment(Rules rules) : base(rules) { }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = inflater.Inflate(Resource.Layout.rulesSectionsFragment, container, false);
-            rulesExpandableRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.rulesExpandableRecyclerView);
-            SetUpExpandableRules(rulesExpandableRecyclerView);
+            _rulesExpandableRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.rulesExpandableRecyclerView);
+            SetUpExpandableRules(_rulesExpandableRecyclerView);
             return view;
         }
 
         private void SetUpExpandableRules(RecyclerView view)
         {
             view.SetLayoutManager(new LinearLayoutManager(view.Context));
-            view.SetAdapter(new RulesExpandableRecyclerViewAdapter(this, rules.ChildRules));
+            view.SetAdapter(new RulesExpandableRecyclerViewAdapter(this, Rules.ChildRules));
         }
     }
 }

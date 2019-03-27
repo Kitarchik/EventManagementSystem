@@ -9,24 +9,16 @@ namespace Experiment.Fragments.RulesFragments
 {
     public class RulesOneSubsectionFragment : BaseRulesFragment
     {
-        private Rules rules;
-        private RecyclerView rulesSubsectionExpandableRecyclerView;
+        private RecyclerView _rulesSubsectionExpandableRecyclerView;
 
-        public RulesOneSubsectionFragment(Rules rules)
-        {
-            this.rules = rules;
-        }
-
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-        }
+        public RulesOneSubsectionFragment() { }
+        public RulesOneSubsectionFragment(Rules rules) : base(rules) { }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = inflater.Inflate(Resource.Layout.rulesOneSubsectionFragment, container, false);
-            rulesSubsectionExpandableRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.rulesSubsectionExpandableRecyclerView);
-            SetUpRecyclerView(rulesSubsectionExpandableRecyclerView);
+            _rulesSubsectionExpandableRecyclerView = view.FindViewById<RecyclerView>(Resource.Id.rulesSubsectionExpandableRecyclerView);
+            SetUpRecyclerView(_rulesSubsectionExpandableRecyclerView);
             return view;
         }
 
@@ -36,23 +28,27 @@ namespace Experiment.Fragments.RulesFragments
 
             view.SetLayoutManager(new LinearLayoutManager(view.Context));
             var items = new List<Rules>();
-            if (rules.ChildRules==null || rules.ChildRules.Count == 0)
+
+            if (Rules.ChildRules == null || Rules.ChildRules.Count == 0)
             {
-                items.Add(rules);
-                DataLayer.RulesDataAccess.DownloadImages(Context, rules);
+                items.Add(Rules);
+                DataLayer.RulesDataAccess.DownloadImages(Context, Rules);
                 isOneRule = true;
             }
-            else if (!string.IsNullOrEmpty(rules.Description))
+            else
             {
-                items.Add(new Rules() { Name = "Описание", Description = rules.Description });
-            }
+                if (!string.IsNullOrEmpty(Rules.Description))
+                {
+                    items.Add(new Rules { Name = "Описание", Description = Rules.Description });
+                }
 
-            var children = rules.ChildRules.Where(c => c.ChildRules == null || c.ChildRules.Count == 0).ToList();
-            foreach (var child in children)
-            {
-                DataLayer.RulesDataAccess.DownloadImages(Context, child);
+                var children = Rules.ChildRules.Where(c => c.ChildRules == null || c.ChildRules.Count == 0).ToList();
+                foreach (var child in children)
+                {
+                    DataLayer.RulesDataAccess.DownloadImages(Context, child);
+                }
+                items.AddRange(children);
             }
-            items.AddRange(children);
 
             view.SetAdapter(new RulesSubsectionExpandableRecyclerViewAdapter(this, items, isOneRule));
         }

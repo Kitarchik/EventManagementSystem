@@ -1,5 +1,4 @@
 ﻿using Android.OS;
-using Android.Support.V7.App;
 using Android.Views;
 using Experiment.Model;
 using System;
@@ -12,34 +11,24 @@ namespace Experiment.Fragments.RulesFragments
 {
     public class RulesSubsectionsFragment : BaseRulesFragment
     {
-        private Rules rules;
-        private AppCompatActivity parent;
-        private Android.Support.V4.View.ViewPager viewPager;
+        private Android.Support.V4.View.ViewPager _viewPager;
 
-        public RulesSubsectionsFragment(AppCompatActivity parent, Rules rules)
-        {
-            this.parent = parent;
-            this.rules = rules;
-        }
-
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-        }
+        public RulesSubsectionsFragment() { }
+        public RulesSubsectionsFragment(Rules rules) : base(rules) { }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             View view = inflater.Inflate(Resource.Layout.rulesSubsectionsFragment, container, false);
-            viewPager = view.FindViewById<Android.Support.V4.View.ViewPager>(Resource.Id.rulesSubsectionsPager);
-            SetUpViewPager(viewPager);
+            _viewPager = view.FindViewById<Android.Support.V4.View.ViewPager>(Resource.Id.rulesSubsectionsPager);
+            SetUpViewPager(_viewPager);
             return view;
         }
 
         private void SetUpViewPager(Android.Support.V4.View.ViewPager viewPager)
         {
-            var adapter = new RulesSubsectionsViewPagerAdapter(parent.SupportFragmentManager);
-            adapter.AddFragment(new RulesOneSubsectionFragment(rules), rules.Name);
-            var children = rules.ChildRules.Where(c => c.ChildRules != null && c.ChildRules.Count > 0).ToList();
+            var adapter = new RulesSubsectionsViewPagerAdapter(ChildFragmentManager);
+            adapter.AddFragment(new RulesOneSubsectionFragment(Rules), Rules.Name);
+            var children = Rules.ChildRules.Where(c => c.ChildRules != null && c.ChildRules.Count > 0).ToList();
             foreach (var child in children)
             {
                 adapter.AddFragment(new RulesOneSubsectionFragment(child), child.Name);
@@ -50,8 +39,8 @@ namespace Experiment.Fragments.RulesFragments
 
     internal class RulesSubsectionsViewPagerAdapter : Android.Support.V4.App.FragmentStatePagerAdapter
     {
-        List<SupportFragment> fragments = new List<SupportFragment>();
-        List<string> fragmentTitles = new List<string>();
+        readonly List<SupportFragment> _fragments = new List<SupportFragment>();
+        readonly List<string> _fragmentTitles = new List<string>();
 
         public RulesSubsectionsViewPagerAdapter(SupportFragmentManager fm) : base(fm)
         {
@@ -59,23 +48,20 @@ namespace Experiment.Fragments.RulesFragments
 
         public void AddFragment(SupportFragment fragment, String title)
         {
-            fragments.Add(fragment);
-            fragmentTitles.Add(title);
+            _fragments.Add(fragment);
+            _fragmentTitles.Add(title);
         }
 
         public override SupportFragment GetItem(int position)
         {
-            return fragments[position];
+            return _fragments[position];
         }
 
-        public override int Count
-        {
-            get { return fragments.Count; }
-        }
+        public override int Count => _fragments.Count;
 
         public override Java.Lang.ICharSequence GetPageTitleFormatted(int position)
         {
-            return new Java.Lang.String(fragmentTitles[position]);
+            return new Java.Lang.String(_fragmentTitles[position]);
         }
     }
 }

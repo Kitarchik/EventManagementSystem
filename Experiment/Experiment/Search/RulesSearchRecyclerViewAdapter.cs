@@ -11,41 +11,43 @@ namespace Experiment.Search
 {
     public class RulesSearchRecyclerViewAdapter : RecyclerView.Adapter, IFilterable
     {
-        private List<string> originalData;
-        private List<string> ruleNames;
-        private readonly RulesSearchFragment parent;
+        private List<string> _originalData;
+        private List<string> _ruleNames;
+        private readonly RulesSearchFragment _parent;
         
-        public Filter Filter { get; private set; }
+        public Filter Filter { get; }
 
         public RulesSearchRecyclerViewAdapter(List<string> names, RulesSearchFragment parent)
         {
-            ruleNames = names;
-            this.parent = parent;
+            _ruleNames = names;
+            _parent = parent;
             Filter = new RulesFilter(this);
         }
 
-        public override int ItemCount => ruleNames.Count;
+        public override int ItemCount => _ruleNames.Count;
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            RulesSearchHolder vh = holder as RulesSearchHolder;
-            vh.Name.Text = ruleNames[position];
+            if (!(holder is RulesSearchHolder vh)) return;
+            vh.Name.Text = _ruleNames[position];
             if (vh.ClickHandler != null)
                 vh.View.Click -= vh.ClickHandler;
 
-            vh.ClickHandler = new EventHandler((sender, e) =>
+            vh.ClickHandler = (sender, e) =>
             {
-                var activity = parent.Activity as MainActivity;
-                var rule = activity.currentProject.ProjectRules.FindRuleByName(ruleNames[position]);
-                if (rule.IsCategory())
+                if (_parent.Activity is MainActivity activity)
                 {
-                    activity.LoadRulesSectionsFragment(rule);
+                    var rule = activity.CurrentProject.ProjectRules.FindRuleByName(_ruleNames[position]);
+                    if (rule.IsCategory())
+                    {
+                        activity.LoadRulesSectionsFragment(rule);
+                    }
+                    else
+                    {
+                        activity.LoadRulesSubsectionsFragment(rule);
+                    }
                 }
-                else
-                {
-                    activity.LoadRulesSubsectionsFragment(rule);
-                }
-            });
+            };
             vh.View.Click += vh.ClickHandler;
         }
 
@@ -57,28 +59,28 @@ namespace Experiment.Search
 
         private class RulesFilter : Filter
         {
-            private readonly RulesSearchRecyclerViewAdapter adapter;
+            private readonly RulesSearchRecyclerViewAdapter _adapter;
 
             public RulesFilter(RulesSearchRecyclerViewAdapter adapter)
             {
-                this.adapter = adapter;
+                _adapter = adapter;
             }
 
             protected override FilterResults PerformFiltering(ICharSequence constraint)
             {
                 var returnObj = new FilterResults();
                 var results = new List<string>();
-                if (adapter.originalData == null)
+                if (_adapter._originalData == null)
                 {
-                    adapter.originalData = adapter.ruleNames;
+                    _adapter._originalData = _adapter._ruleNames;
                 }
                 if (constraint == null)
                 {
                     return returnObj;
                 }
-                if (adapter.originalData!=null && adapter.originalData.Any())
+                if (_adapter._originalData!=null && _adapter._originalData.Any())
                 {
-                    results.AddRange(adapter.originalData.Where(name => name.ToLower().Contains(constraint.ToString())));
+                    results.AddRange(_adapter._originalData.Where(name => name.ToLower().Contains(constraint.ToString())));
                 }
 
                 returnObj.Values = FromArray(results.Select(r => new Java.Lang.String(r)).ToArray());
@@ -93,11 +95,11 @@ namespace Experiment.Search
             {
                 using (var values = results.Values)
                 {
-                    adapter.ruleNames = values.ToArray<Java.Lang.String>()
+                    _adapter._ruleNames = values.ToArray<Java.Lang.String>()
                         .Select(name => (string)name).ToList();
                 }
 
-                adapter.NotifyDataSetChanged();
+                _adapter.NotifyDataSetChanged();
                 constraint.Dispose();
                 results.Dispose();
             }
