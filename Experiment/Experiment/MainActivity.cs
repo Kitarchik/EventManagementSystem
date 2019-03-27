@@ -13,7 +13,6 @@ using Experiment.Model;
 using Experiment.Search;
 using System;
 using System.Linq;
-using Java.Lang;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using SupportFragmentManager = Android.Support.V4.App.FragmentManager;
