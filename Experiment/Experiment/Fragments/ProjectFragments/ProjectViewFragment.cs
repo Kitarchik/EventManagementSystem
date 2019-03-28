@@ -38,7 +38,7 @@ namespace Experiment.Fragments
             TextView nameView = view.FindViewById<TextView>(Resource.Id.txtProjectName);
             TextView startDateView = view.FindViewById<TextView>(Resource.Id.txtProjectStartDate);
             nameView.Text = _project.Name;
-            startDateView.Text = _project.StartDate.ToLongDateString();
+            startDateView.Text = _project.StartDate?.ToLongDateString();
             return view;
         }
     }

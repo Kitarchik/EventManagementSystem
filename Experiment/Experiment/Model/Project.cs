@@ -1,21 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace Experiment.Model
 {
     public class Project
     {
+        [JsonProperty(PropertyName= "projectId")]
+        public int ProjectId { get; set; }
+
+        [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
-        public DateTime StartDate { get; set; }
-        public Rules ProjectRules { get; set; }
+
+        [JsonProperty(PropertyName = "status")]
+        public string Status { get; set; }
+
+        [JsonProperty(PropertyName = "start")]
+        public DateTime? StartDate { get; set; }
+
+        [JsonProperty(PropertyName = "end")]
+        public DateTime? EndDate { get; set; }
+        public Rules Rules { get; set; }
     }
 }

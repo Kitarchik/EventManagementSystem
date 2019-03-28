@@ -1,48 +1,56 @@
-﻿using Android.Support.V7.Widget;
+﻿using System;
+using System.Collections.Generic;
+using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using Experiment.Model;
-using System;
-using System.Collections.Generic;
 
-namespace Experiment.Fragments
+namespace Experiment.Fragments.ProjectFragments
 {
     public class ProjectRecyclerViewAdapter : RecyclerView.Adapter
     {
-        private Android.App.Activity parent;
-        private List<Project> projects;
+        private readonly Android.App.Activity _parent;
+        private List<Project> _projects;
 
         public Project GetValueAt(int position)
         {
-            return projects[position];
+            return _projects[position];
         }
         public ProjectRecyclerViewAdapter(Android.App.Activity context, List<Project> projects)
         {
-            parent = context;
-            this.projects = projects;
+            _parent = context;
+            _projects = projects;
         }
 
-        public override int ItemCount => projects.Count;
+        public override int ItemCount => _projects?.Count ?? 0;
 
         public override void OnBindViewHolder(RecyclerView.ViewHolder holder, int position)
         {
-            ViewHolderProject vh = holder as ViewHolderProject;
-            vh.Name.Text = projects[position].Name;
-            vh.StartDate.Text = projects[position].StartDate.ToLongDateString();
-            if (vh.ClickHandler != null)
-                vh.View.Click -= vh.ClickHandler;
+            if (holder is ViewHolderProject vh)
+            {
+                vh.Name.Text = _projects[position].Name;
+                vh.StartDate.Text = _projects[position].StartDate?.ToLongDateString();
+                if (vh.ClickHandler != null)
+                    vh.View.Click -= vh.ClickHandler;
 
-            vh.ClickHandler = new EventHandler((sender, e) => {
-                var activity = parent as MainActivity;
-                activity.LoadProjectViewFragment(projects[position]);
-            });
-            vh.View.Click += vh.ClickHandler;
+                vh.ClickHandler = (sender, e) =>
+                {
+                    if (_parent is MainActivity activity) activity.LoadProjectViewFragment(_projects[position]);
+                };
+                vh.View.Click += vh.ClickHandler;
+            }
         }
 
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
             View itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.projectRow, parent, false);
             return new ViewHolderProject(itemView);
+        }
+
+        public void Refresh(List<Project> projects)
+        {
+            _projects = projects;
+            NotifyDataSetChanged();
         }
     }
 

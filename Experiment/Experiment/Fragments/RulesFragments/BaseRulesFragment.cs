@@ -25,7 +25,7 @@ namespace Experiment.Fragments.RulesFragments
             if (savedInstanceState != null)
             {
                 var rulesName = savedInstanceState.GetString("rulesName");
-                Rules = (Activity as MainActivity)?.CurrentProject.ProjectRules.FindRuleByName(rulesName);
+                Rules = (Activity as MainActivity)?.CurrentProject.Rules.FindRuleByName(rulesName);
             }
             base.OnCreate(savedInstanceState);
         }

@@ -59,9 +59,10 @@
   <ItemGroup>
     <Compile Include="DataLayer\ProjectsDataAccess.cs" />
     <Compile Include="DataLayer\RulesDataAccess.cs" />
-    <Compile Include="Fragments\ProjectRecyclerViewAdapter.cs" />
-    <Compile Include="Fragments\ProjectsListFragment.cs" />
-    <Compile Include="Fragments\ProjectViewFragment.cs" />
+    <Compile Include="Fragments\ProjectFragments\AllProjectsListFragment.cs" />
+    <Compile Include="Fragments\ProjectFragments\ProjectRecyclerViewAdapter.cs" />
+    <Compile Include="Fragments\ProjectFragments\MyProjectsListFragment.cs" />
+    <Compile Include="Fragments\ProjectFragments\ProjectViewFragment.cs" />
     <Compile Include="Fragments\RulesFragments\BaseRulesFragment.cs" />
     <Compile Include="Fragments\RulesFragments\RulesExpandableRecyclerViewAdapter.cs" />
     <Compile Include="Fragments\RulesFragments\RulesImagesRecyclerViewAdapter.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Model\Rules.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestService\IRestServiceApiConsumer.cs" />
     <Compile Include="Search\RulesSearchFragment.cs" />
     <Compile Include="Search\RulesSearchRecyclerViewAdapter.cs" />
     <Compile Include="Search\SearchExpandListener.cs" />
@@ -165,8 +167,17 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Net.Http">
+      <Version>2.2.29</Version>
+    </PackageReference>
     <PackageReference Include="Naxam.ExpandableLayout.Droid">
       <Version>1.6.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Refit">
+      <Version>4.6.99</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design">
       <Version>28.0.0.1</Version>

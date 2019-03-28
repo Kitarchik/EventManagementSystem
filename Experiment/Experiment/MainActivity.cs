@@ -13,6 +13,7 @@ using Experiment.Model;
 using Experiment.Search;
 using System;
 using System.Linq;
+using Experiment.Fragments.ProjectFragments;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using SupportFragmentManager = Android.Support.V4.App.FragmentManager;
@@ -28,7 +29,6 @@ namespace Experiment
         private IMenuItem _previousMenuItem;
         private IMenuItem _searchMenuItem;
         private SearchView _searchView;
-
         private string _searchQuery = string.Empty;
 
         public Project CurrentProject { get; set; }
@@ -56,7 +56,7 @@ namespace Experiment
             if (projectName != null)
             {
                 CurrentProject = ProjectsLogic.DownloadProjects().Find(p => p.Name == projectName);
-                CurrentProject.ProjectRules = RulesHelper.DownloadRules(Assets);
+                CurrentProject.Rules = RulesHelper.DownloadRules(Assets);
                 ActivateProjectSubmenu(CurrentProject);
             }
 
@@ -71,7 +71,7 @@ namespace Experiment
             base.OnCreate(savedInstanceState);
             if (savedInstanceState == null)
             {
-                LoadProjectsListFragment();
+                LoadMyProjectsListFragment();
             }
         }
 
@@ -153,22 +153,27 @@ namespace Experiment
         {
             switch (id)
             {
-                case Resource.Id.nav_projects:
+                case Resource.Id.nav_allProjects:
+                {
+                    LoadAllProjectsListFragment();
+                    break;
+                }
+                case Resource.Id.nav_myProjects:
                     {
-                        LoadProjectsListFragment();
+                        LoadMyProjectsListFragment();
                         break;
                     }
                 case Resource.Id.rules:
                     {
                         if (CurrentProject != null)
                         {
-                            if (CurrentProject.ProjectRules == null)
+                            if (CurrentProject.Rules == null)
                             {
                                 DownloadRules();
                             }
 
                             PopFragmentsOfType(typeof(BaseRulesFragment));
-                            LoadRulesSectionsFragment(CurrentProject.ProjectRules);
+                            LoadRulesSectionsFragment(CurrentProject.Rules);
                         }
                         break;
                     }
@@ -177,7 +182,7 @@ namespace Experiment
 
         private void DownloadRules()
         {
-            CurrentProject.ProjectRules = RulesHelper.DownloadRules(Assets);
+            CurrentProject.Rules = RulesHelper.DownloadRules(Assets);
         }
 
         private void RefreshSearch()
@@ -211,9 +216,15 @@ namespace Experiment
             CurrentProject = project;
         }
 
-        private void LoadProjectsListFragment()
+        private void LoadAllProjectsListFragment()
         {
-            var projectListFragment = new ProjectListFragment();
+            var allProjectsListFragment = new AllProjectsListFragment();
+            PushFragment(allProjectsListFragment);
+        }
+
+        private void LoadMyProjectsListFragment()
+        {
+            var projectListFragment = new MyProjectListFragment();
             PushFragment(projectListFragment);
         }
 
@@ -231,7 +242,7 @@ namespace Experiment
 
         public void LoadRulesSearchFragment()
         {
-            var rulesSearchFragment = new RulesSearchFragment(CurrentProject.ProjectRules);
+            var rulesSearchFragment = new RulesSearchFragment(CurrentProject.Rules);
             PushFragment(rulesSearchFragment);
         }
 

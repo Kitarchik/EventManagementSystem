@@ -2495,8 +2495,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080069
 			public const int action_mode_close_button = 2131230825;
 			
-			// aapt resource value: 0x7f0800e0
-			public const int action_search = 2131230944;
+			// aapt resource value: 0x7f0800e1
+			public const int action_search = 2131230945;
 			
 			// aapt resource value: 0x7f0800ae
 			public const int action_text = 2131230894;
@@ -2750,14 +2750,17 @@ namespace Experiment
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
+			// aapt resource value: 0x7f0800dc
+			public const int nav_allProjects = 2131230940;
+			
 			// aapt resource value: 0x7f0800da
 			public const int nav_home = 2131230938;
 			
 			// aapt resource value: 0x7f0800db
 			public const int nav_messages = 2131230939;
 			
-			// aapt resource value: 0x7f0800dc
-			public const int nav_projects = 2131230940;
+			// aapt resource value: 0x7f0800dd
+			public const int nav_myProjects = 2131230941;
 			
 			// aapt resource value: 0x7f08009c
 			public const int nav_view = 2131230876;
@@ -2783,8 +2786,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b4
 			public const int notification_main_column_container = 2131230900;
 			
-			// aapt resource value: 0x7f0800df
-			public const int organizers = 2131230943;
+			// aapt resource value: 0x7f0800e0
+			public const int organizers = 2131230944;
 			
 			// aapt resource value: 0x7f080066
 			public const int overshoot = 2131230822;
@@ -2810,8 +2813,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800bf
 			public const int projectListView = 2131230911;
 			
-			// aapt resource value: 0x7f0800dd
-			public const int projectMenu = 2131230941;
+			// aapt resource value: 0x7f0800de
+			public const int projectMenu = 2131230942;
 			
 			// aapt resource value: 0x7f0800c0
 			public const int projectName = 2131230912;
@@ -2834,8 +2837,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b6
 			public const int right_side = 2131230902;
 			
-			// aapt resource value: 0x7f0800de
-			public const int rules = 2131230942;
+			// aapt resource value: 0x7f0800df
+			public const int rules = 2131230943;
 			
 			// aapt resource value: 0x7f0800c9
 			public const int rulesExpandableHeader = 2131230921;

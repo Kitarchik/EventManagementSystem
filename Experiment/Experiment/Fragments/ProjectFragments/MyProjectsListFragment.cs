@@ -4,15 +4,10 @@ using Android.Views;
 using Experiment.LogicLayer;
 using SupportFragment = Android.Support.V4.App.Fragment;
 
-namespace Experiment.Fragments
+namespace Experiment.Fragments.ProjectFragments
 {
-    public class ProjectListFragment : SupportFragment
+    public class MyProjectListFragment : SupportFragment
     {
-        public override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-        }
-
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var projectsRecyclerView = inflater.Inflate(Resource.Layout.projectListFragment, container, false) as RecyclerView;
