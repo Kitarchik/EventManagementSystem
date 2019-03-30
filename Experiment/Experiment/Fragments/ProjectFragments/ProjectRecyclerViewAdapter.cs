@@ -29,7 +29,8 @@ namespace Experiment.Fragments.ProjectFragments
             if (holder is ViewHolderProject vh)
             {
                 vh.Name.Text = _projects[position].Name;
-                vh.StartDate.Text = _projects[position].StartDate?.ToLongDateString();
+                vh.Status.Text = _projects[position].Status;
+                vh.Dates.Text = _projects[position].StartDate + " - " + _projects[position].EndDate;
                 if (vh.ClickHandler != null)
                     vh.View.Click -= vh.ClickHandler;
 
@@ -58,14 +59,17 @@ namespace Experiment.Fragments.ProjectFragments
     {
         public View View { get; set; }
         public TextView Name { get; set; }
-        public TextView StartDate { get; set; }
+        public TextView Status { get; set; }
+
+        public TextView Dates { get; set; }
         public EventHandler ClickHandler { get; set; }
 
         public ViewHolderProject(View itemView) : base(itemView)
         {
             View = itemView;
-            Name = ItemView.FindViewById<TextView>(Resource.Id.projectName);
-            StartDate = itemView.FindViewById<TextView>(Resource.Id.projectStartDate);
+            Name = ItemView.FindViewById<TextView>(Resource.Id.projectNameTextView);
+            Status = itemView.FindViewById<TextView>(Resource.Id.projectStatusTextView);
+            Dates = itemView.FindViewById<TextView>(Resource.Id.projectDatesTextView);
         }
     }
 }

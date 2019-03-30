@@ -2495,8 +2495,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080069
 			public const int action_mode_close_button = 2131230825;
 			
-			// aapt resource value: 0x7f0800e1
-			public const int action_search = 2131230945;
+			// aapt resource value: 0x7f0800e2
+			public const int action_search = 2131230946;
 			
 			// aapt resource value: 0x7f0800ae
 			public const int action_text = 2131230894;
@@ -2732,14 +2732,14 @@ namespace Experiment
 			// aapt resource value: 0x7f08009a
 			public const int mainToolbar = 2131230874;
 			
-			// aapt resource value: 0x7f0800d9
-			public const int masked = 2131230937;
+			// aapt resource value: 0x7f0800da
+			public const int masked = 2131230938;
 			
 			// aapt resource value: 0x7f0800b2
 			public const int media_actions = 2131230898;
 			
-			// aapt resource value: 0x7f0800d7
-			public const int message = 2131230935;
+			// aapt resource value: 0x7f0800d8
+			public const int message = 2131230936;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2750,17 +2750,17 @@ namespace Experiment
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
-			// aapt resource value: 0x7f0800dc
-			public const int nav_allProjects = 2131230940;
-			
-			// aapt resource value: 0x7f0800da
-			public const int nav_home = 2131230938;
+			// aapt resource value: 0x7f0800dd
+			public const int nav_allProjects = 2131230941;
 			
 			// aapt resource value: 0x7f0800db
-			public const int nav_messages = 2131230939;
+			public const int nav_home = 2131230939;
 			
-			// aapt resource value: 0x7f0800dd
-			public const int nav_myProjects = 2131230941;
+			// aapt resource value: 0x7f0800dc
+			public const int nav_messages = 2131230940;
+			
+			// aapt resource value: 0x7f0800de
+			public const int nav_myProjects = 2131230942;
 			
 			// aapt resource value: 0x7f08009c
 			public const int nav_view = 2131230876;
@@ -2786,8 +2786,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b4
 			public const int notification_main_column_container = 2131230900;
 			
-			// aapt resource value: 0x7f0800e0
-			public const int organizers = 2131230944;
+			// aapt resource value: 0x7f0800e1
+			public const int organizers = 2131230945;
 			
 			// aapt resource value: 0x7f080066
 			public const int overshoot = 2131230822;
@@ -2810,20 +2810,23 @@ namespace Experiment
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
+			// aapt resource value: 0x7f0800c2
+			public const int projectDatesTextView = 2131230914;
+			
 			// aapt resource value: 0x7f0800bf
 			public const int projectListView = 2131230911;
 			
-			// aapt resource value: 0x7f0800de
-			public const int projectMenu = 2131230942;
+			// aapt resource value: 0x7f0800df
+			public const int projectMenu = 2131230943;
 			
 			// aapt resource value: 0x7f0800c0
-			public const int projectName = 2131230912;
+			public const int projectNameTextView = 2131230912;
 			
 			// aapt resource value: 0x7f0800c1
-			public const int projectStartDate = 2131230913;
+			public const int projectStatusTextView = 2131230913;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int projectViewFragment = 2131230914;
+			// aapt resource value: 0x7f0800c3
+			public const int projectViewFragment = 2131230915;
 			
 			// aapt resource value: 0x7f080082
 			public const int radio = 2131230850;
@@ -2837,62 +2840,62 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b6
 			public const int right_side = 2131230902;
 			
-			// aapt resource value: 0x7f0800df
-			public const int rules = 2131230943;
-			
-			// aapt resource value: 0x7f0800c9
-			public const int rulesExpandableHeader = 2131230921;
+			// aapt resource value: 0x7f0800e0
+			public const int rules = 2131230944;
 			
 			// aapt resource value: 0x7f0800ca
-			public const int rulesExpandableLayout = 2131230922;
+			public const int rulesExpandableHeader = 2131230922;
 			
 			// aapt resource value: 0x7f0800cb
-			public const int rulesExpandableRecyclerView = 2131230923;
-			
-			// aapt resource value: 0x7f0800d6
-			public const int rulesImage = 2131230934;
-			
-			// aapt resource value: 0x7f0800d5
-			public const int rulesImageCaption = 2131230933;
-			
-			// aapt resource value: 0x7f0800d3
-			public const int rulesImagesRecyclerView = 2131230931;
-			
-			// aapt resource value: 0x7f0800ce
-			public const int rulesInnerExpandableView = 2131230926;
-			
-			// aapt resource value: 0x7f0800cd
-			public const int rulesInnerSectionIcon = 2131230925;
-			
-			// aapt resource value: 0x7f0800c6
-			public const int rulesSearchRecyclerView = 2131230918;
-			
-			// aapt resource value: 0x7f0800c7
-			public const int rulesSearchTextView = 2131230919;
-			
-			// aapt resource value: 0x7f0800c8
-			public const int rulesSectionExpandableIcon = 2131230920;
+			public const int rulesExpandableLayout = 2131230923;
 			
 			// aapt resource value: 0x7f0800cc
-			public const int rulesSectionsFragment = 2131230924;
+			public const int rulesExpandableRecyclerView = 2131230924;
 			
-			// aapt resource value: 0x7f0800d2
-			public const int rulesSubsectionExpandableDescription = 2131230930;
+			// aapt resource value: 0x7f0800d7
+			public const int rulesImage = 2131230935;
 			
-			// aapt resource value: 0x7f0800d0
-			public const int rulesSubsectionExpandableHeader = 2131230928;
-			
-			// aapt resource value: 0x7f0800cf
-			public const int rulesSubsectionExpandableIcon = 2131230927;
-			
-			// aapt resource value: 0x7f0800d1
-			public const int rulesSubsectionExpandableLayout = 2131230929;
-			
-			// aapt resource value: 0x7f0800c5
-			public const int rulesSubsectionExpandableRecyclerView = 2131230917;
+			// aapt resource value: 0x7f0800d6
+			public const int rulesImageCaption = 2131230934;
 			
 			// aapt resource value: 0x7f0800d4
-			public const int rulesSubsectionsPager = 2131230932;
+			public const int rulesImagesRecyclerView = 2131230932;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int rulesInnerExpandableView = 2131230927;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int rulesInnerSectionIcon = 2131230926;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int rulesSearchRecyclerView = 2131230919;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int rulesSearchTextView = 2131230920;
+			
+			// aapt resource value: 0x7f0800c9
+			public const int rulesSectionExpandableIcon = 2131230921;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int rulesSectionsFragment = 2131230925;
+			
+			// aapt resource value: 0x7f0800d3
+			public const int rulesSubsectionExpandableDescription = 2131230931;
+			
+			// aapt resource value: 0x7f0800d1
+			public const int rulesSubsectionExpandableHeader = 2131230929;
+			
+			// aapt resource value: 0x7f0800d0
+			public const int rulesSubsectionExpandableIcon = 2131230928;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int rulesSubsectionExpandableLayout = 2131230930;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int rulesSubsectionExpandableRecyclerView = 2131230918;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int rulesSubsectionsPager = 2131230933;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -3068,11 +3071,11 @@ namespace Experiment
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
-			// aapt resource value: 0x7f0800c3
-			public const int txtProjectName = 2131230915;
-			
 			// aapt resource value: 0x7f0800c4
-			public const int txtProjectStartDate = 2131230916;
+			public const int txtProjectName = 2131230916;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int txtProjectStartDate = 2131230917;
 			
 			// aapt resource value: 0x7f08002d
 			public const int uniform = 2131230765;
@@ -3089,8 +3092,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800d8
-			public const int visible = 2131230936;
+			// aapt resource value: 0x7f0800d9
+			public const int visible = 2131230937;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
