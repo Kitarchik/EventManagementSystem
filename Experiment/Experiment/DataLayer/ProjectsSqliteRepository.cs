@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Experiment.Model;
@@ -10,59 +8,50 @@ namespace Experiment.DataLayer
 {
     public class ProjectsSqliteRepository
     {
-        public static readonly string DbFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "projects.db");
-
         private readonly SQLiteAsyncConnection _db;
 
-        protected static ProjectsSqliteRepository Me;
-
-        static ProjectsSqliteRepository()
+        public ProjectsSqliteRepository(SQLiteAsyncConnection connection)
         {
-            Me = new ProjectsSqliteRepository();
+            _db = connection;
+            _db.CreateTableAsync<Project>();
+            _db.CreateTableAsync<Rules>();
         }
 
-        protected ProjectsSqliteRepository()
-        {
-            _db = new SQLiteAsyncConnection(DbFilePath);
-            _db.CreateTableAsync<Project>().Wait();
-            _db.CreateTableAsync<Rules>().Wait();
-        }
-
-        public static async Task<int> SaveProject(Project project)
+        public async Task<int> SaveProject(Project project)
         {
             if (project.Rules != null)
             {
                 await SaveRules(project.Rules.ChildRules);
             }
-            return await Me._db.InsertAsync(project);
+            return await _db.InsertAsync(project);
         }
 
-        public static async Task<Project> GetProject(int id)
+        public async Task<Project> GetProject(int id)
         {
-            return await Me._db.GetAsync<Project>(p => p.Id == id);
+            return await _db.GetAsync<Project>(p => p.Id == id);
         }
 
-        public static async Task<List<Project>> GetAllProjects()
+        public async Task<List<Project>> GetAllProjects()
         {
-            return await Me._db.Table<Project>().ToListAsync();
+            return await _db.Table<Project>().ToListAsync();
         }
 
-        public static async Task<int> SaveRules(List<Rules> rules)
+        public async Task<int> SaveRules(List<Rules> rules)
         {
             if (rules != null)
             {
                 foreach (var rule in rules)
                 {
-                    await Me._db.InsertAsync(rule);
+                    await _db.InsertAsync(rule);
                     await SaveRules(rule.ChildRules);
                 }
             }
             return 0;
         }
 
-        public static async Task<Rules> GetRulesForProject(int projectId)
+        public async Task<Rules> GetRulesForProject(int projectId)
         {
-            var allRules = await Me._db.Table<Rules>().Where(r => r.ProjectId == projectId).ToListAsync();
+            var allRules = await _db.Table<Rules>().Where(r => r.ProjectId == projectId).ToListAsync();
             var mainRule = new Rules
             {
                 ProjectId = projectId,
@@ -76,7 +65,7 @@ namespace Experiment.DataLayer
             return mainRule;
         }
 
-        private static List<Rules> GetChildRulesForRule(int ruleId, List<Rules> allRules)
+        private List<Rules> GetChildRulesForRule(int ruleId, List<Rules> allRules)
         {
             var childRules = allRules.Where(r => r.ParentId == ruleId).ToList();
             foreach (var rule in childRules)
@@ -87,18 +76,18 @@ namespace Experiment.DataLayer
             return childRules;
         }
 
-        public static async Task<int> DeleteProject(Project project)
+        public async Task<int> DeleteProject(Project project)
         {
-            return await Me._db.DeleteAsync(project);
+            return await _db.DeleteAsync(project);
         }
 
-        public static async Task<int> DeleteRules(int projectId)
+        public async Task<int> DeleteRules(int projectId)
         {
             int lastDeletedId = 0;
-            var rulesList = await Me._db.Table<Rules>().Where(r => r.ProjectId == projectId).ToListAsync();
+            var rulesList = await _db.Table<Rules>().Where(r => r.ProjectId == projectId).ToListAsync();
             foreach (var rule in rulesList)
             {
-                lastDeletedId = await Me._db.DeleteAsync(rule);
+                lastDeletedId = await _db.DeleteAsync(rule);
             }
 
             return lastDeletedId;

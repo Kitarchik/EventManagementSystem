@@ -57,7 +57,6 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataLayer\ProjectsDataAccess.cs" />
     <Compile Include="DataLayer\ProjectsSqliteRepository.cs" />
     <Compile Include="DataLayer\RulesDataAccess.cs" />
     <Compile Include="Fragments\ProjectFragments\AllProjectsListFragment.cs" />
@@ -72,7 +71,6 @@
     <Compile Include="Fragments\RulesFragments\RulesSectionsFragment.cs" />
     <Compile Include="Fragments\RulesFragments\RulesSubsectionExpandableRecyclerViewAdapter.cs" />
     <Compile Include="Fragments\RulesFragments\RulesSubsectionsFragment.cs" />
-    <Compile Include="LogicLayer\ProjectsLogic.cs" />
     <Compile Include="LogicLayer\RulesHelper.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\ImageCatalog.cs" />
@@ -168,6 +166,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="EDMTDialog">
+      <Version>1.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.Net.Http">
       <Version>2.2.29</Version>
     </PackageReference>

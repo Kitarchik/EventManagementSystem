@@ -15,6 +15,7 @@ namespace Experiment.Fragments.ProjectFragments
     {
         private Project _project;
         private bool _inMyProjects;
+        private ProjectsSqliteRepository _repository;
 
         public ProjectViewFragment() { }
         public ProjectViewFragment(Project project)
@@ -24,13 +25,14 @@ namespace Experiment.Fragments.ProjectFragments
         }
         public override async void OnCreate(Bundle savedInstanceState)
         {
+            _repository = new ProjectsSqliteRepository(MainActivity.DbConnection);
             if (savedInstanceState != null)
             {
                 int projectId = savedInstanceState.GetInt(nameof(_project.Id));
                 _inMyProjects = savedInstanceState.GetBoolean(nameof(_inMyProjects));
                 if (_inMyProjects)
                 {
-                    _project = await ProjectsDataAccess.GetProject(projectId);
+                    _project = await _repository.GetProject(projectId);
                 }
                 else
                 {
@@ -41,7 +43,7 @@ namespace Experiment.Fragments.ProjectFragments
             }
             else
             {
-                _inMyProjects = await ProjectsDataAccess.IsInMyProjects(_project);
+                _inMyProjects = await _repository.GetProject(_project.Id) != null;
             }
             base.OnCreate(savedInstanceState);
         }
@@ -82,7 +84,7 @@ namespace Experiment.Fragments.ProjectFragments
                         dialog.Show();
                     }
 
-                    int projectId = await ProjectsDataAccess.SaveProject(_project);
+                    int projectId = await _repository.SaveProject(_project);
                     var restService =
                         Refit.RestService.For<IRestServiceApiConsumer>(Resources.GetString(Resource.String.api_address));
                     var rulesList = await restService.GetRulesByProjectId(projectId);
@@ -93,7 +95,7 @@ namespace Experiment.Fragments.ProjectFragments
                         completeRulesList.Add(completeRule);
                     }
 
-                    await ProjectsDataAccess.SaveRules(completeRulesList);
+                    await _repository.SaveRules(completeRulesList);
                     (Activity as MainActivity)?.ActivateProjectSubmenu(_project);
 
                     if (dialog.IsShowing)
@@ -113,7 +115,8 @@ namespace Experiment.Fragments.ProjectFragments
                         dialog.Show();
                     }
 
-                    await ProjectsDataAccess.DeleteProject(_project);
+                    await _repository.DeleteProject(_project);
+                    await _repository.DeleteRules(_project.Id);
                     (Activity as MainActivity)?.DeactivateProjectSubmenu(_project.Id);
 
                     if (dialog.IsShowing)

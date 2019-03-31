@@ -12,11 +12,18 @@ namespace Experiment.Fragments.ProjectFragments
     {
         private List<Project> _projects;
         private RecyclerView _projectsRecyclerView;
+        private ProjectsSqliteRepository _repository;
+
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            _repository = new ProjectsSqliteRepository(MainActivity.DbConnection);
+        }
 
         public override async void OnResume()
         {
             base.OnResume();
-            _projects = await ProjectsDataAccess.GetAllProjects();
+            _projects = await _repository.GetAllProjects();
             if (_projectsRecyclerView.GetAdapter() is ProjectRecyclerViewAdapter adapter) adapter.Refresh(_projects);
         }
 

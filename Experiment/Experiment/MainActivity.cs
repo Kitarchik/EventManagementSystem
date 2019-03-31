@@ -10,9 +10,12 @@ using Experiment.Fragments.RulesFragments;
 using Experiment.Model;
 using Experiment.Search;
 using System;
+using System.IO;
 using System.Linq;
 using Experiment.DataLayer;
 using Experiment.Fragments.ProjectFragments;
+using SQLite;
+using Environment = System.Environment;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using SupportFragmentManager = Android.Support.V4.App.FragmentManager;
@@ -23,6 +26,9 @@ namespace Experiment
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.DesignDemo", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        public static SQLiteAsyncConnection DbConnection;
+        private ProjectsSqliteRepository _repository;
+        private static readonly string DbFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "projects.db3");
         private DrawerLayout _drawerLayout;
         private NavigationView _navigationView;
         private IMenuItem _previousMenuItem;
@@ -35,6 +41,8 @@ namespace Experiment
 
         protected override async void OnCreate(Bundle savedInstanceState)
         {
+            DbConnection = new SQLiteAsyncConnection(DbFilePath);
+            _repository = new ProjectsSqliteRepository(DbConnection);
             SetContentView(Resource.Layout.activity_main);
 
             SupportToolbar toolbar = FindViewById<SupportToolbar>(Resource.Id.mainToolbar);
@@ -54,8 +62,8 @@ namespace Experiment
             var previousMenuItem = savedInstanceState?.GetInt("menuItem");
             if (projectId != null)
             {
-                CurrentProject = await ProjectsDataAccess.GetProject((int)projectId);
-                CurrentProject.Rules = await ProjectsDataAccess.GetRulesByProjectId((int)projectId);
+                CurrentProject = await _repository.GetProject((int)projectId);
+                CurrentProject.Rules = await _repository.GetRulesForProject((int)projectId);
                 ActivateProjectSubmenu(CurrentProject);
             }
 
@@ -168,7 +176,7 @@ namespace Experiment
                     {
                         if (CurrentProject.Rules == null)
                         {
-                            CurrentProject.Rules = await ProjectsDataAccess.GetRulesByProjectId(CurrentProject.Id);
+                            CurrentProject.Rules = await _repository.GetRulesForProject(CurrentProject.Id);
                         }
 
                         PopFragmentsOfType(typeof(BaseRulesFragment));
