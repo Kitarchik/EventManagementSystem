@@ -26,6 +26,1547 @@ namespace Experiment
 		
 		public static void UpdateIdValues()
 		{
+			global::EDMTDialog.Resource.Animation.abc_fade_in = global::Experiment.Resource.Animation.abc_fade_in;
+			global::EDMTDialog.Resource.Animation.abc_fade_out = global::Experiment.Resource.Animation.abc_fade_out;
+			global::EDMTDialog.Resource.Animation.abc_grow_fade_in_from_bottom = global::Experiment.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_popup_enter = global::Experiment.Resource.Animation.abc_popup_enter;
+			global::EDMTDialog.Resource.Animation.abc_popup_exit = global::Experiment.Resource.Animation.abc_popup_exit;
+			global::EDMTDialog.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Experiment.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_bottom = global::Experiment.Resource.Animation.abc_slide_in_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_top = global::Experiment.Resource.Animation.abc_slide_in_top;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_bottom = global::Experiment.Resource.Animation.abc_slide_out_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_top = global::Experiment.Resource.Animation.abc_slide_out_top;
+			global::EDMTDialog.Resource.Animation.tooltip_enter = global::Experiment.Resource.Animation.tooltip_enter;
+			global::EDMTDialog.Resource.Animation.tooltip_exit = global::Experiment.Resource.Animation.tooltip_exit;
+			global::EDMTDialog.Resource.Attribute.DialogSpotColor = global::Experiment.Resource.Attribute.DialogSpotColor;
+			global::EDMTDialog.Resource.Attribute.DialogSpotCount = global::Experiment.Resource.Attribute.DialogSpotCount;
+			global::EDMTDialog.Resource.Attribute.DialogTitleAppearance = global::Experiment.Resource.Attribute.DialogTitleAppearance;
+			global::EDMTDialog.Resource.Attribute.DialogTitleText = global::Experiment.Resource.Attribute.DialogTitleText;
+			global::EDMTDialog.Resource.Attribute.actionBarDivider = global::Experiment.Resource.Attribute.actionBarDivider;
+			global::EDMTDialog.Resource.Attribute.actionBarItemBackground = global::Experiment.Resource.Attribute.actionBarItemBackground;
+			global::EDMTDialog.Resource.Attribute.actionBarPopupTheme = global::Experiment.Resource.Attribute.actionBarPopupTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarSize = global::Experiment.Resource.Attribute.actionBarSize;
+			global::EDMTDialog.Resource.Attribute.actionBarSplitStyle = global::Experiment.Resource.Attribute.actionBarSplitStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarStyle = global::Experiment.Resource.Attribute.actionBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabBarStyle = global::Experiment.Resource.Attribute.actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabStyle = global::Experiment.Resource.Attribute.actionBarTabStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabTextStyle = global::Experiment.Resource.Attribute.actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTheme = global::Experiment.Resource.Attribute.actionBarTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarWidgetTheme = global::Experiment.Resource.Attribute.actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Attribute.actionButtonStyle = global::Experiment.Resource.Attribute.actionButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionDropDownStyle = global::Experiment.Resource.Attribute.actionDropDownStyle;
+			global::EDMTDialog.Resource.Attribute.actionLayout = global::Experiment.Resource.Attribute.actionLayout;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextAppearance = global::Experiment.Resource.Attribute.actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextColor = global::Experiment.Resource.Attribute.actionMenuTextColor;
+			global::EDMTDialog.Resource.Attribute.actionModeBackground = global::Experiment.Resource.Attribute.actionModeBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseButtonStyle = global::Experiment.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseDrawable = global::Experiment.Resource.Attribute.actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCopyDrawable = global::Experiment.Resource.Attribute.actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCutDrawable = global::Experiment.Resource.Attribute.actionModeCutDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeFindDrawable = global::Experiment.Resource.Attribute.actionModeFindDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePasteDrawable = global::Experiment.Resource.Attribute.actionModePasteDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePopupWindowStyle = global::Experiment.Resource.Attribute.actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeSelectAllDrawable = global::Experiment.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeShareDrawable = global::Experiment.Resource.Attribute.actionModeShareDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeSplitBackground = global::Experiment.Resource.Attribute.actionModeSplitBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeStyle = global::Experiment.Resource.Attribute.actionModeStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeWebSearchDrawable = global::Experiment.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Attribute.actionOverflowButtonStyle = global::Experiment.Resource.Attribute.actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionOverflowMenuStyle = global::Experiment.Resource.Attribute.actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Attribute.actionProviderClass = global::Experiment.Resource.Attribute.actionProviderClass;
+			global::EDMTDialog.Resource.Attribute.actionViewClass = global::Experiment.Resource.Attribute.actionViewClass;
+			global::EDMTDialog.Resource.Attribute.activityChooserViewStyle = global::Experiment.Resource.Attribute.activityChooserViewStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogButtonGroupStyle = global::Experiment.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogCenterButtons = global::Experiment.Resource.Attribute.alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Attribute.alertDialogStyle = global::Experiment.Resource.Attribute.alertDialogStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogTheme = global::Experiment.Resource.Attribute.alertDialogTheme;
+			global::EDMTDialog.Resource.Attribute.allowStacking = global::Experiment.Resource.Attribute.allowStacking;
+			global::EDMTDialog.Resource.Attribute.alpha = global::Experiment.Resource.Attribute.alpha;
+			global::EDMTDialog.Resource.Attribute.alphabeticModifiers = global::Experiment.Resource.Attribute.alphabeticModifiers;
+			global::EDMTDialog.Resource.Attribute.arrowHeadLength = global::Experiment.Resource.Attribute.arrowHeadLength;
+			global::EDMTDialog.Resource.Attribute.arrowShaftLength = global::Experiment.Resource.Attribute.arrowShaftLength;
+			global::EDMTDialog.Resource.Attribute.autoCompleteTextViewStyle = global::Experiment.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.autoSizeMaxTextSize = global::Experiment.Resource.Attribute.autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizeMinTextSize = global::Experiment.Resource.Attribute.autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizePresetSizes = global::Experiment.Resource.Attribute.autoSizePresetSizes;
+			global::EDMTDialog.Resource.Attribute.autoSizeStepGranularity = global::Experiment.Resource.Attribute.autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Attribute.autoSizeTextType = global::Experiment.Resource.Attribute.autoSizeTextType;
+			global::EDMTDialog.Resource.Attribute.background = global::Experiment.Resource.Attribute.background;
+			global::EDMTDialog.Resource.Attribute.backgroundSplit = global::Experiment.Resource.Attribute.backgroundSplit;
+			global::EDMTDialog.Resource.Attribute.backgroundStacked = global::Experiment.Resource.Attribute.backgroundStacked;
+			global::EDMTDialog.Resource.Attribute.backgroundTint = global::Experiment.Resource.Attribute.backgroundTint;
+			global::EDMTDialog.Resource.Attribute.backgroundTintMode = global::Experiment.Resource.Attribute.backgroundTintMode;
+			global::EDMTDialog.Resource.Attribute.barLength = global::Experiment.Resource.Attribute.barLength;
+			global::EDMTDialog.Resource.Attribute.borderlessButtonStyle = global::Experiment.Resource.Attribute.borderlessButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarButtonStyle = global::Experiment.Resource.Attribute.buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNegativeButtonStyle = global::Experiment.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNeutralButtonStyle = global::Experiment.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarPositiveButtonStyle = global::Experiment.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarStyle = global::Experiment.Resource.Attribute.buttonBarStyle;
+			global::EDMTDialog.Resource.Attribute.buttonGravity = global::Experiment.Resource.Attribute.buttonGravity;
+			global::EDMTDialog.Resource.Attribute.buttonPanelSideLayout = global::Experiment.Resource.Attribute.buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Attribute.buttonStyle = global::Experiment.Resource.Attribute.buttonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonStyleSmall = global::Experiment.Resource.Attribute.buttonStyleSmall;
+			global::EDMTDialog.Resource.Attribute.buttonTint = global::Experiment.Resource.Attribute.buttonTint;
+			global::EDMTDialog.Resource.Attribute.buttonTintMode = global::Experiment.Resource.Attribute.buttonTintMode;
+			global::EDMTDialog.Resource.Attribute.checkboxStyle = global::Experiment.Resource.Attribute.checkboxStyle;
+			global::EDMTDialog.Resource.Attribute.checkedTextViewStyle = global::Experiment.Resource.Attribute.checkedTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.closeIcon = global::Experiment.Resource.Attribute.closeIcon;
+			global::EDMTDialog.Resource.Attribute.closeItemLayout = global::Experiment.Resource.Attribute.closeItemLayout;
+			global::EDMTDialog.Resource.Attribute.collapseContentDescription = global::Experiment.Resource.Attribute.collapseContentDescription;
+			global::EDMTDialog.Resource.Attribute.collapseIcon = global::Experiment.Resource.Attribute.collapseIcon;
+			global::EDMTDialog.Resource.Attribute.color = global::Experiment.Resource.Attribute.color;
+			global::EDMTDialog.Resource.Attribute.colorAccent = global::Experiment.Resource.Attribute.colorAccent;
+			global::EDMTDialog.Resource.Attribute.colorBackgroundFloating = global::Experiment.Resource.Attribute.colorBackgroundFloating;
+			global::EDMTDialog.Resource.Attribute.colorButtonNormal = global::Experiment.Resource.Attribute.colorButtonNormal;
+			global::EDMTDialog.Resource.Attribute.colorControlActivated = global::Experiment.Resource.Attribute.colorControlActivated;
+			global::EDMTDialog.Resource.Attribute.colorControlHighlight = global::Experiment.Resource.Attribute.colorControlHighlight;
+			global::EDMTDialog.Resource.Attribute.colorControlNormal = global::Experiment.Resource.Attribute.colorControlNormal;
+			global::EDMTDialog.Resource.Attribute.colorError = global::Experiment.Resource.Attribute.colorError;
+			global::EDMTDialog.Resource.Attribute.colorPrimary = global::Experiment.Resource.Attribute.colorPrimary;
+			global::EDMTDialog.Resource.Attribute.colorPrimaryDark = global::Experiment.Resource.Attribute.colorPrimaryDark;
+			global::EDMTDialog.Resource.Attribute.colorSwitchThumbNormal = global::Experiment.Resource.Attribute.colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Attribute.commitIcon = global::Experiment.Resource.Attribute.commitIcon;
+			global::EDMTDialog.Resource.Attribute.contentDescription = global::Experiment.Resource.Attribute.contentDescription;
+			global::EDMTDialog.Resource.Attribute.contentInsetEnd = global::Experiment.Resource.Attribute.contentInsetEnd;
+			global::EDMTDialog.Resource.Attribute.contentInsetEndWithActions = global::Experiment.Resource.Attribute.contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Attribute.contentInsetLeft = global::Experiment.Resource.Attribute.contentInsetLeft;
+			global::EDMTDialog.Resource.Attribute.contentInsetRight = global::Experiment.Resource.Attribute.contentInsetRight;
+			global::EDMTDialog.Resource.Attribute.contentInsetStart = global::Experiment.Resource.Attribute.contentInsetStart;
+			global::EDMTDialog.Resource.Attribute.contentInsetStartWithNavigation = global::Experiment.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Attribute.controlBackground = global::Experiment.Resource.Attribute.controlBackground;
+			global::EDMTDialog.Resource.Attribute.customNavigationLayout = global::Experiment.Resource.Attribute.customNavigationLayout;
+			global::EDMTDialog.Resource.Attribute.defaultQueryHint = global::Experiment.Resource.Attribute.defaultQueryHint;
+			global::EDMTDialog.Resource.Attribute.dialogPreferredPadding = global::Experiment.Resource.Attribute.dialogPreferredPadding;
+			global::EDMTDialog.Resource.Attribute.dialogTheme = global::Experiment.Resource.Attribute.dialogTheme;
+			global::EDMTDialog.Resource.Attribute.displayOptions = global::Experiment.Resource.Attribute.displayOptions;
+			global::EDMTDialog.Resource.Attribute.divider = global::Experiment.Resource.Attribute.divider;
+			global::EDMTDialog.Resource.Attribute.dividerHorizontal = global::Experiment.Resource.Attribute.dividerHorizontal;
+			global::EDMTDialog.Resource.Attribute.dividerPadding = global::Experiment.Resource.Attribute.dividerPadding;
+			global::EDMTDialog.Resource.Attribute.dividerVertical = global::Experiment.Resource.Attribute.dividerVertical;
+			global::EDMTDialog.Resource.Attribute.drawableSize = global::Experiment.Resource.Attribute.drawableSize;
+			global::EDMTDialog.Resource.Attribute.drawerArrowStyle = global::Experiment.Resource.Attribute.drawerArrowStyle;
+			global::EDMTDialog.Resource.Attribute.dropDownListViewStyle = global::Experiment.Resource.Attribute.dropDownListViewStyle;
+			global::EDMTDialog.Resource.Attribute.dropdownListPreferredItemHeight = global::Experiment.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.editTextBackground = global::Experiment.Resource.Attribute.editTextBackground;
+			global::EDMTDialog.Resource.Attribute.editTextColor = global::Experiment.Resource.Attribute.editTextColor;
+			global::EDMTDialog.Resource.Attribute.editTextStyle = global::Experiment.Resource.Attribute.editTextStyle;
+			global::EDMTDialog.Resource.Attribute.elevation = global::Experiment.Resource.Attribute.elevation;
+			global::EDMTDialog.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Experiment.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Attribute.font = global::Experiment.Resource.Attribute.font;
+			global::EDMTDialog.Resource.Attribute.fontFamily = global::Experiment.Resource.Attribute.fontFamily;
+			global::EDMTDialog.Resource.Attribute.fontProviderAuthority = global::Experiment.Resource.Attribute.fontProviderAuthority;
+			global::EDMTDialog.Resource.Attribute.fontProviderCerts = global::Experiment.Resource.Attribute.fontProviderCerts;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchStrategy = global::Experiment.Resource.Attribute.fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchTimeout = global::Experiment.Resource.Attribute.fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Attribute.fontProviderPackage = global::Experiment.Resource.Attribute.fontProviderPackage;
+			global::EDMTDialog.Resource.Attribute.fontProviderQuery = global::Experiment.Resource.Attribute.fontProviderQuery;
+			global::EDMTDialog.Resource.Attribute.fontStyle = global::Experiment.Resource.Attribute.fontStyle;
+			global::EDMTDialog.Resource.Attribute.fontWeight = global::Experiment.Resource.Attribute.fontWeight;
+			global::EDMTDialog.Resource.Attribute.gapBetweenBars = global::Experiment.Resource.Attribute.gapBetweenBars;
+			global::EDMTDialog.Resource.Attribute.goIcon = global::Experiment.Resource.Attribute.goIcon;
+			global::EDMTDialog.Resource.Attribute.height = global::Experiment.Resource.Attribute.height;
+			global::EDMTDialog.Resource.Attribute.hideOnContentScroll = global::Experiment.Resource.Attribute.hideOnContentScroll;
+			global::EDMTDialog.Resource.Attribute.homeAsUpIndicator = global::Experiment.Resource.Attribute.homeAsUpIndicator;
+			global::EDMTDialog.Resource.Attribute.homeLayout = global::Experiment.Resource.Attribute.homeLayout;
+			global::EDMTDialog.Resource.Attribute.icon = global::Experiment.Resource.Attribute.icon;
+			global::EDMTDialog.Resource.Attribute.iconTint = global::Experiment.Resource.Attribute.iconTint;
+			global::EDMTDialog.Resource.Attribute.iconTintMode = global::Experiment.Resource.Attribute.iconTintMode;
+			global::EDMTDialog.Resource.Attribute.iconifiedByDefault = global::Experiment.Resource.Attribute.iconifiedByDefault;
+			global::EDMTDialog.Resource.Attribute.imageButtonStyle = global::Experiment.Resource.Attribute.imageButtonStyle;
+			global::EDMTDialog.Resource.Attribute.indeterminateProgressStyle = global::Experiment.Resource.Attribute.indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Attribute.initialActivityCount = global::Experiment.Resource.Attribute.initialActivityCount;
+			global::EDMTDialog.Resource.Attribute.isLightTheme = global::Experiment.Resource.Attribute.isLightTheme;
+			global::EDMTDialog.Resource.Attribute.itemPadding = global::Experiment.Resource.Attribute.itemPadding;
+			global::EDMTDialog.Resource.Attribute.layout = global::Experiment.Resource.Attribute.layout;
+			global::EDMTDialog.Resource.Attribute.listChoiceBackgroundIndicator = global::Experiment.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Attribute.listDividerAlertDialog = global::Experiment.Resource.Attribute.listDividerAlertDialog;
+			global::EDMTDialog.Resource.Attribute.listItemLayout = global::Experiment.Resource.Attribute.listItemLayout;
+			global::EDMTDialog.Resource.Attribute.listLayout = global::Experiment.Resource.Attribute.listLayout;
+			global::EDMTDialog.Resource.Attribute.listMenuViewStyle = global::Experiment.Resource.Attribute.listMenuViewStyle;
+			global::EDMTDialog.Resource.Attribute.listPopupWindowStyle = global::Experiment.Resource.Attribute.listPopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeight = global::Experiment.Resource.Attribute.listPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightLarge = global::Experiment.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightSmall = global::Experiment.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingLeft = global::Experiment.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingRight = global::Experiment.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Attribute.logo = global::Experiment.Resource.Attribute.logo;
+			global::EDMTDialog.Resource.Attribute.logoDescription = global::Experiment.Resource.Attribute.logoDescription;
+			global::EDMTDialog.Resource.Attribute.maxButtonHeight = global::Experiment.Resource.Attribute.maxButtonHeight;
+			global::EDMTDialog.Resource.Attribute.measureWithLargestChild = global::Experiment.Resource.Attribute.measureWithLargestChild;
+			global::EDMTDialog.Resource.Attribute.multiChoiceItemLayout = global::Experiment.Resource.Attribute.multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.navigationContentDescription = global::Experiment.Resource.Attribute.navigationContentDescription;
+			global::EDMTDialog.Resource.Attribute.navigationIcon = global::Experiment.Resource.Attribute.navigationIcon;
+			global::EDMTDialog.Resource.Attribute.navigationMode = global::Experiment.Resource.Attribute.navigationMode;
+			global::EDMTDialog.Resource.Attribute.numericModifiers = global::Experiment.Resource.Attribute.numericModifiers;
+			global::EDMTDialog.Resource.Attribute.overlapAnchor = global::Experiment.Resource.Attribute.overlapAnchor;
+			global::EDMTDialog.Resource.Attribute.paddingBottomNoButtons = global::Experiment.Resource.Attribute.paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Attribute.paddingEnd = global::Experiment.Resource.Attribute.paddingEnd;
+			global::EDMTDialog.Resource.Attribute.paddingStart = global::Experiment.Resource.Attribute.paddingStart;
+			global::EDMTDialog.Resource.Attribute.paddingTopNoTitle = global::Experiment.Resource.Attribute.paddingTopNoTitle;
+			global::EDMTDialog.Resource.Attribute.panelBackground = global::Experiment.Resource.Attribute.panelBackground;
+			global::EDMTDialog.Resource.Attribute.panelMenuListTheme = global::Experiment.Resource.Attribute.panelMenuListTheme;
+			global::EDMTDialog.Resource.Attribute.panelMenuListWidth = global::Experiment.Resource.Attribute.panelMenuListWidth;
+			global::EDMTDialog.Resource.Attribute.popupMenuStyle = global::Experiment.Resource.Attribute.popupMenuStyle;
+			global::EDMTDialog.Resource.Attribute.popupTheme = global::Experiment.Resource.Attribute.popupTheme;
+			global::EDMTDialog.Resource.Attribute.popupWindowStyle = global::Experiment.Resource.Attribute.popupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.preserveIconSpacing = global::Experiment.Resource.Attribute.preserveIconSpacing;
+			global::EDMTDialog.Resource.Attribute.progressBarPadding = global::Experiment.Resource.Attribute.progressBarPadding;
+			global::EDMTDialog.Resource.Attribute.progressBarStyle = global::Experiment.Resource.Attribute.progressBarStyle;
+			global::EDMTDialog.Resource.Attribute.queryBackground = global::Experiment.Resource.Attribute.queryBackground;
+			global::EDMTDialog.Resource.Attribute.queryHint = global::Experiment.Resource.Attribute.queryHint;
+			global::EDMTDialog.Resource.Attribute.radioButtonStyle = global::Experiment.Resource.Attribute.radioButtonStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyle = global::Experiment.Resource.Attribute.ratingBarStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleIndicator = global::Experiment.Resource.Attribute.ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleSmall = global::Experiment.Resource.Attribute.ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Attribute.searchHintIcon = global::Experiment.Resource.Attribute.searchHintIcon;
+			global::EDMTDialog.Resource.Attribute.searchIcon = global::Experiment.Resource.Attribute.searchIcon;
+			global::EDMTDialog.Resource.Attribute.searchViewStyle = global::Experiment.Resource.Attribute.searchViewStyle;
+			global::EDMTDialog.Resource.Attribute.seekBarStyle = global::Experiment.Resource.Attribute.seekBarStyle;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackground = global::Experiment.Resource.Attribute.selectableItemBackground;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackgroundBorderless = global::Experiment.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Attribute.showAsAction = global::Experiment.Resource.Attribute.showAsAction;
+			global::EDMTDialog.Resource.Attribute.showDividers = global::Experiment.Resource.Attribute.showDividers;
+			global::EDMTDialog.Resource.Attribute.showText = global::Experiment.Resource.Attribute.showText;
+			global::EDMTDialog.Resource.Attribute.showTitle = global::Experiment.Resource.Attribute.showTitle;
+			global::EDMTDialog.Resource.Attribute.singleChoiceItemLayout = global::Experiment.Resource.Attribute.singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.spinBars = global::Experiment.Resource.Attribute.spinBars;
+			global::EDMTDialog.Resource.Attribute.spinnerDropDownItemStyle = global::Experiment.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Attribute.spinnerStyle = global::Experiment.Resource.Attribute.spinnerStyle;
+			global::EDMTDialog.Resource.Attribute.splitTrack = global::Experiment.Resource.Attribute.splitTrack;
+			global::EDMTDialog.Resource.Attribute.srcCompat = global::Experiment.Resource.Attribute.srcCompat;
+			global::EDMTDialog.Resource.Attribute.state_above_anchor = global::Experiment.Resource.Attribute.state_above_anchor;
+			global::EDMTDialog.Resource.Attribute.subMenuArrow = global::Experiment.Resource.Attribute.subMenuArrow;
+			global::EDMTDialog.Resource.Attribute.submitBackground = global::Experiment.Resource.Attribute.submitBackground;
+			global::EDMTDialog.Resource.Attribute.subtitle = global::Experiment.Resource.Attribute.subtitle;
+			global::EDMTDialog.Resource.Attribute.subtitleTextAppearance = global::Experiment.Resource.Attribute.subtitleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.subtitleTextColor = global::Experiment.Resource.Attribute.subtitleTextColor;
+			global::EDMTDialog.Resource.Attribute.subtitleTextStyle = global::Experiment.Resource.Attribute.subtitleTextStyle;
+			global::EDMTDialog.Resource.Attribute.suggestionRowLayout = global::Experiment.Resource.Attribute.suggestionRowLayout;
+			global::EDMTDialog.Resource.Attribute.switchMinWidth = global::Experiment.Resource.Attribute.switchMinWidth;
+			global::EDMTDialog.Resource.Attribute.switchPadding = global::Experiment.Resource.Attribute.switchPadding;
+			global::EDMTDialog.Resource.Attribute.switchStyle = global::Experiment.Resource.Attribute.switchStyle;
+			global::EDMTDialog.Resource.Attribute.switchTextAppearance = global::Experiment.Resource.Attribute.switchTextAppearance;
+			global::EDMTDialog.Resource.Attribute.textAllCaps = global::Experiment.Resource.Attribute.textAllCaps;
+			global::EDMTDialog.Resource.Attribute.textAppearanceLargePopupMenu = global::Experiment.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItem = global::Experiment.Resource.Attribute.textAppearanceListItem;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSecondary = global::Experiment.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSmall = global::Experiment.Resource.Attribute.textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Attribute.textAppearancePopupMenuHeader = global::Experiment.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Experiment.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultTitle = global::Experiment.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSmallPopupMenu = global::Experiment.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Attribute.textColorAlertDialogListItem = global::Experiment.Resource.Attribute.textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Attribute.textColorSearchUrl = global::Experiment.Resource.Attribute.textColorSearchUrl;
+			global::EDMTDialog.Resource.Attribute.theme = global::Experiment.Resource.Attribute.theme;
+			global::EDMTDialog.Resource.Attribute.thickness = global::Experiment.Resource.Attribute.thickness;
+			global::EDMTDialog.Resource.Attribute.thumbTextPadding = global::Experiment.Resource.Attribute.thumbTextPadding;
+			global::EDMTDialog.Resource.Attribute.thumbTint = global::Experiment.Resource.Attribute.thumbTint;
+			global::EDMTDialog.Resource.Attribute.thumbTintMode = global::Experiment.Resource.Attribute.thumbTintMode;
+			global::EDMTDialog.Resource.Attribute.tickMark = global::Experiment.Resource.Attribute.tickMark;
+			global::EDMTDialog.Resource.Attribute.tickMarkTint = global::Experiment.Resource.Attribute.tickMarkTint;
+			global::EDMTDialog.Resource.Attribute.tickMarkTintMode = global::Experiment.Resource.Attribute.tickMarkTintMode;
+			global::EDMTDialog.Resource.Attribute.tint = global::Experiment.Resource.Attribute.tint;
+			global::EDMTDialog.Resource.Attribute.tintMode = global::Experiment.Resource.Attribute.tintMode;
+			global::EDMTDialog.Resource.Attribute.title = global::Experiment.Resource.Attribute.title;
+			global::EDMTDialog.Resource.Attribute.titleMargin = global::Experiment.Resource.Attribute.titleMargin;
+			global::EDMTDialog.Resource.Attribute.titleMarginBottom = global::Experiment.Resource.Attribute.titleMarginBottom;
+			global::EDMTDialog.Resource.Attribute.titleMarginEnd = global::Experiment.Resource.Attribute.titleMarginEnd;
+			global::EDMTDialog.Resource.Attribute.titleMarginStart = global::Experiment.Resource.Attribute.titleMarginStart;
+			global::EDMTDialog.Resource.Attribute.titleMarginTop = global::Experiment.Resource.Attribute.titleMarginTop;
+			global::EDMTDialog.Resource.Attribute.titleMargins = global::Experiment.Resource.Attribute.titleMargins;
+			global::EDMTDialog.Resource.Attribute.titleTextAppearance = global::Experiment.Resource.Attribute.titleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.titleTextColor = global::Experiment.Resource.Attribute.titleTextColor;
+			global::EDMTDialog.Resource.Attribute.titleTextStyle = global::Experiment.Resource.Attribute.titleTextStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarNavigationButtonStyle = global::Experiment.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarStyle = global::Experiment.Resource.Attribute.toolbarStyle;
+			global::EDMTDialog.Resource.Attribute.tooltipForegroundColor = global::Experiment.Resource.Attribute.tooltipForegroundColor;
+			global::EDMTDialog.Resource.Attribute.tooltipFrameBackground = global::Experiment.Resource.Attribute.tooltipFrameBackground;
+			global::EDMTDialog.Resource.Attribute.tooltipText = global::Experiment.Resource.Attribute.tooltipText;
+			global::EDMTDialog.Resource.Attribute.track = global::Experiment.Resource.Attribute.track;
+			global::EDMTDialog.Resource.Attribute.trackTint = global::Experiment.Resource.Attribute.trackTint;
+			global::EDMTDialog.Resource.Attribute.trackTintMode = global::Experiment.Resource.Attribute.trackTintMode;
+			global::EDMTDialog.Resource.Attribute.voiceIcon = global::Experiment.Resource.Attribute.voiceIcon;
+			global::EDMTDialog.Resource.Attribute.windowActionBar = global::Experiment.Resource.Attribute.windowActionBar;
+			global::EDMTDialog.Resource.Attribute.windowActionBarOverlay = global::Experiment.Resource.Attribute.windowActionBarOverlay;
+			global::EDMTDialog.Resource.Attribute.windowActionModeOverlay = global::Experiment.Resource.Attribute.windowActionModeOverlay;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMajor = global::Experiment.Resource.Attribute.windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMinor = global::Experiment.Resource.Attribute.windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMajor = global::Experiment.Resource.Attribute.windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMinor = global::Experiment.Resource.Attribute.windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMajor = global::Experiment.Resource.Attribute.windowMinWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMinor = global::Experiment.Resource.Attribute.windowMinWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowNoTitle = global::Experiment.Resource.Attribute.windowNoTitle;
+			global::EDMTDialog.Resource.Boolean.abc_action_bar_embed_tabs = global::Experiment.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EDMTDialog.Resource.Boolean.abc_allow_stacked_button_bar = global::Experiment.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::EDMTDialog.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Experiment.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EDMTDialog.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Experiment.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::EDMTDialog.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Experiment.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Experiment.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_light = global::Experiment.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_borderless_text_material = global::Experiment.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_text_material = global::Experiment.Resource.Color.abc_btn_colored_text_material;
+			global::EDMTDialog.Resource.Color.abc_color_highlight_material = global::Experiment.Resource.Color.abc_color_highlight_material;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_dark = global::Experiment.Resource.Color.abc_hint_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_light = global::Experiment.Resource.Color.abc_hint_foreground_material_light;
+			global::EDMTDialog.Resource.Color.abc_input_method_navigation_guard = global::Experiment.Resource.Color.abc_input_method_navigation_guard;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_dark = global::Experiment.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_light = global::Experiment.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_dark = global::Experiment.Resource.Color.abc_primary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_light = global::Experiment.Resource.Color.abc_primary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_search_url_text = global::Experiment.Resource.Color.abc_search_url_text;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_normal = global::Experiment.Resource.Color.abc_search_url_text_normal;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_pressed = global::Experiment.Resource.Color.abc_search_url_text_pressed;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_selected = global::Experiment.Resource.Color.abc_search_url_text_selected;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_dark = global::Experiment.Resource.Color.abc_secondary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_light = global::Experiment.Resource.Color.abc_secondary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_tint_btn_checkable = global::Experiment.Resource.Color.abc_tint_btn_checkable;
+			global::EDMTDialog.Resource.Color.abc_tint_default = global::Experiment.Resource.Color.abc_tint_default;
+			global::EDMTDialog.Resource.Color.abc_tint_edittext = global::Experiment.Resource.Color.abc_tint_edittext;
+			global::EDMTDialog.Resource.Color.abc_tint_seek_thumb = global::Experiment.Resource.Color.abc_tint_seek_thumb;
+			global::EDMTDialog.Resource.Color.abc_tint_spinner = global::Experiment.Resource.Color.abc_tint_spinner;
+			global::EDMTDialog.Resource.Color.abc_tint_switch_track = global::Experiment.Resource.Color.abc_tint_switch_track;
+			global::EDMTDialog.Resource.Color.accent_material_dark = global::Experiment.Resource.Color.accent_material_dark;
+			global::EDMTDialog.Resource.Color.accent_material_light = global::Experiment.Resource.Color.accent_material_light;
+			global::EDMTDialog.Resource.Color.background_floating_material_dark = global::Experiment.Resource.Color.background_floating_material_dark;
+			global::EDMTDialog.Resource.Color.background_floating_material_light = global::Experiment.Resource.Color.background_floating_material_light;
+			global::EDMTDialog.Resource.Color.background_material_dark = global::Experiment.Resource.Color.background_material_dark;
+			global::EDMTDialog.Resource.Color.background_material_light = global::Experiment.Resource.Color.background_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_dark = global::Experiment.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_light = global::Experiment.Resource.Color.bright_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_dark = global::Experiment.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_light = global::Experiment.Resource.Color.bright_foreground_inverse_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_dark = global::Experiment.Resource.Color.bright_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_light = global::Experiment.Resource.Color.bright_foreground_material_light;
+			global::EDMTDialog.Resource.Color.button_material_dark = global::Experiment.Resource.Color.button_material_dark;
+			global::EDMTDialog.Resource.Color.button_material_light = global::Experiment.Resource.Color.button_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_dark = global::Experiment.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_light = global::Experiment.Resource.Color.dim_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_dark = global::Experiment.Resource.Color.dim_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_light = global::Experiment.Resource.Color.dim_foreground_material_light;
+			global::EDMTDialog.Resource.Color.error_color_material = global::Experiment.Resource.Color.error_color_material;
+			global::EDMTDialog.Resource.Color.foreground_material_dark = global::Experiment.Resource.Color.foreground_material_dark;
+			global::EDMTDialog.Resource.Color.foreground_material_light = global::Experiment.Resource.Color.foreground_material_light;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_dark = global::Experiment.Resource.Color.highlighted_text_material_dark;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_light = global::Experiment.Resource.Color.highlighted_text_material_light;
+			global::EDMTDialog.Resource.Color.material_blue_grey_800 = global::Experiment.Resource.Color.material_blue_grey_800;
+			global::EDMTDialog.Resource.Color.material_blue_grey_900 = global::Experiment.Resource.Color.material_blue_grey_900;
+			global::EDMTDialog.Resource.Color.material_blue_grey_950 = global::Experiment.Resource.Color.material_blue_grey_950;
+			global::EDMTDialog.Resource.Color.material_deep_teal_200 = global::Experiment.Resource.Color.material_deep_teal_200;
+			global::EDMTDialog.Resource.Color.material_deep_teal_500 = global::Experiment.Resource.Color.material_deep_teal_500;
+			global::EDMTDialog.Resource.Color.material_grey_100 = global::Experiment.Resource.Color.material_grey_100;
+			global::EDMTDialog.Resource.Color.material_grey_300 = global::Experiment.Resource.Color.material_grey_300;
+			global::EDMTDialog.Resource.Color.material_grey_50 = global::Experiment.Resource.Color.material_grey_50;
+			global::EDMTDialog.Resource.Color.material_grey_600 = global::Experiment.Resource.Color.material_grey_600;
+			global::EDMTDialog.Resource.Color.material_grey_800 = global::Experiment.Resource.Color.material_grey_800;
+			global::EDMTDialog.Resource.Color.material_grey_850 = global::Experiment.Resource.Color.material_grey_850;
+			global::EDMTDialog.Resource.Color.material_grey_900 = global::Experiment.Resource.Color.material_grey_900;
+			global::EDMTDialog.Resource.Color.notification_action_color_filter = global::Experiment.Resource.Color.notification_action_color_filter;
+			global::EDMTDialog.Resource.Color.notification_icon_bg_color = global::Experiment.Resource.Color.notification_icon_bg_color;
+			global::EDMTDialog.Resource.Color.notification_material_background_media_default_color = global::Experiment.Resource.Color.notification_material_background_media_default_color;
+			global::EDMTDialog.Resource.Color.primary_dark_material_dark = global::Experiment.Resource.Color.primary_dark_material_dark;
+			global::EDMTDialog.Resource.Color.primary_dark_material_light = global::Experiment.Resource.Color.primary_dark_material_light;
+			global::EDMTDialog.Resource.Color.primary_material_dark = global::Experiment.Resource.Color.primary_material_dark;
+			global::EDMTDialog.Resource.Color.primary_material_light = global::Experiment.Resource.Color.primary_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_dark = global::Experiment.Resource.Color.primary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_light = global::Experiment.Resource.Color.primary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_dark = global::Experiment.Resource.Color.primary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_light = global::Experiment.Resource.Color.primary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.ripple_material_dark = global::Experiment.Resource.Color.ripple_material_dark;
+			global::EDMTDialog.Resource.Color.ripple_material_light = global::Experiment.Resource.Color.ripple_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_dark = global::Experiment.Resource.Color.secondary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_light = global::Experiment.Resource.Color.secondary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_dark = global::Experiment.Resource.Color.secondary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_light = global::Experiment.Resource.Color.secondary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.spots_dialog_color = global::Experiment.Resource.Color.spots_dialog_color;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_dark = global::Experiment.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_light = global::Experiment.Resource.Color.switch_thumb_disabled_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_dark = global::Experiment.Resource.Color.switch_thumb_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_light = global::Experiment.Resource.Color.switch_thumb_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_dark = global::Experiment.Resource.Color.switch_thumb_normal_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_light = global::Experiment.Resource.Color.switch_thumb_normal_material_light;
+			global::EDMTDialog.Resource.Color.tooltip_background_dark = global::Experiment.Resource.Color.tooltip_background_dark;
+			global::EDMTDialog.Resource.Color.tooltip_background_light = global::Experiment.Resource.Color.tooltip_background_light;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_material = global::Experiment.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Experiment.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_height_material = global::Experiment.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Experiment.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Experiment.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_elevation_material = global::Experiment.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Experiment.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Experiment.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Experiment.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_progress_bar_size = global::Experiment.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_max_height = global::Experiment.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Experiment.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Experiment.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Experiment.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_height_material = global::Experiment.Resource.Dimension.abc_action_button_min_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_material = global::Experiment.Resource.Dimension.abc_action_button_min_width_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Experiment.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EDMTDialog.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Experiment.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_horizontal_material = global::Experiment.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_vertical_material = global::Experiment.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_horizontal_material = global::Experiment.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_vertical_material = global::Experiment.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Experiment.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EDMTDialog.Resource.Dimension.abc_config_prefDialogWidth = global::Experiment.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EDMTDialog.Resource.Dimension.abc_control_corner_material = global::Experiment.Resource.Dimension.abc_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_inset_material = global::Experiment.Resource.Dimension.abc_control_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_padding_material = global::Experiment.Resource.Dimension.abc_control_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_major = global::Experiment.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_minor = global::Experiment.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_major = global::Experiment.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_minor = global::Experiment.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Experiment.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Experiment.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_major = global::Experiment.Resource.Dimension.abc_dialog_min_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_minor = global::Experiment.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_material = global::Experiment.Resource.Dimension.abc_dialog_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_top_material = global::Experiment.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_title_divider_material = global::Experiment.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_dark = global::Experiment.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_light = global::Experiment.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_icon_width = global::Experiment.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Experiment.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Experiment.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Experiment.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Experiment.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_top_material = global::Experiment.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_floating_window_z = global::Experiment.Resource.Dimension.abc_floating_window_z;
+			global::EDMTDialog.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Experiment.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_panel_menu_list_width = global::Experiment.Resource.Dimension.abc_panel_menu_list_width;
+			global::EDMTDialog.Resource.Dimension.abc_progress_bar_height_material = global::Experiment.Resource.Dimension.abc_progress_bar_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_height = global::Experiment.Resource.Dimension.abc_search_view_preferred_height;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_width = global::Experiment.Resource.Dimension.abc_search_view_preferred_width;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_background_height_material = global::Experiment.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Experiment.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_select_dialog_padding_start_material = global::Experiment.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_switch_padding = global::Experiment.Resource.Dimension.abc_switch_padding;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_1_material = global::Experiment.Resource.Dimension.abc_text_size_body_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_2_material = global::Experiment.Resource.Dimension.abc_text_size_body_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_button_material = global::Experiment.Resource.Dimension.abc_text_size_button_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_caption_material = global::Experiment.Resource.Dimension.abc_text_size_caption_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_1_material = global::Experiment.Resource.Dimension.abc_text_size_display_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_2_material = global::Experiment.Resource.Dimension.abc_text_size_display_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_3_material = global::Experiment.Resource.Dimension.abc_text_size_display_3_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_4_material = global::Experiment.Resource.Dimension.abc_text_size_display_4_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_headline_material = global::Experiment.Resource.Dimension.abc_text_size_headline_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_large_material = global::Experiment.Resource.Dimension.abc_text_size_large_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_medium_material = global::Experiment.Resource.Dimension.abc_text_size_medium_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_header_material = global::Experiment.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_material = global::Experiment.Resource.Dimension.abc_text_size_menu_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_small_material = global::Experiment.Resource.Dimension.abc_text_size_small_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subhead_material = global::Experiment.Resource.Dimension.abc_text_size_subhead_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Experiment.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material = global::Experiment.Resource.Dimension.abc_text_size_title_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material_toolbar = global::Experiment.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_horizontal_material = global::Experiment.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_vertical_material = global::Experiment.Resource.Dimension.compat_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_horizontal_material = global::Experiment.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_vertical_material = global::Experiment.Resource.Dimension.compat_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_control_corner_material = global::Experiment.Resource.Dimension.compat_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_dark = global::Experiment.Resource.Dimension.disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_light = global::Experiment.Resource.Dimension.disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_colored = global::Experiment.Resource.Dimension.highlight_alpha_material_colored;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_dark = global::Experiment.Resource.Dimension.highlight_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_light = global::Experiment.Resource.Dimension.highlight_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_dark = global::Experiment.Resource.Dimension.hint_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_light = global::Experiment.Resource.Dimension.hint_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_dark = global::Experiment.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_light = global::Experiment.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.notification_action_icon_size = global::Experiment.Resource.Dimension.notification_action_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_action_text_size = global::Experiment.Resource.Dimension.notification_action_text_size;
+			global::EDMTDialog.Resource.Dimension.notification_big_circle_margin = global::Experiment.Resource.Dimension.notification_big_circle_margin;
+			global::EDMTDialog.Resource.Dimension.notification_content_margin_start = global::Experiment.Resource.Dimension.notification_content_margin_start;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_height = global::Experiment.Resource.Dimension.notification_large_icon_height;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_width = global::Experiment.Resource.Dimension.notification_large_icon_width;
+			global::EDMTDialog.Resource.Dimension.notification_main_column_padding_top = global::Experiment.Resource.Dimension.notification_main_column_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_media_narrow_margin = global::Experiment.Resource.Dimension.notification_media_narrow_margin;
+			global::EDMTDialog.Resource.Dimension.notification_right_icon_size = global::Experiment.Resource.Dimension.notification_right_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_right_side_padding_top = global::Experiment.Resource.Dimension.notification_right_side_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_background_padding = global::Experiment.Resource.Dimension.notification_small_icon_background_padding;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_size_as_large = global::Experiment.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EDMTDialog.Resource.Dimension.notification_subtext_size = global::Experiment.Resource.Dimension.notification_subtext_size;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad = global::Experiment.Resource.Dimension.notification_top_pad;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad_large_text = global::Experiment.Resource.Dimension.notification_top_pad_large_text;
+			global::EDMTDialog.Resource.Dimension.progress_margin = global::Experiment.Resource.Dimension.progress_margin;
+			global::EDMTDialog.Resource.Dimension.progress_width = global::Experiment.Resource.Dimension.progress_width;
+			global::EDMTDialog.Resource.Dimension.spot_size = global::Experiment.Resource.Dimension.spot_size;
+			global::EDMTDialog.Resource.Dimension.title_margin = global::Experiment.Resource.Dimension.title_margin;
+			global::EDMTDialog.Resource.Dimension.title_padding = global::Experiment.Resource.Dimension.title_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_corner_radius = global::Experiment.Resource.Dimension.tooltip_corner_radius;
+			global::EDMTDialog.Resource.Dimension.tooltip_horizontal_padding = global::Experiment.Resource.Dimension.tooltip_horizontal_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_margin = global::Experiment.Resource.Dimension.tooltip_margin;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Experiment.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_threshold = global::Experiment.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::EDMTDialog.Resource.Dimension.tooltip_vertical_padding = global::Experiment.Resource.Dimension.tooltip_vertical_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_non_touch = global::Experiment.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_touch = global::Experiment.Resource.Dimension.tooltip_y_offset_touch;
+			global::EDMTDialog.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Experiment.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_action_bar_item_background_material = global::Experiment.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_borderless_material = global::Experiment.Resource.Drawable.abc_btn_borderless_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_material = global::Experiment.Resource.Drawable.abc_btn_check_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Experiment.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Experiment.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_colored_material = global::Experiment.Resource.Drawable.abc_btn_colored_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_default_mtrl_shape = global::Experiment.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_material = global::Experiment.Resource.Drawable.abc_btn_radio_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Experiment.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Experiment.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Experiment.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Experiment.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_internal_bg = global::Experiment.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_material = global::Experiment.Resource.Drawable.abc_cab_background_top_material;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Experiment.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_control_background_material = global::Experiment.Resource.Drawable.abc_control_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_dialog_material_background = global::Experiment.Resource.Drawable.abc_dialog_material_background;
+			global::EDMTDialog.Resource.Drawable.abc_edit_text_material = global::Experiment.Resource.Drawable.abc_edit_text_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_ab_back_material = global::Experiment.Resource.Drawable.abc_ic_ab_back_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Experiment.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_clear_material = global::Experiment.Resource.Drawable.abc_ic_clear_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Experiment.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_go_search_api_material = global::Experiment.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Experiment.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Experiment.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_overflow_material = global::Experiment.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Experiment.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Experiment.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Experiment.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_search_api_material = global::Experiment.Resource.Drawable.abc_ic_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_16dp = global::Experiment.Resource.Drawable.abc_ic_star_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_36dp = global::Experiment.Resource.Drawable.abc_ic_star_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_48dp = global::Experiment.Resource.Drawable.abc_ic_star_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_16dp = global::Experiment.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_36dp = global::Experiment.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_48dp = global::Experiment.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_voice_search_api_material = global::Experiment.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_dark = global::Experiment.Resource.Drawable.abc_item_background_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_light = global::Experiment.Resource.Drawable.abc_item_background_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Experiment.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_list_focused_holo = global::Experiment.Resource.Drawable.abc_list_focused_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_longpressed_holo = global::Experiment.Resource.Drawable.abc_list_longpressed_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_dark = global::Experiment.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_light = global::Experiment.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Experiment.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Experiment.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Experiment.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Experiment.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_dark = global::Experiment.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_light = global::Experiment.Resource.Drawable.abc_list_selector_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Experiment.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_popup_background_mtrl_mult = global::Experiment.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_indicator_material = global::Experiment.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_material = global::Experiment.Resource.Drawable.abc_ratingbar_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_small_material = global::Experiment.Resource.Drawable.abc_ratingbar_small_material;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Experiment.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Experiment.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Experiment.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Experiment.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Experiment.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_thumb_material = global::Experiment.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_tick_mark_material = global::Experiment.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_track_material = global::Experiment.Resource.Drawable.abc_seekbar_track_material;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Experiment.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_textfield_background_material = global::Experiment.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_thumb_material = global::Experiment.Resource.Drawable.abc_switch_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Experiment.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_material = global::Experiment.Resource.Drawable.abc_tab_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Experiment.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_text_cursor_material = global::Experiment.Resource.Drawable.abc_text_cursor_material;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Experiment.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Experiment.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Experiment.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Experiment.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Experiment.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Experiment.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Experiment.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Experiment.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Experiment.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Experiment.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_material = global::Experiment.Resource.Drawable.abc_textfield_search_material;
+			global::EDMTDialog.Resource.Drawable.abc_vector_test = global::Experiment.Resource.Drawable.abc_vector_test;
+			global::EDMTDialog.Resource.Drawable.notification_action_background = global::Experiment.Resource.Drawable.notification_action_background;
+			global::EDMTDialog.Resource.Drawable.notification_bg = global::Experiment.Resource.Drawable.notification_bg;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low = global::Experiment.Resource.Drawable.notification_bg_low;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_normal = global::Experiment.Resource.Drawable.notification_bg_low_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_pressed = global::Experiment.Resource.Drawable.notification_bg_low_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal = global::Experiment.Resource.Drawable.notification_bg_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal_pressed = global::Experiment.Resource.Drawable.notification_bg_normal_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_icon_background = global::Experiment.Resource.Drawable.notification_icon_background;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_bg = global::Experiment.Resource.Drawable.notification_template_icon_bg;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_low_bg = global::Experiment.Resource.Drawable.notification_template_icon_low_bg;
+			global::EDMTDialog.Resource.Drawable.notification_tile_bg = global::Experiment.Resource.Drawable.notification_tile_bg;
+			global::EDMTDialog.Resource.Drawable.notify_panel_notification_icon_bg = global::Experiment.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_dark = global::Experiment.Resource.Drawable.tooltip_frame_dark;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_light = global::Experiment.Resource.Drawable.tooltip_frame_light;
+			global::EDMTDialog.Resource.Id.ALT = global::Experiment.Resource.Id.ALT;
+			global::EDMTDialog.Resource.Id.CTRL = global::Experiment.Resource.Id.CTRL;
+			global::EDMTDialog.Resource.Id.FUNCTION = global::Experiment.Resource.Id.FUNCTION;
+			global::EDMTDialog.Resource.Id.META = global::Experiment.Resource.Id.META;
+			global::EDMTDialog.Resource.Id.SHIFT = global::Experiment.Resource.Id.SHIFT;
+			global::EDMTDialog.Resource.Id.SYM = global::Experiment.Resource.Id.SYM;
+			global::EDMTDialog.Resource.Id.action0 = global::Experiment.Resource.Id.action0;
+			global::EDMTDialog.Resource.Id.action_bar = global::Experiment.Resource.Id.action_bar;
+			global::EDMTDialog.Resource.Id.action_bar_activity_content = global::Experiment.Resource.Id.action_bar_activity_content;
+			global::EDMTDialog.Resource.Id.action_bar_container = global::Experiment.Resource.Id.action_bar_container;
+			global::EDMTDialog.Resource.Id.action_bar_root = global::Experiment.Resource.Id.action_bar_root;
+			global::EDMTDialog.Resource.Id.action_bar_spinner = global::Experiment.Resource.Id.action_bar_spinner;
+			global::EDMTDialog.Resource.Id.action_bar_subtitle = global::Experiment.Resource.Id.action_bar_subtitle;
+			global::EDMTDialog.Resource.Id.action_bar_title = global::Experiment.Resource.Id.action_bar_title;
+			global::EDMTDialog.Resource.Id.action_container = global::Experiment.Resource.Id.action_container;
+			global::EDMTDialog.Resource.Id.action_context_bar = global::Experiment.Resource.Id.action_context_bar;
+			global::EDMTDialog.Resource.Id.action_divider = global::Experiment.Resource.Id.action_divider;
+			global::EDMTDialog.Resource.Id.action_image = global::Experiment.Resource.Id.action_image;
+			global::EDMTDialog.Resource.Id.action_menu_divider = global::Experiment.Resource.Id.action_menu_divider;
+			global::EDMTDialog.Resource.Id.action_menu_presenter = global::Experiment.Resource.Id.action_menu_presenter;
+			global::EDMTDialog.Resource.Id.action_mode_bar = global::Experiment.Resource.Id.action_mode_bar;
+			global::EDMTDialog.Resource.Id.action_mode_bar_stub = global::Experiment.Resource.Id.action_mode_bar_stub;
+			global::EDMTDialog.Resource.Id.action_mode_close_button = global::Experiment.Resource.Id.action_mode_close_button;
+			global::EDMTDialog.Resource.Id.action_text = global::Experiment.Resource.Id.action_text;
+			global::EDMTDialog.Resource.Id.actions = global::Experiment.Resource.Id.actions;
+			global::EDMTDialog.Resource.Id.activity_chooser_view_content = global::Experiment.Resource.Id.activity_chooser_view_content;
+			global::EDMTDialog.Resource.Id.add = global::Experiment.Resource.Id.add;
+			global::EDMTDialog.Resource.Id.alertTitle = global::Experiment.Resource.Id.alertTitle;
+			global::EDMTDialog.Resource.Id.always = global::Experiment.Resource.Id.always;
+			global::EDMTDialog.Resource.Id.async = global::Experiment.Resource.Id.async;
+			global::EDMTDialog.Resource.Id.beginning = global::Experiment.Resource.Id.beginning;
+			global::EDMTDialog.Resource.Id.blocking = global::Experiment.Resource.Id.blocking;
+			global::EDMTDialog.Resource.Id.bottom = global::Experiment.Resource.Id.bottom;
+			global::EDMTDialog.Resource.Id.buttonPanel = global::Experiment.Resource.Id.buttonPanel;
+			global::EDMTDialog.Resource.Id.cancel_action = global::Experiment.Resource.Id.cancel_action;
+			global::EDMTDialog.Resource.Id.checkbox = global::Experiment.Resource.Id.checkbox;
+			global::EDMTDialog.Resource.Id.chronometer = global::Experiment.Resource.Id.chronometer;
+			global::EDMTDialog.Resource.Id.collapseActionView = global::Experiment.Resource.Id.collapseActionView;
+			global::EDMTDialog.Resource.Id.contentPanel = global::Experiment.Resource.Id.contentPanel;
+			global::EDMTDialog.Resource.Id.custom = global::Experiment.Resource.Id.custom;
+			global::EDMTDialog.Resource.Id.customPanel = global::Experiment.Resource.Id.customPanel;
+			global::EDMTDialog.Resource.Id.decor_content_parent = global::Experiment.Resource.Id.decor_content_parent;
+			global::EDMTDialog.Resource.Id.default_activity_button = global::Experiment.Resource.Id.default_activity_button;
+			global::EDMTDialog.Resource.Id.disableHome = global::Experiment.Resource.Id.disableHome;
+			global::EDMTDialog.Resource.Id.edit_query = global::Experiment.Resource.Id.edit_query;
+			global::EDMTDialog.Resource.Id.end = global::Experiment.Resource.Id.end;
+			global::EDMTDialog.Resource.Id.end_padder = global::Experiment.Resource.Id.end_padder;
+			global::EDMTDialog.Resource.Id.expand_activities_button = global::Experiment.Resource.Id.expand_activities_button;
+			global::EDMTDialog.Resource.Id.expanded_menu = global::Experiment.Resource.Id.expanded_menu;
+			global::EDMTDialog.Resource.Id.forever = global::Experiment.Resource.Id.forever;
+			global::EDMTDialog.Resource.Id.home = global::Experiment.Resource.Id.home;
+			global::EDMTDialog.Resource.Id.homeAsUp = global::Experiment.Resource.Id.homeAsUp;
+			global::EDMTDialog.Resource.Id.icon = global::Experiment.Resource.Id.icon;
+			global::EDMTDialog.Resource.Id.icon_group = global::Experiment.Resource.Id.icon_group;
+			global::EDMTDialog.Resource.Id.ifRoom = global::Experiment.Resource.Id.ifRoom;
+			global::EDMTDialog.Resource.Id.image = global::Experiment.Resource.Id.image;
+			global::EDMTDialog.Resource.Id.info = global::Experiment.Resource.Id.info;
+			global::EDMTDialog.Resource.Id.italic = global::Experiment.Resource.Id.italic;
+			global::EDMTDialog.Resource.Id.line1 = global::Experiment.Resource.Id.line1;
+			global::EDMTDialog.Resource.Id.line3 = global::Experiment.Resource.Id.line3;
+			global::EDMTDialog.Resource.Id.listMode = global::Experiment.Resource.Id.listMode;
+			global::EDMTDialog.Resource.Id.list_item = global::Experiment.Resource.Id.list_item;
+			global::EDMTDialog.Resource.Id.marker_progress = global::Experiment.Resource.Id.marker_progress;
+			global::EDMTDialog.Resource.Id.media_actions = global::Experiment.Resource.Id.media_actions;
+			global::EDMTDialog.Resource.Id.message = global::Experiment.Resource.Id.message;
+			global::EDMTDialog.Resource.Id.middle = global::Experiment.Resource.Id.middle;
+			global::EDMTDialog.Resource.Id.multiply = global::Experiment.Resource.Id.multiply;
+			global::EDMTDialog.Resource.Id.my_text_view = global::Experiment.Resource.Id.my_text_view;
+			global::EDMTDialog.Resource.Id.never = global::Experiment.Resource.Id.never;
+			global::EDMTDialog.Resource.Id.none = global::Experiment.Resource.Id.none;
+			global::EDMTDialog.Resource.Id.normal = global::Experiment.Resource.Id.normal;
+			global::EDMTDialog.Resource.Id.notification_background = global::Experiment.Resource.Id.notification_background;
+			global::EDMTDialog.Resource.Id.notification_main_column = global::Experiment.Resource.Id.notification_main_column;
+			global::EDMTDialog.Resource.Id.notification_main_column_container = global::Experiment.Resource.Id.notification_main_column_container;
+			global::EDMTDialog.Resource.Id.parentPanel = global::Experiment.Resource.Id.parentPanel;
+			global::EDMTDialog.Resource.Id.progress_circular = global::Experiment.Resource.Id.progress_circular;
+			global::EDMTDialog.Resource.Id.progress_horizontal = global::Experiment.Resource.Id.progress_horizontal;
+			global::EDMTDialog.Resource.Id.radio = global::Experiment.Resource.Id.radio;
+			global::EDMTDialog.Resource.Id.right_icon = global::Experiment.Resource.Id.right_icon;
+			global::EDMTDialog.Resource.Id.right_side = global::Experiment.Resource.Id.right_side;
+			global::EDMTDialog.Resource.Id.screen = global::Experiment.Resource.Id.screen;
+			global::EDMTDialog.Resource.Id.scrollIndicatorDown = global::Experiment.Resource.Id.scrollIndicatorDown;
+			global::EDMTDialog.Resource.Id.scrollIndicatorUp = global::Experiment.Resource.Id.scrollIndicatorUp;
+			global::EDMTDialog.Resource.Id.scrollView = global::Experiment.Resource.Id.scrollView;
+			global::EDMTDialog.Resource.Id.search_badge = global::Experiment.Resource.Id.search_badge;
+			global::EDMTDialog.Resource.Id.search_bar = global::Experiment.Resource.Id.search_bar;
+			global::EDMTDialog.Resource.Id.search_button = global::Experiment.Resource.Id.search_button;
+			global::EDMTDialog.Resource.Id.search_close_btn = global::Experiment.Resource.Id.search_close_btn;
+			global::EDMTDialog.Resource.Id.search_edit_frame = global::Experiment.Resource.Id.search_edit_frame;
+			global::EDMTDialog.Resource.Id.search_go_btn = global::Experiment.Resource.Id.search_go_btn;
+			global::EDMTDialog.Resource.Id.search_mag_icon = global::Experiment.Resource.Id.search_mag_icon;
+			global::EDMTDialog.Resource.Id.search_plate = global::Experiment.Resource.Id.search_plate;
+			global::EDMTDialog.Resource.Id.search_src_text = global::Experiment.Resource.Id.search_src_text;
+			global::EDMTDialog.Resource.Id.search_voice_btn = global::Experiment.Resource.Id.search_voice_btn;
+			global::EDMTDialog.Resource.Id.select_dialog_listview = global::Experiment.Resource.Id.select_dialog_listview;
+			global::EDMTDialog.Resource.Id.shortcut = global::Experiment.Resource.Id.shortcut;
+			global::EDMTDialog.Resource.Id.showCustom = global::Experiment.Resource.Id.showCustom;
+			global::EDMTDialog.Resource.Id.showHome = global::Experiment.Resource.Id.showHome;
+			global::EDMTDialog.Resource.Id.showTitle = global::Experiment.Resource.Id.showTitle;
+			global::EDMTDialog.Resource.Id.spacer = global::Experiment.Resource.Id.spacer;
+			global::EDMTDialog.Resource.Id.split_action_bar = global::Experiment.Resource.Id.split_action_bar;
+			global::EDMTDialog.Resource.Id.src_atop = global::Experiment.Resource.Id.src_atop;
+			global::EDMTDialog.Resource.Id.src_in = global::Experiment.Resource.Id.src_in;
+			global::EDMTDialog.Resource.Id.src_over = global::Experiment.Resource.Id.src_over;
+			global::EDMTDialog.Resource.Id.status_bar_latest_event_content = global::Experiment.Resource.Id.status_bar_latest_event_content;
+			global::EDMTDialog.Resource.Id.submenuarrow = global::Experiment.Resource.Id.submenuarrow;
+			global::EDMTDialog.Resource.Id.submit_area = global::Experiment.Resource.Id.submit_area;
+			global::EDMTDialog.Resource.Id.tabMode = global::Experiment.Resource.Id.tabMode;
+			global::EDMTDialog.Resource.Id.tag_transition_group = global::Experiment.Resource.Id.tag_transition_group;
+			global::EDMTDialog.Resource.Id.text = global::Experiment.Resource.Id.text;
+			global::EDMTDialog.Resource.Id.text2 = global::Experiment.Resource.Id.text2;
+			global::EDMTDialog.Resource.Id.textSpacerNoButtons = global::Experiment.Resource.Id.textSpacerNoButtons;
+			global::EDMTDialog.Resource.Id.textSpacerNoTitle = global::Experiment.Resource.Id.textSpacerNoTitle;
+			global::EDMTDialog.Resource.Id.time = global::Experiment.Resource.Id.time;
+			global::EDMTDialog.Resource.Id.title = global::Experiment.Resource.Id.title;
+			global::EDMTDialog.Resource.Id.titleDividerNoCustom = global::Experiment.Resource.Id.titleDividerNoCustom;
+			global::EDMTDialog.Resource.Id.title_template = global::Experiment.Resource.Id.title_template;
+			global::EDMTDialog.Resource.Id.top = global::Experiment.Resource.Id.top;
+			global::EDMTDialog.Resource.Id.topPanel = global::Experiment.Resource.Id.topPanel;
+			global::EDMTDialog.Resource.Id.uniform = global::Experiment.Resource.Id.uniform;
+			global::EDMTDialog.Resource.Id.up = global::Experiment.Resource.Id.up;
+			global::EDMTDialog.Resource.Id.useLogo = global::Experiment.Resource.Id.useLogo;
+			global::EDMTDialog.Resource.Id.withText = global::Experiment.Resource.Id.withText;
+			global::EDMTDialog.Resource.Id.wrap_content = global::Experiment.Resource.Id.wrap_content;
+			global::EDMTDialog.Resource.Integer.abc_config_activityDefaultDur = global::Experiment.Resource.Integer.abc_config_activityDefaultDur;
+			global::EDMTDialog.Resource.Integer.abc_config_activityShortDur = global::Experiment.Resource.Integer.abc_config_activityShortDur;
+			global::EDMTDialog.Resource.Integer.cancel_button_image_alpha = global::Experiment.Resource.Integer.cancel_button_image_alpha;
+			global::EDMTDialog.Resource.Integer.config_tooltipAnimTime = global::Experiment.Resource.Integer.config_tooltipAnimTime;
+			global::EDMTDialog.Resource.Integer.status_bar_notification_info_maxnum = global::Experiment.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_title_item = global::Experiment.Resource.Layout.abc_action_bar_title_item;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_up_container = global::Experiment.Resource.Layout.abc_action_bar_up_container;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_item_layout = global::Experiment.Resource.Layout.abc_action_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_layout = global::Experiment.Resource.Layout.abc_action_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_bar = global::Experiment.Resource.Layout.abc_action_mode_bar;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_close_item_material = global::Experiment.Resource.Layout.abc_action_mode_close_item_material;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view = global::Experiment.Resource.Layout.abc_activity_chooser_view;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view_list_item = global::Experiment.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_button_bar_material = global::Experiment.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_material = global::Experiment.Resource.Layout.abc_alert_dialog_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_title_material = global::Experiment.Resource.Layout.abc_alert_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_dialog_title_material = global::Experiment.Resource.Layout.abc_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_expanded_menu_layout = global::Experiment.Resource.Layout.abc_expanded_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_checkbox = global::Experiment.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_icon = global::Experiment.Resource.Layout.abc_list_menu_item_icon;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_layout = global::Experiment.Resource.Layout.abc_list_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_radio = global::Experiment.Resource.Layout.abc_list_menu_item_radio;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_header_item_layout = global::Experiment.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_item_layout = global::Experiment.Resource.Layout.abc_popup_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_screen_content_include = global::Experiment.Resource.Layout.abc_screen_content_include;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple = global::Experiment.Resource.Layout.abc_screen_simple;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Experiment.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EDMTDialog.Resource.Layout.abc_screen_toolbar = global::Experiment.Resource.Layout.abc_screen_toolbar;
+			global::EDMTDialog.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Experiment.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EDMTDialog.Resource.Layout.abc_search_view = global::Experiment.Resource.Layout.abc_search_view;
+			global::EDMTDialog.Resource.Layout.abc_select_dialog_material = global::Experiment.Resource.Layout.abc_select_dialog_material;
+			global::EDMTDialog.Resource.Layout.my_dialog_layout = global::Experiment.Resource.Layout.my_dialog_layout;
+			global::EDMTDialog.Resource.Layout.notification_action = global::Experiment.Resource.Layout.notification_action;
+			global::EDMTDialog.Resource.Layout.notification_action_tombstone = global::Experiment.Resource.Layout.notification_action_tombstone;
+			global::EDMTDialog.Resource.Layout.notification_media_action = global::Experiment.Resource.Layout.notification_media_action;
+			global::EDMTDialog.Resource.Layout.notification_media_cancel_action = global::Experiment.Resource.Layout.notification_media_cancel_action;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media = global::Experiment.Resource.Layout.notification_template_big_media;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media_custom = global::Experiment.Resource.Layout.notification_template_big_media_custom;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media_narrow = global::Experiment.Resource.Layout.notification_template_big_media_narrow;
+			global::EDMTDialog.Resource.Layout.notification_template_big_media_narrow_custom = global::Experiment.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::EDMTDialog.Resource.Layout.notification_template_custom_big = global::Experiment.Resource.Layout.notification_template_custom_big;
+			global::EDMTDialog.Resource.Layout.notification_template_icon_group = global::Experiment.Resource.Layout.notification_template_icon_group;
+			global::EDMTDialog.Resource.Layout.notification_template_lines_media = global::Experiment.Resource.Layout.notification_template_lines_media;
+			global::EDMTDialog.Resource.Layout.notification_template_media = global::Experiment.Resource.Layout.notification_template_media;
+			global::EDMTDialog.Resource.Layout.notification_template_media_custom = global::Experiment.Resource.Layout.notification_template_media_custom;
+			global::EDMTDialog.Resource.Layout.notification_template_part_chronometer = global::Experiment.Resource.Layout.notification_template_part_chronometer;
+			global::EDMTDialog.Resource.Layout.notification_template_part_time = global::Experiment.Resource.Layout.notification_template_part_time;
+			global::EDMTDialog.Resource.Layout.select_dialog_item_material = global::Experiment.Resource.Layout.select_dialog_item_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_multichoice_material = global::Experiment.Resource.Layout.select_dialog_multichoice_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_singlechoice_material = global::Experiment.Resource.Layout.select_dialog_singlechoice_material;
+			global::EDMTDialog.Resource.Layout.support_simple_spinner_dropdown_item = global::Experiment.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EDMTDialog.Resource.Layout.tooltip = global::Experiment.Resource.Layout.tooltip;
+			global::EDMTDialog.Resource.String.abc_action_bar_home_description = global::Experiment.Resource.String.abc_action_bar_home_description;
+			global::EDMTDialog.Resource.String.abc_action_bar_up_description = global::Experiment.Resource.String.abc_action_bar_up_description;
+			global::EDMTDialog.Resource.String.abc_action_menu_overflow_description = global::Experiment.Resource.String.abc_action_menu_overflow_description;
+			global::EDMTDialog.Resource.String.abc_action_mode_done = global::Experiment.Resource.String.abc_action_mode_done;
+			global::EDMTDialog.Resource.String.abc_activity_chooser_view_see_all = global::Experiment.Resource.String.abc_activity_chooser_view_see_all;
+			global::EDMTDialog.Resource.String.abc_activitychooserview_choose_application = global::Experiment.Resource.String.abc_activitychooserview_choose_application;
+			global::EDMTDialog.Resource.String.abc_capital_off = global::Experiment.Resource.String.abc_capital_off;
+			global::EDMTDialog.Resource.String.abc_capital_on = global::Experiment.Resource.String.abc_capital_on;
+			global::EDMTDialog.Resource.String.abc_font_family_body_1_material = global::Experiment.Resource.String.abc_font_family_body_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_body_2_material = global::Experiment.Resource.String.abc_font_family_body_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_button_material = global::Experiment.Resource.String.abc_font_family_button_material;
+			global::EDMTDialog.Resource.String.abc_font_family_caption_material = global::Experiment.Resource.String.abc_font_family_caption_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_1_material = global::Experiment.Resource.String.abc_font_family_display_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_2_material = global::Experiment.Resource.String.abc_font_family_display_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_3_material = global::Experiment.Resource.String.abc_font_family_display_3_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_4_material = global::Experiment.Resource.String.abc_font_family_display_4_material;
+			global::EDMTDialog.Resource.String.abc_font_family_headline_material = global::Experiment.Resource.String.abc_font_family_headline_material;
+			global::EDMTDialog.Resource.String.abc_font_family_menu_material = global::Experiment.Resource.String.abc_font_family_menu_material;
+			global::EDMTDialog.Resource.String.abc_font_family_subhead_material = global::Experiment.Resource.String.abc_font_family_subhead_material;
+			global::EDMTDialog.Resource.String.abc_font_family_title_material = global::Experiment.Resource.String.abc_font_family_title_material;
+			global::EDMTDialog.Resource.String.abc_search_hint = global::Experiment.Resource.String.abc_search_hint;
+			global::EDMTDialog.Resource.String.abc_searchview_description_clear = global::Experiment.Resource.String.abc_searchview_description_clear;
+			global::EDMTDialog.Resource.String.abc_searchview_description_query = global::Experiment.Resource.String.abc_searchview_description_query;
+			global::EDMTDialog.Resource.String.abc_searchview_description_search = global::Experiment.Resource.String.abc_searchview_description_search;
+			global::EDMTDialog.Resource.String.abc_searchview_description_submit = global::Experiment.Resource.String.abc_searchview_description_submit;
+			global::EDMTDialog.Resource.String.abc_searchview_description_voice = global::Experiment.Resource.String.abc_searchview_description_voice;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with = global::Experiment.Resource.String.abc_shareactionprovider_share_with;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with_application = global::Experiment.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EDMTDialog.Resource.String.abc_toolbar_collapse_description = global::Experiment.Resource.String.abc_toolbar_collapse_description;
+			global::EDMTDialog.Resource.String.app_name = global::Experiment.Resource.String.app_name;
+			global::EDMTDialog.Resource.String.hello = global::Experiment.Resource.String.hello;
+			global::EDMTDialog.Resource.String.search_menu_title = global::Experiment.Resource.String.search_menu_title;
+			global::EDMTDialog.Resource.String.status_bar_notification_info_overflow = global::Experiment.Resource.String.status_bar_notification_info_overflow;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat = global::Experiment.Resource.Style.AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat_Light = global::Experiment.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Dialog = global::Experiment.Resource.Style.Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_DropDownUp = global::Experiment.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Tooltip = global::Experiment.Resource.Style.Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat = global::Experiment.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Experiment.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Dialog = global::Experiment.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Experiment.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Experiment.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Experiment.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Experiment.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Experiment.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Experiment.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Experiment.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Experiment.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat = global::Experiment.Resource.Style.Base_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Experiment.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog = global::Experiment.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Experiment.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Experiment.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Experiment.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Experiment.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Experiment.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Experiment.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Experiment.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Experiment.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::Experiment.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Experiment.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Experiment.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat = global::Experiment.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Experiment.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Experiment.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Experiment.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Experiment.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat = global::Experiment.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Experiment.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat = global::Experiment.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Experiment.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat = global::Experiment.Resource.Style.Base_V26_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Experiment.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Experiment.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat = global::Experiment.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Experiment.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Experiment.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Experiment.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Experiment.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Experiment.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Experiment.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Experiment.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Experiment.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Experiment.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button = global::Experiment.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Experiment.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Experiment.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Experiment.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Experiment.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Experiment.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Experiment.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Experiment.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Experiment.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Experiment.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Experiment.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Experiment.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Experiment.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_EditText = global::Experiment.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Experiment.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Experiment.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Experiment.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Experiment.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView = global::Experiment.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Experiment.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Experiment.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Experiment.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Experiment.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Experiment.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Experiment.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Experiment.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Experiment.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView = global::Experiment.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Experiment.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Experiment.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner = global::Experiment.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Experiment.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Experiment.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Experiment.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Experiment.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat = global::Experiment.Resource.Style.Platform_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat_Light = global::Experiment.Resource.Style.Platform_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Experiment.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Experiment.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Experiment.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V11_AppCompat = global::Experiment.Resource.Style.Platform_V11_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V11_AppCompat_Light = global::Experiment.Resource.Style.Platform_V11_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V14_AppCompat = global::Experiment.Resource.Style.Platform_V14_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V14_AppCompat_Light = global::Experiment.Resource.Style.Platform_V14_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat = global::Experiment.Resource.Style.Platform_V21_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat_Light = global::Experiment.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat = global::Experiment.Resource.Style.Platform_V25_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat_Light = global::Experiment.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Experiment.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Experiment.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Experiment.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Experiment.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Experiment.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.SpotsDialogDefault = global::Experiment.Resource.Style.SpotsDialogDefault;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat = global::Experiment.Resource.Style.TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body1 = global::Experiment.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body2 = global::Experiment.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Button = global::Experiment.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Caption = global::Experiment.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display1 = global::Experiment.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display2 = global::Experiment.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display3 = global::Experiment.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display4 = global::Experiment.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Headline = global::Experiment.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large = global::Experiment.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Experiment.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Experiment.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Experiment.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Experiment.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium = global::Experiment.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Menu = global::Experiment.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Experiment.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Experiment.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small = global::Experiment.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead = global::Experiment.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title = global::Experiment.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Experiment.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Experiment.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification = global::Experiment.Resource.Style.TextAppearance_Compat_Notification;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Info = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Media = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Time = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Title = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Experiment.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Experiment.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Experiment.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Experiment.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat = global::Experiment.Resource.Style.Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_CompactMenu = global::Experiment.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight = global::Experiment.Resource.Style.Theme_AppCompat_DayNight;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Experiment.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Experiment.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Experiment.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Experiment.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Experiment.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Experiment.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog = global::Experiment.Resource.Style.Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Experiment.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Experiment.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Experiment.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light = global::Experiment.Resource.Style.Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Experiment.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog = global::Experiment.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Experiment.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Experiment.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Experiment.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Experiment.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_NoActionBar = global::Experiment.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat = global::Experiment.Resource.Style.ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Experiment.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Experiment.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Experiment.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Experiment.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Experiment.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Light = global::Experiment.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar = global::Experiment.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Experiment.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Experiment.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Experiment.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Experiment.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton = global::Experiment.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Experiment.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Experiment.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionMode = global::Experiment.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Experiment.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Experiment.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button = global::Experiment.Resource.Style.Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless = global::Experiment.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Experiment.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Experiment.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Colored = global::Experiment.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Small = global::Experiment.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar = global::Experiment.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Experiment.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Experiment.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Experiment.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Experiment.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Experiment.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Experiment.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_EditText = global::Experiment.Resource.Style.Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ImageButton = global::Experiment.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Experiment.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Experiment.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Experiment.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Experiment.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Experiment.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Experiment.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Experiment.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_SearchView = global::Experiment.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Experiment.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListMenuView = global::Experiment.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Experiment.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView = global::Experiment.Resource.Style.Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Experiment.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_Menu = global::Experiment.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu = global::Experiment.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Experiment.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupWindow = global::Experiment.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar = global::Experiment.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Experiment.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar = global::Experiment.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Experiment.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Experiment.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView = global::Experiment.Resource.Style.Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Experiment.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar = global::Experiment.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Experiment.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner = global::Experiment.Resource.Style.Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Experiment.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Experiment.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Experiment.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Experiment.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar = global::Experiment.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Experiment.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionContainer = global::Experiment.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionText = global::Experiment.Resource.Style.Widget_Compat_NotificationActionText;
+			global::EDMTDialog.Resource.Styleable.ActionBar = global::Experiment.Resource.Styleable.ActionBar;
+			global::EDMTDialog.Resource.Styleable.ActionBar_background = global::Experiment.Resource.Styleable.ActionBar_background;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundSplit = global::Experiment.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundStacked = global::Experiment.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEnd = global::Experiment.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Experiment.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetLeft = global::Experiment.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetRight = global::Experiment.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStart = global::Experiment.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Experiment.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_customNavigationLayout = global::Experiment.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_displayOptions = global::Experiment.Resource.Styleable.ActionBar_displayOptions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_divider = global::Experiment.Resource.Styleable.ActionBar_divider;
+			global::EDMTDialog.Resource.Styleable.ActionBar_elevation = global::Experiment.Resource.Styleable.ActionBar_elevation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_height = global::Experiment.Resource.Styleable.ActionBar_height;
+			global::EDMTDialog.Resource.Styleable.ActionBar_hideOnContentScroll = global::Experiment.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Experiment.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeLayout = global::Experiment.Resource.Styleable.ActionBar_homeLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_icon = global::Experiment.Resource.Styleable.ActionBar_icon;
+			global::EDMTDialog.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Experiment.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_itemPadding = global::Experiment.Resource.Styleable.ActionBar_itemPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_logo = global::Experiment.Resource.Styleable.ActionBar_logo;
+			global::EDMTDialog.Resource.Styleable.ActionBar_navigationMode = global::Experiment.Resource.Styleable.ActionBar_navigationMode;
+			global::EDMTDialog.Resource.Styleable.ActionBar_popupTheme = global::Experiment.Resource.Styleable.ActionBar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarPadding = global::Experiment.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarStyle = global::Experiment.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitle = global::Experiment.Resource.Styleable.ActionBar_subtitle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitleTextStyle = global::Experiment.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_title = global::Experiment.Resource.Styleable.ActionBar_title;
+			global::EDMTDialog.Resource.Styleable.ActionBar_titleTextStyle = global::Experiment.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout = global::Experiment.Resource.Styleable.ActionBarLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Experiment.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView = global::Experiment.Resource.Styleable.ActionMenuItemView;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Experiment.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EDMTDialog.Resource.Styleable.ActionMenuView = global::Experiment.Resource.Styleable.ActionMenuView;
+			global::EDMTDialog.Resource.Styleable.ActionMode = global::Experiment.Resource.Styleable.ActionMode;
+			global::EDMTDialog.Resource.Styleable.ActionMode_background = global::Experiment.Resource.Styleable.ActionMode_background;
+			global::EDMTDialog.Resource.Styleable.ActionMode_backgroundSplit = global::Experiment.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionMode_closeItemLayout = global::Experiment.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EDMTDialog.Resource.Styleable.ActionMode_height = global::Experiment.Resource.Styleable.ActionMode_height;
+			global::EDMTDialog.Resource.Styleable.ActionMode_subtitleTextStyle = global::Experiment.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionMode_titleTextStyle = global::Experiment.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView = global::Experiment.Resource.Styleable.ActivityChooserView;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Experiment.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Experiment.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EDMTDialog.Resource.Styleable.AlertDialog = global::Experiment.Resource.Styleable.AlertDialog;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_android_layout = global::Experiment.Resource.Styleable.AlertDialog_android_layout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Experiment.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listItemLayout = global::Experiment.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listLayout = global::Experiment.Resource.Styleable.AlertDialog_listLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Experiment.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_showTitle = global::Experiment.Resource.Styleable.AlertDialog_showTitle;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Experiment.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView = global::Experiment.Resource.Styleable.AppCompatImageView;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_android_src = global::Experiment.Resource.Styleable.AppCompatImageView_android_src;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_srcCompat = global::Experiment.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tint = global::Experiment.Resource.Styleable.AppCompatImageView_tint;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tintMode = global::Experiment.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar = global::Experiment.Resource.Styleable.AppCompatSeekBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Experiment.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMark = global::Experiment.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Experiment.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Experiment.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper = global::Experiment.Resource.Styleable.AppCompatTextHelper;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Experiment.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView = global::Experiment.Resource.Styleable.AppCompatTextView;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Experiment.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Experiment.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Experiment.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Experiment.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Experiment.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Experiment.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_fontFamily = global::Experiment.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_textAllCaps = global::Experiment.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme = global::Experiment.Resource.Styleable.AppCompatTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSize = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Experiment.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Experiment.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Experiment.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Experiment.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Experiment.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Experiment.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Experiment.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Experiment.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Experiment.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Experiment.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Experiment.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Experiment.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Experiment.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Experiment.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Experiment.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Experiment.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Experiment.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorAccent = global::Experiment.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Experiment.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Experiment.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Experiment.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Experiment.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Experiment.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorError = global::Experiment.Resource.Styleable.AppCompatTheme_colorError;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimary = global::Experiment.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Experiment.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Experiment.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_controlBackground = global::Experiment.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Experiment.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogTheme = global::Experiment.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Experiment.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerVertical = global::Experiment.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Experiment.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Experiment.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextBackground = global::Experiment.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextColor = global::Experiment.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextStyle = global::Experiment.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Experiment.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Experiment.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Experiment.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Experiment.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Experiment.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Experiment.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Experiment.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Experiment.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Experiment.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Experiment.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelBackground = global::Experiment.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Experiment.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Experiment.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Experiment.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Experiment.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Experiment.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Experiment.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Experiment.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Experiment.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Experiment.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Experiment.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Experiment.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Experiment.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Experiment.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_switchStyle = global::Experiment.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Experiment.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Experiment.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Experiment.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Experiment.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Experiment.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Experiment.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Experiment.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBar = global::Experiment.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Experiment.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Experiment.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Experiment.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Experiment.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Experiment.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Experiment.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Experiment.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Experiment.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Experiment.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout = global::Experiment.Resource.Styleable.ButtonBarLayout;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout_allowStacking = global::Experiment.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem = global::Experiment.Resource.Styleable.ColorStateListItem;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_alpha = global::Experiment.Resource.Styleable.ColorStateListItem_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_alpha = global::Experiment.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_color = global::Experiment.Resource.Styleable.ColorStateListItem_android_color;
+			global::EDMTDialog.Resource.Styleable.CompoundButton = global::Experiment.Resource.Styleable.CompoundButton;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_android_button = global::Experiment.Resource.Styleable.CompoundButton_android_button;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTint = global::Experiment.Resource.Styleable.CompoundButton_buttonTint;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTintMode = global::Experiment.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EDMTDialog.Resource.Styleable.Dialog = global::Experiment.Resource.Styleable.Dialog;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotColor = global::Experiment.Resource.Styleable.Dialog_DialogSpotColor;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotCount = global::Experiment.Resource.Styleable.Dialog_DialogSpotCount;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleAppearance = global::Experiment.Resource.Styleable.Dialog_DialogTitleAppearance;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleText = global::Experiment.Resource.Styleable.Dialog_DialogTitleText;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle = global::Experiment.Resource.Styleable.DrawerArrowToggle;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Experiment.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Experiment.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_barLength = global::Experiment.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_color = global::Experiment.Resource.Styleable.DrawerArrowToggle_color;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Experiment.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Experiment.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_spinBars = global::Experiment.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_thickness = global::Experiment.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EDMTDialog.Resource.Styleable.FontFamily = global::Experiment.Resource.Styleable.FontFamily;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderAuthority = global::Experiment.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderCerts = global::Experiment.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Experiment.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Experiment.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderPackage = global::Experiment.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderQuery = global::Experiment.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont = global::Experiment.Resource.Styleable.FontFamilyFont;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_font = global::Experiment.Resource.Styleable.FontFamilyFont_android_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Experiment.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Experiment.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_font = global::Experiment.Resource.Styleable.FontFamilyFont_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontStyle = global::Experiment.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontWeight = global::Experiment.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat = global::Experiment.Resource.Styleable.LinearLayoutCompat;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Experiment.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Experiment.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Experiment.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Experiment.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Experiment.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_divider = global::Experiment.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Experiment.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Experiment.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_showDividers = global::Experiment.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout = global::Experiment.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Experiment.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Experiment.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Experiment.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Experiment.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow = global::Experiment.Resource.Styleable.ListPopupWindow;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Experiment.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Experiment.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EDMTDialog.Resource.Styleable.MenuGroup = global::Experiment.Resource.Styleable.MenuGroup;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Experiment.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_enabled = global::Experiment.Resource.Styleable.MenuGroup_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_id = global::Experiment.Resource.Styleable.MenuGroup_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_menuCategory = global::Experiment.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_orderInCategory = global::Experiment.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_visible = global::Experiment.Resource.Styleable.MenuGroup_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem = global::Experiment.Resource.Styleable.MenuItem;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionLayout = global::Experiment.Resource.Styleable.MenuItem_actionLayout;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionProviderClass = global::Experiment.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionViewClass = global::Experiment.Resource.Styleable.MenuItem_actionViewClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_alphabeticModifiers = global::Experiment.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Experiment.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checkable = global::Experiment.Resource.Styleable.MenuItem_android_checkable;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checked = global::Experiment.Resource.Styleable.MenuItem_android_checked;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_enabled = global::Experiment.Resource.Styleable.MenuItem_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_icon = global::Experiment.Resource.Styleable.MenuItem_android_icon;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_id = global::Experiment.Resource.Styleable.MenuItem_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_menuCategory = global::Experiment.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_numericShortcut = global::Experiment.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_onClick = global::Experiment.Resource.Styleable.MenuItem_android_onClick;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_orderInCategory = global::Experiment.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_title = global::Experiment.Resource.Styleable.MenuItem_android_title;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_titleCondensed = global::Experiment.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_visible = global::Experiment.Resource.Styleable.MenuItem_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem_contentDescription = global::Experiment.Resource.Styleable.MenuItem_contentDescription;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTint = global::Experiment.Resource.Styleable.MenuItem_iconTint;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTintMode = global::Experiment.Resource.Styleable.MenuItem_iconTintMode;
+			global::EDMTDialog.Resource.Styleable.MenuItem_numericModifiers = global::Experiment.Resource.Styleable.MenuItem_numericModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_showAsAction = global::Experiment.Resource.Styleable.MenuItem_showAsAction;
+			global::EDMTDialog.Resource.Styleable.MenuItem_tooltipText = global::Experiment.Resource.Styleable.MenuItem_tooltipText;
+			global::EDMTDialog.Resource.Styleable.MenuView = global::Experiment.Resource.Styleable.MenuView;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_headerBackground = global::Experiment.Resource.Styleable.MenuView_android_headerBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_horizontalDivider = global::Experiment.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemBackground = global::Experiment.Resource.Styleable.MenuView_android_itemBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Experiment.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemTextAppearance = global::Experiment.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_verticalDivider = global::Experiment.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Experiment.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.MenuView_preserveIconSpacing = global::Experiment.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EDMTDialog.Resource.Styleable.MenuView_subMenuArrow = global::Experiment.Resource.Styleable.MenuView_subMenuArrow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow = global::Experiment.Resource.Styleable.PopupWindow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Experiment.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupBackground = global::Experiment.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_overlapAnchor = global::Experiment.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState = global::Experiment.Resource.Styleable.PopupWindowBackgroundState;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Experiment.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EDMTDialog.Resource.Styleable.RecycleListView = global::Experiment.Resource.Styleable.RecycleListView;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Experiment.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Experiment.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EDMTDialog.Resource.Styleable.SearchView = global::Experiment.Resource.Styleable.SearchView;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_focusable = global::Experiment.Resource.Styleable.SearchView_android_focusable;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_imeOptions = global::Experiment.Resource.Styleable.SearchView_android_imeOptions;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_inputType = global::Experiment.Resource.Styleable.SearchView_android_inputType;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_maxWidth = global::Experiment.Resource.Styleable.SearchView_android_maxWidth;
+			global::EDMTDialog.Resource.Styleable.SearchView_closeIcon = global::Experiment.Resource.Styleable.SearchView_closeIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_commitIcon = global::Experiment.Resource.Styleable.SearchView_commitIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_defaultQueryHint = global::Experiment.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_goIcon = global::Experiment.Resource.Styleable.SearchView_goIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_iconifiedByDefault = global::Experiment.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EDMTDialog.Resource.Styleable.SearchView_layout = global::Experiment.Resource.Styleable.SearchView_layout;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryBackground = global::Experiment.Resource.Styleable.SearchView_queryBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryHint = global::Experiment.Resource.Styleable.SearchView_queryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchHintIcon = global::Experiment.Resource.Styleable.SearchView_searchHintIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchIcon = global::Experiment.Resource.Styleable.SearchView_searchIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_submitBackground = global::Experiment.Resource.Styleable.SearchView_submitBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_suggestionRowLayout = global::Experiment.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EDMTDialog.Resource.Styleable.SearchView_voiceIcon = global::Experiment.Resource.Styleable.SearchView_voiceIcon;
+			global::EDMTDialog.Resource.Styleable.Spinner = global::Experiment.Resource.Styleable.Spinner;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_dropDownWidth = global::Experiment.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_entries = global::Experiment.Resource.Styleable.Spinner_android_entries;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_popupBackground = global::Experiment.Resource.Styleable.Spinner_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_prompt = global::Experiment.Resource.Styleable.Spinner_android_prompt;
+			global::EDMTDialog.Resource.Styleable.Spinner_popupTheme = global::Experiment.Resource.Styleable.Spinner_popupTheme;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat = global::Experiment.Resource.Styleable.SwitchCompat;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOff = global::Experiment.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOn = global::Experiment.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_thumb = global::Experiment.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_showText = global::Experiment.Resource.Styleable.SwitchCompat_showText;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_splitTrack = global::Experiment.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchMinWidth = global::Experiment.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchPadding = global::Experiment.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Experiment.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Experiment.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTint = global::Experiment.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTintMode = global::Experiment.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_track = global::Experiment.Resource.Styleable.SwitchCompat_track;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTint = global::Experiment.Resource.Styleable.SwitchCompat_trackTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTintMode = global::Experiment.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EDMTDialog.Resource.Styleable.TextAppearance = global::Experiment.Resource.Styleable.TextAppearance;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_fontFamily = global::Experiment.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowColor = global::Experiment.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDx = global::Experiment.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDy = global::Experiment.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowRadius = global::Experiment.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColor = global::Experiment.Resource.Styleable.TextAppearance_android_textColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorHint = global::Experiment.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorLink = global::Experiment.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textSize = global::Experiment.Resource.Styleable.TextAppearance_android_textSize;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textStyle = global::Experiment.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_typeface = global::Experiment.Resource.Styleable.TextAppearance_android_typeface;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_fontFamily = global::Experiment.Resource.Styleable.TextAppearance_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_textAllCaps = global::Experiment.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.Toolbar = global::Experiment.Resource.Styleable.Toolbar;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_gravity = global::Experiment.Resource.Styleable.Toolbar_android_gravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_minHeight = global::Experiment.Resource.Styleable.Toolbar_android_minHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_buttonGravity = global::Experiment.Resource.Styleable.Toolbar_buttonGravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseContentDescription = global::Experiment.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseIcon = global::Experiment.Resource.Styleable.Toolbar_collapseIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEnd = global::Experiment.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Experiment.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetLeft = global::Experiment.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetRight = global::Experiment.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStart = global::Experiment.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Experiment.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logo = global::Experiment.Resource.Styleable.Toolbar_logo;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logoDescription = global::Experiment.Resource.Styleable.Toolbar_logoDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_maxButtonHeight = global::Experiment.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationContentDescription = global::Experiment.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationIcon = global::Experiment.Resource.Styleable.Toolbar_navigationIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_popupTheme = global::Experiment.Resource.Styleable.Toolbar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitle = global::Experiment.Resource.Styleable.Toolbar_subtitle;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Experiment.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextColor = global::Experiment.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EDMTDialog.Resource.Styleable.Toolbar_title = global::Experiment.Resource.Styleable.Toolbar_title;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargin = global::Experiment.Resource.Styleable.Toolbar_titleMargin;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginBottom = global::Experiment.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginEnd = global::Experiment.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginStart = global::Experiment.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginTop = global::Experiment.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargins = global::Experiment.Resource.Styleable.Toolbar_titleMargins;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextAppearance = global::Experiment.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextColor = global::Experiment.Resource.Styleable.Toolbar_titleTextColor;
+			global::EDMTDialog.Resource.Styleable.View = global::Experiment.Resource.Styleable.View;
+			global::EDMTDialog.Resource.Styleable.View_android_focusable = global::Experiment.Resource.Styleable.View_android_focusable;
+			global::EDMTDialog.Resource.Styleable.View_android_theme = global::Experiment.Resource.Styleable.View_android_theme;
+			global::EDMTDialog.Resource.Styleable.View_paddingEnd = global::Experiment.Resource.Styleable.View_paddingEnd;
+			global::EDMTDialog.Resource.Styleable.View_paddingStart = global::Experiment.Resource.Styleable.View_paddingStart;
+			global::EDMTDialog.Resource.Styleable.View_theme = global::Experiment.Resource.Styleable.View_theme;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper = global::Experiment.Resource.Styleable.ViewBackgroundHelper;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_android_background = global::Experiment.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Experiment.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Experiment.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat = global::Experiment.Resource.Styleable.ViewStubCompat;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_id = global::Experiment.Resource.Styleable.ViewStubCompat_android_id;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Experiment.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_layout = global::Experiment.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -107,6 +1648,18 @@ namespace Experiment
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f01016d
+			public const int DialogSpotColor = 2130772333;
+			
+			// aapt resource value: 0x7f01016e
+			public const int DialogSpotCount = 2130772334;
+			
+			// aapt resource value: 0x7f01016b
+			public const int DialogTitleAppearance = 2130772331;
+			
+			// aapt resource value: 0x7f01016c
+			public const int DialogTitleText = 2130772332;
 			
 			// aapt resource value: 0x7f01005d
 			public const int actionBarDivider = 2130772061;
@@ -1238,44 +2791,44 @@ namespace Experiment
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0a004d
-			public const int abc_background_cache_hint_selector_material_dark = 2131361869;
-			
 			// aapt resource value: 0x7f0a004e
-			public const int abc_background_cache_hint_selector_material_light = 2131361870;
+			public const int abc_background_cache_hint_selector_material_dark = 2131361870;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int abc_btn_colored_borderless_text_material = 2131361871;
+			public const int abc_background_cache_hint_selector_material_light = 2131361871;
 			
 			// aapt resource value: 0x7f0a0050
-			public const int abc_btn_colored_text_material = 2131361872;
+			public const int abc_btn_colored_borderless_text_material = 2131361872;
 			
 			// aapt resource value: 0x7f0a0051
-			public const int abc_color_highlight_material = 2131361873;
+			public const int abc_btn_colored_text_material = 2131361873;
 			
 			// aapt resource value: 0x7f0a0052
-			public const int abc_hint_foreground_material_dark = 2131361874;
+			public const int abc_color_highlight_material = 2131361874;
 			
 			// aapt resource value: 0x7f0a0053
-			public const int abc_hint_foreground_material_light = 2131361875;
+			public const int abc_hint_foreground_material_dark = 2131361875;
+			
+			// aapt resource value: 0x7f0a0054
+			public const int abc_hint_foreground_material_light = 2131361876;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int abc_input_method_navigation_guard = 2131361796;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int abc_primary_text_disable_only_material_dark = 2131361876;
-			
 			// aapt resource value: 0x7f0a0055
-			public const int abc_primary_text_disable_only_material_light = 2131361877;
+			public const int abc_primary_text_disable_only_material_dark = 2131361877;
 			
 			// aapt resource value: 0x7f0a0056
-			public const int abc_primary_text_material_dark = 2131361878;
+			public const int abc_primary_text_disable_only_material_light = 2131361878;
 			
 			// aapt resource value: 0x7f0a0057
-			public const int abc_primary_text_material_light = 2131361879;
+			public const int abc_primary_text_material_dark = 2131361879;
 			
 			// aapt resource value: 0x7f0a0058
-			public const int abc_search_url_text = 2131361880;
+			public const int abc_primary_text_material_light = 2131361880;
+			
+			// aapt resource value: 0x7f0a0059
+			public const int abc_search_url_text = 2131361881;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int abc_search_url_text_normal = 2131361797;
@@ -1286,29 +2839,29 @@ namespace Experiment
 			// aapt resource value: 0x7f0a0007
 			public const int abc_search_url_text_selected = 2131361799;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int abc_secondary_text_material_dark = 2131361881;
-			
 			// aapt resource value: 0x7f0a005a
-			public const int abc_secondary_text_material_light = 2131361882;
+			public const int abc_secondary_text_material_dark = 2131361882;
 			
 			// aapt resource value: 0x7f0a005b
-			public const int abc_tint_btn_checkable = 2131361883;
+			public const int abc_secondary_text_material_light = 2131361883;
 			
 			// aapt resource value: 0x7f0a005c
-			public const int abc_tint_default = 2131361884;
+			public const int abc_tint_btn_checkable = 2131361884;
 			
 			// aapt resource value: 0x7f0a005d
-			public const int abc_tint_edittext = 2131361885;
+			public const int abc_tint_default = 2131361885;
 			
 			// aapt resource value: 0x7f0a005e
-			public const int abc_tint_seek_thumb = 2131361886;
+			public const int abc_tint_edittext = 2131361886;
 			
 			// aapt resource value: 0x7f0a005f
-			public const int abc_tint_spinner = 2131361887;
+			public const int abc_tint_seek_thumb = 2131361887;
 			
 			// aapt resource value: 0x7f0a0060
-			public const int abc_tint_switch_track = 2131361888;
+			public const int abc_tint_spinner = 2131361888;
+			
+			// aapt resource value: 0x7f0a0061
+			public const int abc_tint_switch_track = 2131361889;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int accent_material_dark = 2131361800;
@@ -1367,8 +2920,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0a0040
 			public const int design_bottom_navigation_shadow_color = 2131361856;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int design_error = 2131361889;
+			// aapt resource value: 0x7f0a0062
+			public const int design_error = 2131361890;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int design_fab_shadow_end_color = 2131361857;
@@ -1394,8 +2947,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0a0048
 			public const int design_snackbar_background_color = 2131361864;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int design_tint_password_toggle = 2131361890;
+			// aapt resource value: 0x7f0a0063
+			public const int design_tint_password_toggle = 2131361891;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int dim_foreground_disabled_material_dark = 2131361814;
@@ -1424,8 +2977,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0a001e
 			public const int highlighted_text_material_light = 2131361822;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int ic_launcher_background = 2131361868;
+			// aapt resource value: 0x7f0a004d
+			public const int ic_launcher_background = 2131361869;
 			
 			// aapt resource value: 0x7f0a001f
 			public const int material_blue_grey_800 = 2131361823;
@@ -1514,17 +3067,20 @@ namespace Experiment
 			// aapt resource value: 0x7f0a0038
 			public const int secondary_text_disabled_material_light = 2131361848;
 			
+			// aapt resource value: 0x7f0a004b
+			public const int spots_dialog_color = 2131361867;
+			
 			// aapt resource value: 0x7f0a0039
 			public const int switch_thumb_disabled_material_dark = 2131361849;
 			
 			// aapt resource value: 0x7f0a003a
 			public const int switch_thumb_disabled_material_light = 2131361850;
 			
-			// aapt resource value: 0x7f0a0063
-			public const int switch_thumb_material_dark = 2131361891;
-			
 			// aapt resource value: 0x7f0a0064
-			public const int switch_thumb_material_light = 2131361892;
+			public const int switch_thumb_material_dark = 2131361892;
+			
+			// aapt resource value: 0x7f0a0065
+			public const int switch_thumb_material_light = 2131361893;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int switch_thumb_normal_material_dark = 2131361851;
@@ -1538,8 +3094,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0a003e
 			public const int tooltip_background_light = 2131361854;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int window_background = 2131361867;
+			// aapt resource value: 0x7f0a004c
+			public const int window_background = 2131361868;
 			
 			static Color()
 			{
@@ -2004,6 +3560,21 @@ namespace Experiment
 			// aapt resource value: 0x7f07009d
 			public const int notification_top_pad_large_text = 2131165341;
 			
+			// aapt resource value: 0x7f0700a1
+			public const int progress_margin = 2131165345;
+			
+			// aapt resource value: 0x7f0700a2
+			public const int progress_width = 2131165346;
+			
+			// aapt resource value: 0x7f07009e
+			public const int spot_size = 2131165342;
+			
+			// aapt resource value: 0x7f07009f
+			public const int title_margin = 2131165343;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int title_padding = 2131165344;
+			
 			// aapt resource value: 0x7f07005c
 			public const int tooltip_corner_radius = 2131165276;
 			
@@ -2444,8 +4015,8 @@ namespace Experiment
 			// aapt resource value: 0x7f08005d
 			public const int accelerateDecelerate = 2131230813;
 			
-			// aapt resource value: 0x7f0800af
-			public const int action0 = 2131230895;
+			// aapt resource value: 0x7f0800b1
+			public const int action0 = 2131230897;
 			
 			// aapt resource value: 0x7f080089
 			public const int action_bar = 2131230857;
@@ -2468,17 +4039,17 @@ namespace Experiment
 			// aapt resource value: 0x7f080067
 			public const int action_bar_title = 2131230823;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int action_container = 2131230892;
+			// aapt resource value: 0x7f0800ae
+			public const int action_container = 2131230894;
 			
 			// aapt resource value: 0x7f08008a
 			public const int action_context_bar = 2131230858;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int action_divider = 2131230899;
+			// aapt resource value: 0x7f0800b5
+			public const int action_divider = 2131230901;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int action_image = 2131230893;
+			// aapt resource value: 0x7f0800af
+			public const int action_image = 2131230895;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2495,14 +4066,14 @@ namespace Experiment
 			// aapt resource value: 0x7f080069
 			public const int action_mode_close_button = 2131230825;
 			
-			// aapt resource value: 0x7f0800e5
-			public const int action_search = 2131230949;
+			// aapt resource value: 0x7f0800e7
+			public const int action_search = 2131230951;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int action_text = 2131230894;
+			// aapt resource value: 0x7f0800b0
+			public const int action_text = 2131230896;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int actions = 2131230908;
+			// aapt resource value: 0x7f0800be
+			public const int actions = 2131230910;
 			
 			// aapt resource value: 0x7f08006a
 			public const int activity_chooser_view_content = 2131230826;
@@ -2510,8 +4081,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080027
 			public const int add = 2131230759;
 			
-			// aapt resource value: 0x7f0800c7
-			public const int addToMyProjectsSwitch = 2131230919;
+			// aapt resource value: 0x7f0800c9
+			public const int addToMyProjectsSwitch = 2131230921;
 			
 			// aapt resource value: 0x7f08007d
 			public const int alertTitle = 2131230845;
@@ -2552,8 +4123,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080070
 			public const int buttonPanel = 2131230832;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int cancel_action = 2131230896;
+			// aapt resource value: 0x7f0800b2
+			public const int cancel_action = 2131230898;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2567,8 +4138,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080080
 			public const int checkbox = 2131230848;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int chronometer = 2131230904;
+			// aapt resource value: 0x7f0800ba
+			public const int chronometer = 2131230906;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2630,8 +4201,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800be
-			public const int end_padder = 2131230910;
+			// aapt resource value: 0x7f0800c0
+			public const int end_padder = 2131230912;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
@@ -2687,8 +4258,8 @@ namespace Experiment
 			// aapt resource value: 0x7f08006f
 			public const int icon = 2131230831;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int icon_group = 2131230909;
+			// aapt resource value: 0x7f0800bf
+			public const int icon_group = 2131230911;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2696,11 +4267,11 @@ namespace Experiment
 			// aapt resource value: 0x7f08006c
 			public const int image = 2131230828;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int imageViewHeader = 2131230891;
+			// aapt resource value: 0x7f0800ad
+			public const int imageViewHeader = 2131230893;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int info = 2131230905;
+			// aapt resource value: 0x7f0800bb
+			public const int info = 2131230907;
 			
 			// aapt resource value: 0x7f080059
 			public const int italic = 2131230809;
@@ -2735,14 +4306,17 @@ namespace Experiment
 			// aapt resource value: 0x7f08009a
 			public const int mainToolbar = 2131230874;
 			
+			// aapt resource value: 0x7f0800ac
+			public const int marker_progress = 2131230892;
+			
+			// aapt resource value: 0x7f0800df
+			public const int masked = 2131230943;
+			
+			// aapt resource value: 0x7f0800b4
+			public const int media_actions = 2131230900;
+			
 			// aapt resource value: 0x7f0800dd
-			public const int masked = 2131230941;
-			
-			// aapt resource value: 0x7f0800b2
-			public const int media_actions = 2131230898;
-			
-			// aapt resource value: 0x7f0800db
-			public const int message = 2131230939;
+			public const int message = 2131230941;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2753,17 +4327,20 @@ namespace Experiment
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
+			// aapt resource value: 0x7f0800ab
+			public const int my_text_view = 2131230891;
+			
+			// aapt resource value: 0x7f0800e2
+			public const int nav_allProjects = 2131230946;
+			
 			// aapt resource value: 0x7f0800e0
-			public const int nav_allProjects = 2131230944;
-			
-			// aapt resource value: 0x7f0800de
-			public const int nav_home = 2131230942;
-			
-			// aapt resource value: 0x7f0800df
-			public const int nav_messages = 2131230943;
+			public const int nav_home = 2131230944;
 			
 			// aapt resource value: 0x7f0800e1
-			public const int nav_myProjects = 2131230945;
+			public const int nav_messages = 2131230945;
+			
+			// aapt resource value: 0x7f0800e3
+			public const int nav_myProjects = 2131230947;
 			
 			// aapt resource value: 0x7f08009c
 			public const int nav_view = 2131230876;
@@ -2780,17 +4357,17 @@ namespace Experiment
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int notification_background = 2131230907;
+			// aapt resource value: 0x7f0800bd
+			public const int notification_background = 2131230909;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int notification_main_column = 2131230901;
+			// aapt resource value: 0x7f0800b7
+			public const int notification_main_column = 2131230903;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int notification_main_column_container = 2131230900;
+			// aapt resource value: 0x7f0800b6
+			public const int notification_main_column_container = 2131230902;
 			
-			// aapt resource value: 0x7f0800e4
-			public const int organizers = 2131230948;
+			// aapt resource value: 0x7f0800e6
+			public const int organizers = 2131230950;
 			
 			// aapt resource value: 0x7f080066
 			public const int overshoot = 2131230822;
@@ -2813,23 +4390,23 @@ namespace Experiment
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f0800c2
-			public const int projectDatesTextView = 2131230914;
-			
-			// aapt resource value: 0x7f0800bf
-			public const int projectListView = 2131230911;
-			
-			// aapt resource value: 0x7f0800e2
-			public const int projectMenu = 2131230946;
-			
-			// aapt resource value: 0x7f0800c0
-			public const int projectNameTextView = 2131230912;
+			// aapt resource value: 0x7f0800c4
+			public const int projectDatesTextView = 2131230916;
 			
 			// aapt resource value: 0x7f0800c1
-			public const int projectStatusTextView = 2131230913;
+			public const int projectListView = 2131230913;
+			
+			// aapt resource value: 0x7f0800e4
+			public const int projectMenu = 2131230948;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int projectNameTextView = 2131230914;
 			
 			// aapt resource value: 0x7f0800c3
-			public const int projectViewFragment = 2131230915;
+			public const int projectStatusTextView = 2131230915;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int projectViewFragment = 2131230917;
 			
 			// aapt resource value: 0x7f080082
 			public const int radio = 2131230850;
@@ -2837,68 +4414,68 @@ namespace Experiment
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int right_icon = 2131230906;
+			// aapt resource value: 0x7f0800bc
+			public const int right_icon = 2131230908;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int right_side = 2131230902;
+			// aapt resource value: 0x7f0800b8
+			public const int right_side = 2131230904;
 			
-			// aapt resource value: 0x7f0800e3
-			public const int rules = 2131230947;
-			
-			// aapt resource value: 0x7f0800cd
-			public const int rulesExpandableHeader = 2131230925;
-			
-			// aapt resource value: 0x7f0800ce
-			public const int rulesExpandableLayout = 2131230926;
+			// aapt resource value: 0x7f0800e5
+			public const int rules = 2131230949;
 			
 			// aapt resource value: 0x7f0800cf
-			public const int rulesExpandableRecyclerView = 2131230927;
-			
-			// aapt resource value: 0x7f0800da
-			public const int rulesImage = 2131230938;
-			
-			// aapt resource value: 0x7f0800d9
-			public const int rulesImageCaption = 2131230937;
-			
-			// aapt resource value: 0x7f0800d7
-			public const int rulesImagesRecyclerView = 2131230935;
-			
-			// aapt resource value: 0x7f0800d2
-			public const int rulesInnerExpandableView = 2131230930;
-			
-			// aapt resource value: 0x7f0800d1
-			public const int rulesInnerSectionIcon = 2131230929;
-			
-			// aapt resource value: 0x7f0800ca
-			public const int rulesSearchRecyclerView = 2131230922;
-			
-			// aapt resource value: 0x7f0800cb
-			public const int rulesSearchTextView = 2131230923;
-			
-			// aapt resource value: 0x7f0800cc
-			public const int rulesSectionExpandableIcon = 2131230924;
+			public const int rulesExpandableHeader = 2131230927;
 			
 			// aapt resource value: 0x7f0800d0
-			public const int rulesSectionsFragment = 2131230928;
+			public const int rulesExpandableLayout = 2131230928;
 			
-			// aapt resource value: 0x7f0800d6
-			public const int rulesSubsectionExpandableDescription = 2131230934;
+			// aapt resource value: 0x7f0800d1
+			public const int rulesExpandableRecyclerView = 2131230929;
+			
+			// aapt resource value: 0x7f0800dc
+			public const int rulesImage = 2131230940;
+			
+			// aapt resource value: 0x7f0800db
+			public const int rulesImageCaption = 2131230939;
+			
+			// aapt resource value: 0x7f0800d9
+			public const int rulesImagesRecyclerView = 2131230937;
 			
 			// aapt resource value: 0x7f0800d4
-			public const int rulesSubsectionExpandableHeader = 2131230932;
+			public const int rulesInnerExpandableView = 2131230932;
 			
 			// aapt resource value: 0x7f0800d3
-			public const int rulesSubsectionExpandableIcon = 2131230931;
+			public const int rulesInnerSectionIcon = 2131230931;
 			
-			// aapt resource value: 0x7f0800d5
-			public const int rulesSubsectionExpandableLayout = 2131230933;
+			// aapt resource value: 0x7f0800cc
+			public const int rulesSearchRecyclerView = 2131230924;
 			
-			// aapt resource value: 0x7f0800c9
-			public const int rulesSubsectionExpandableRecyclerView = 2131230921;
+			// aapt resource value: 0x7f0800cd
+			public const int rulesSearchTextView = 2131230925;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int rulesSectionExpandableIcon = 2131230926;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int rulesSectionsFragment = 2131230930;
 			
 			// aapt resource value: 0x7f0800d8
-			public const int rulesSubsectionsPager = 2131230936;
+			public const int rulesSubsectionExpandableDescription = 2131230936;
+			
+			// aapt resource value: 0x7f0800d6
+			public const int rulesSubsectionExpandableHeader = 2131230934;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int rulesSubsectionExpandableIcon = 2131230933;
+			
+			// aapt resource value: 0x7f0800d7
+			public const int rulesSubsectionExpandableLayout = 2131230935;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int rulesSubsectionExpandableRecyclerView = 2131230923;
+			
+			// aapt resource value: 0x7f0800da
+			public const int rulesSubsectionsPager = 2131230938;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -3002,8 +4579,8 @@ namespace Experiment
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int status_bar_latest_event_content = 2131230897;
+			// aapt resource value: 0x7f0800b3
+			public const int status_bar_latest_event_content = 2131230899;
 			
 			// aapt resource value: 0x7f080083
 			public const int submenuarrow = 2131230851;
@@ -3038,8 +4615,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int time = 2131230903;
+			// aapt resource value: 0x7f0800b9
+			public const int time = 2131230905;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -3074,17 +4651,17 @@ namespace Experiment
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
+			// aapt resource value: 0x7f0800ca
+			public const int txtAddToMyProjects = 2131230922;
+			
 			// aapt resource value: 0x7f0800c8
-			public const int txtAddToMyProjects = 2131230920;
+			public const int txtProjectDates = 2131230920;
 			
 			// aapt resource value: 0x7f0800c6
-			public const int txtProjectDates = 2131230918;
+			public const int txtProjectName = 2131230918;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int txtProjectName = 2131230916;
-			
-			// aapt resource value: 0x7f0800c5
-			public const int txtProjectStatus = 2131230917;
+			// aapt resource value: 0x7f0800c7
+			public const int txtProjectStatus = 2131230919;
 			
 			// aapt resource value: 0x7f08002d
 			public const int uniform = 2131230765;
@@ -3101,8 +4678,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800dc
-			public const int visible = 2131230940;
+			// aapt resource value: 0x7f0800de
+			public const int visible = 2131230942;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3290,103 +4867,106 @@ namespace Experiment
 			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int nav_header = 2130968617;
+			public const int my_dialog_layout = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action = 2130968618;
+			public const int nav_header = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_action_tombstone = 2130968619;
+			public const int notification_action = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_action = 2130968620;
+			public const int notification_action_tombstone = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_media_cancel_action = 2130968621;
+			public const int notification_media_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media = 2130968622;
+			public const int notification_media_cancel_action = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_custom = 2130968623;
+			public const int notification_template_big_media = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow = 2130968624;
+			public const int notification_template_big_media_custom = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_big_media_narrow_custom = 2130968625;
+			public const int notification_template_big_media_narrow = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_custom_big = 2130968626;
+			public const int notification_template_big_media_narrow_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_icon_group = 2130968627;
+			public const int notification_template_custom_big = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_lines_media = 2130968628;
+			public const int notification_template_icon_group = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media = 2130968629;
+			public const int notification_template_lines_media = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_media_custom = 2130968630;
+			public const int notification_template_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_chronometer = 2130968631;
+			public const int notification_template_media_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_part_time = 2130968632;
+			public const int notification_template_part_chronometer = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int projectListFragment = 2130968633;
+			public const int notification_template_part_time = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int projectRow = 2130968634;
+			public const int projectListFragment = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int projectViewFragment = 2130968635;
+			public const int projectRow = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int rulesOneSubsectionFragment = 2130968636;
+			public const int projectViewFragment = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int rulesSearchFragment = 2130968637;
+			public const int rulesOneSubsectionFragment = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int rulesSearchRow = 2130968638;
+			public const int rulesSearchFragment = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int rulesSectionsExpandableRow = 2130968639;
+			public const int rulesSearchRow = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int rulesSectionsFragment = 2130968640;
+			public const int rulesSectionsExpandableRow = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int rulesSectionsInnerExpandableRow = 2130968641;
+			public const int rulesSectionsFragment = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int rulesSubsectionsExpandableRow = 2130968642;
+			public const int rulesSectionsInnerExpandableRow = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int rulesSubsectionsFragment = 2130968643;
+			public const int rulesSubsectionsExpandableRow = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int rulesSubsectionsImageRow = 2130968644;
+			public const int rulesSubsectionsFragment = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int select_dialog_item_material = 2130968645;
+			public const int rulesSubsectionsImageRow = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int select_dialog_multichoice_material = 2130968646;
+			public const int select_dialog_item_material = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int select_dialog_singlechoice_material = 2130968647;
+			public const int select_dialog_multichoice_material = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int support_simple_spinner_dropdown_item = 2130968648;
+			public const int select_dialog_singlechoice_material = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int tooltip = 2130968649;
+			public const int support_simple_spinner_dropdown_item = 2130968649;
+			
+			// aapt resource value: 0x7f04004a
+			public const int tooltip = 2130968650;
 			
 			static Layout()
 			{
@@ -3529,14 +5109,14 @@ namespace Experiment
 			// aapt resource value: 0x7f0b0010
 			public const int abc_toolbar_collapse_description = 2131427344;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int action_settings = 2131427368;
-			
 			// aapt resource value: 0x7f0b0029
-			public const int api_address = 2131427369;
+			public const int action_settings = 2131427369;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int app_name = 2131427367;
+			// aapt resource value: 0x7f0b002a
+			public const int api_address = 2131427370;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int app_name = 2131427368;
 			
 			// aapt resource value: 0x7f0b001e
 			public const int appbar_scrolling_view_behavior = 2131427358;
@@ -3546,6 +5126,9 @@ namespace Experiment
 			
 			// aapt resource value: 0x7f0b0020
 			public const int character_counter_pattern = 2131427360;
+			
+			// aapt resource value: 0x7f0b0027
+			public const int hello = 2131427367;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int password_toggle_content_description = 2131427361;
@@ -3809,8 +5392,8 @@ namespace Experiment
 			// aapt resource value: 0x7f090006
 			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131296262;
 			
-			// aapt resource value: 0x7f090185
-			public const int Base_Theme_DesignDemo = 2131296645;
+			// aapt resource value: 0x7f090186
+			public const int Base_Theme_DesignDemo = 2131296646;
 			
 			// aapt resource value: 0x7f0900ad
 			public const int Base_ThemeOverlay_AppCompat = 2131296429;
@@ -4187,6 +5770,9 @@ namespace Experiment
 			// aapt resource value: 0x7f09003c
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131296316;
 			
+			// aapt resource value: 0x7f090184
+			public const int SpotsDialogDefault = 2131296644;
+			
 			// aapt resource value: 0x7f0900cb
 			public const int TextAppearance_AppCompat = 2131296459;
 			
@@ -4472,8 +6058,8 @@ namespace Experiment
 			// aapt resource value: 0x7f090172
 			public const int Theme_Design_NoActionBar = 2131296626;
 			
-			// aapt resource value: 0x7f090184
-			public const int Theme_DesignDemo = 2131296644;
+			// aapt resource value: 0x7f090185
+			public const int Theme_DesignDemo = 2131296645;
 			
 			// aapt resource value: 0x7f09010b
 			public const int ThemeOverlay_AppCompat = 2131296523;
@@ -5835,6 +7421,24 @@ namespace Experiment
 			
 			// aapt resource value: 2
 			public const int DesignTheme_textColorError = 2;
+			
+			public static int[] Dialog = new int[] {
+					2130772331,
+					2130772332,
+					2130772333,
+					2130772334};
+			
+			// aapt resource value: 2
+			public const int Dialog_DialogSpotColor = 2;
+			
+			// aapt resource value: 3
+			public const int Dialog_DialogSpotCount = 3;
+			
+			// aapt resource value: 0
+			public const int Dialog_DialogTitleAppearance = 0;
+			
+			// aapt resource value: 1
+			public const int Dialog_DialogTitleText = 1;
 			
 			public static int[] DrawerArrowToggle = new int[] {
 					2130772161,

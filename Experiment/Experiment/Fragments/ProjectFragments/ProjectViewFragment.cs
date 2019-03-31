@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using Android.OS;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using EDMTDialog;
 using Experiment.DataLayer;
 using Experiment.Model;
 using Experiment.RestService;
@@ -70,6 +72,16 @@ namespace Experiment.Fragments.ProjectFragments
             {
                 if (args.IsChecked)
                 {
+                    AlertDialog dialog = new EDMTDialogBuilder()
+                        .SetContext(Activity)
+                        .SetMessage("Please wait...")
+                        .Build();
+
+                    if (!dialog.IsShowing)
+                    {
+                        dialog.Show();
+                    }
+
                     int projectId = await ProjectsDataAccess.SaveProject(_project);
                     var restService =
                         Refit.RestService.For<IRestServiceApiConsumer>(Resources.GetString(Resource.String.api_address));
@@ -83,11 +95,31 @@ namespace Experiment.Fragments.ProjectFragments
 
                     await ProjectsDataAccess.SaveRules(completeRulesList);
                     (Activity as MainActivity)?.ActivateProjectSubmenu(_project);
+
+                    if (dialog.IsShowing)
+                    {
+                        dialog.Dismiss();
+                    }
                 }
                 else
                 {
+                    AlertDialog dialog = new EDMTDialogBuilder()
+                        .SetContext(Activity)
+                        .SetMessage("Please wait...")
+                        .Build();
+
+                    if (!dialog.IsShowing)
+                    {
+                        dialog.Show();
+                    }
+
                     await ProjectsDataAccess.DeleteProject(_project);
                     (Activity as MainActivity)?.DeactivateProjectSubmenu(_project.Id);
+
+                    if (dialog.IsShowing)
+                    {
+                        dialog.Dismiss();
+                    }
                 }
             };
 
