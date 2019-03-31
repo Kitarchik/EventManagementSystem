@@ -35,7 +35,7 @@ namespace Experiment.Fragments.RulesFragments
             }
 
             vh.Name.Text = ruleSet[position].Name;
-            vh.Description.Text = ruleSet[position].Description;
+            vh.Description.Text = ruleSet[position].Content;
             if (ruleSet[position].Images != null && ruleSet[position].Images.Count > 0)
             {
                 SetUpImagesRecyclerView(vh.ImagesRecyclerView, ruleSet[position].Images);

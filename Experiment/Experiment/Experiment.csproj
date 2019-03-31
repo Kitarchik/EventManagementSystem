@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataLayer\ProjectsDataAccess.cs" />
+    <Compile Include="DataLayer\ProjectsSqliteRepository.cs" />
     <Compile Include="DataLayer\RulesDataAccess.cs" />
     <Compile Include="Fragments\ProjectFragments\AllProjectsListFragment.cs" />
     <Compile Include="Fragments\ProjectFragments\ProjectRecyclerViewAdapter.cs" />
@@ -178,6 +179,9 @@
     </PackageReference>
     <PackageReference Include="Refit">
       <Version>4.6.99</Version>
+    </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.5.231</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design">
       <Version>28.0.0.1</Version>

@@ -18,7 +18,7 @@ namespace Experiment.Fragments.ProjectFragments
             base.OnResume();
             if (_projects == null)
             {
-                var restService = Refit.RestService.For<IRestServiceApiConsumer>("http://cjiohoed.pythonanywhere.com/api/");
+                var restService = Refit.RestService.For<IRestServiceApiConsumer>(Resources.GetString(Resource.String.api_address));
                 _projects = await restService.GetProjects();
                 if (_projectsRecyclerView.GetAdapter() is ProjectRecyclerViewAdapter adapter) adapter.Refresh(_projects);
             }

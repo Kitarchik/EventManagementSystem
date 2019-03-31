@@ -6,13 +6,12 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Experiment.Fragments;
 using Experiment.Fragments.RulesFragments;
-using Experiment.LogicLayer;
 using Experiment.Model;
 using Experiment.Search;
 using System;
 using System.Linq;
+using Experiment.DataLayer;
 using Experiment.Fragments.ProjectFragments;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
@@ -34,7 +33,7 @@ namespace Experiment
         public Project CurrentProject { get; set; }
         public Android.Widget.IFilterable SearchAdapter { get; set; }
 
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             SetContentView(Resource.Layout.activity_main);
 
@@ -51,12 +50,12 @@ namespace Experiment
                 SetupDrawerContent(_navigationView);
             }
 
-            var projectName = savedInstanceState?.GetString("projectName");
+            var projectId = savedInstanceState?.GetInt(nameof(CurrentProject.Id));
             var previousMenuItem = savedInstanceState?.GetInt("menuItem");
-            if (projectName != null)
+            if (projectId != null)
             {
-                CurrentProject = ProjectsLogic.DownloadProjects().Find(p => p.Name == projectName);
-                CurrentProject.Rules = RulesHelper.DownloadRules(Assets);
+                CurrentProject = await ProjectsDataAccess.GetProject((int)projectId);
+                CurrentProject.Rules = await ProjectsDataAccess.GetRulesByProjectId((int)projectId);
                 ActivateProjectSubmenu(CurrentProject);
             }
 
@@ -79,7 +78,7 @@ namespace Experiment
         {
             if (CurrentProject != null)
             {
-                outState.PutString("projectName",CurrentProject.Name);
+                outState.PutInt(nameof(CurrentProject.Id),CurrentProject.Id);
             }
 
             if (_previousMenuItem != null)
@@ -149,7 +148,7 @@ namespace Experiment
             return base.OnOptionsItemSelected(item);
         }
 
-        private void ShowFragment(int id)
+        private async void ShowFragment(int id)
         {
             switch (id)
             {
@@ -159,30 +158,25 @@ namespace Experiment
                     break;
                 }
                 case Resource.Id.nav_myProjects:
-                    {
-                        LoadMyProjectsListFragment();
-                        break;
-                    }
+                {
+                    LoadMyProjectsListFragment();
+                    break;
+                }
                 case Resource.Id.rules:
+                {
+                    if (CurrentProject != null)
                     {
-                        if (CurrentProject != null)
+                        if (CurrentProject.Rules == null)
                         {
-                            if (CurrentProject.Rules == null)
-                            {
-                                DownloadRules();
-                            }
-
-                            PopFragmentsOfType(typeof(BaseRulesFragment));
-                            LoadRulesSectionsFragment(CurrentProject.Rules);
+                            CurrentProject.Rules = await ProjectsDataAccess.GetRulesByProjectId(CurrentProject.Id);
                         }
-                        break;
-                    }
-            }
-        }
 
-        private void DownloadRules()
-        {
-            CurrentProject.Rules = RulesHelper.DownloadRules(Assets);
+                        PopFragmentsOfType(typeof(BaseRulesFragment));
+                        LoadRulesSectionsFragment(CurrentProject.Rules);
+                    }
+                    break;
+                }
+            }
         }
 
         private void RefreshSearch()
@@ -203,17 +197,26 @@ namespace Experiment
 
         public void LoadProjectViewFragment(Project project)
         {
-            ActivateProjectSubmenu(project);
             var projectViewFragment = new ProjectViewFragment(project);
             PushFragment(projectViewFragment);
         }
 
-        private void ActivateProjectSubmenu(Project project)
+        public void ActivateProjectSubmenu(Project project)
         {
             var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
             projectMenu.SetVisible(true);
             projectMenu.SetTitle(project.Name);
             CurrentProject = project;
+        }
+
+        public void DeactivateProjectSubmenu(int projectId)
+        {
+            if (projectId == CurrentProject.Id)
+            {
+                var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
+                projectMenu.SetVisible(false);
+                CurrentProject = null;
+            }
         }
 
         private void LoadAllProjectsListFragment()

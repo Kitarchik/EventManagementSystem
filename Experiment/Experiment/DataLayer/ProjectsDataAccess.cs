@@ -1,15 +1,7 @@
-﻿using System;
+﻿using Experiment.Model;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Experiment.Model;
+using System.Threading.Tasks;
 
 namespace Experiment.DataLayer
 {
@@ -23,6 +15,42 @@ namespace Experiment.DataLayer
                 new Project(){Name = "Мордхейм 2019", StartDate = new DateTime(2019, 5, 10)},
                 new Project(){Name = "Днд 2020", StartDate = new DateTime(2020, 5, 11)}
             };
+        }
+
+        public static async Task<bool> IsInMyProjects(Project project)
+        {
+            return await ProjectsSqliteRepository.GetProject(project.Id) != null;
+        }
+
+        public static async Task<int> SaveProject(Project project)
+        {
+            return await ProjectsSqliteRepository.SaveProject(project);
+        }
+
+        public static async Task<List<Project>> GetAllProjects()
+        {
+            return await ProjectsSqliteRepository.GetAllProjects();
+        }
+
+        public static async Task<Project> GetProject(int id)
+        {
+            return await ProjectsSqliteRepository.GetProject(id);
+        }
+
+        public static async Task<Rules> GetRulesByProjectId(int id)
+        {
+            return await ProjectsSqliteRepository.GetRulesForProject(id);
+        }
+
+        public static async Task<int> SaveRules(List<Rules> rules)
+        {
+            return await ProjectsSqliteRepository.SaveRules(rules);
+        }
+
+        public static async Task<int> DeleteProject(Project project)
+        {
+            int projectId = await ProjectsSqliteRepository.DeleteProject(project);
+            return await ProjectsSqliteRepository.DeleteRules(projectId);
         }
     }
 }

@@ -3532,6 +3532,9 @@ namespace Experiment
 			// aapt resource value: 0x7f0b0028
 			public const int action_settings = 2131427368;
 			
+			// aapt resource value: 0x7f0b0029
+			public const int api_address = 2131427369;
+			
 			// aapt resource value: 0x7f0b0027
 			public const int app_name = 2131427367;
 			

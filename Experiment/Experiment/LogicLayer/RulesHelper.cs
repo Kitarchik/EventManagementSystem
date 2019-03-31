@@ -1,9 +1,6 @@
 ﻿using Experiment.Model;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Xml.Serialization;
-using Android.Content.Res;
 
 namespace Experiment.LogicLayer
 {
@@ -47,18 +44,6 @@ namespace Experiment.LogicLayer
             }
 
             return null;
-        }
-
-        public static Rules DownloadRules(AssetManager assets)
-        {
-            Rules rules;
-            using (StreamReader sr = new StreamReader(assets.Open("Rules.xml")))
-            {
-                XmlSerializer s = new XmlSerializer(typeof(Rules));
-                rules = (Rules)s.Deserialize(sr);
-            }
-
-            return rules;
         }
     }
 }

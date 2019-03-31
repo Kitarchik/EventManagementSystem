@@ -1,12 +1,14 @@
 ﻿using Newtonsoft.Json;
 using System;
+using SQLite;
 
 namespace Experiment.Model
 {
+    [Table("Projects")]
     public class Project
     {
-        [JsonProperty(PropertyName= "projectId")]
-        public int ProjectId { get; set; }
+        [JsonProperty(PropertyName= "projectId"), PrimaryKey]
+        public int Id { get; set; }
 
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
@@ -19,6 +21,8 @@ namespace Experiment.Model
 
         [JsonProperty(PropertyName = "end")]
         public DateTime? EndDate { get; set; }
+
+        [Ignore]
         public Rules Rules { get; set; }
     }
 }

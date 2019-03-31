@@ -9,5 +9,14 @@ namespace Experiment.RestService
     {
         [Get("/projects")]
         Task<List<Project>> GetProjects();
+
+        [Get("/projects/{id}")]
+        Task<Project> GetProjectById(int id);
+
+        [Get("/rules/{id}")]
+        Task<Rules> GetRuleById(int id);
+
+        [Get("/rules/project/{id}")]
+        Task<List<Rules>> GetRulesByProjectId(int id);
     }
 }
