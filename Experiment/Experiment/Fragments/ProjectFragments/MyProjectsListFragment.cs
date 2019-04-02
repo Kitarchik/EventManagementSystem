@@ -20,10 +20,10 @@ namespace Experiment.Fragments.ProjectFragments
             _repository = new ProjectsSqliteRepository(MainActivity.DbConnection);
         }
 
-        public override async void OnResume()
+        public override void OnResume()
         {
             base.OnResume();
-            _projects = await _repository.GetAllProjects();
+            _projects = _repository.GetAllProjects();
             if (_projectsRecyclerView.GetAdapter() is ProjectRecyclerViewAdapter adapter) adapter.Refresh(_projects);
         }
 

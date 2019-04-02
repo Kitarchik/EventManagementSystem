@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Experiment.Model;
 using SQLite;
 
@@ -8,50 +7,49 @@ namespace Experiment.DataLayer
 {
     public class ProjectsSqliteRepository
     {
-        private readonly SQLiteAsyncConnection _db;
+        private readonly SQLiteConnection _db;
 
-        public ProjectsSqliteRepository(SQLiteAsyncConnection connection)
+        public ProjectsSqliteRepository(SQLiteConnection connection)
         {
             _db = connection;
-            _db.CreateTableAsync<Project>();
-            _db.CreateTableAsync<Rules>();
+            _db.CreateTable<Project>();
+            _db.CreateTable<Rules>();
         }
 
-        public async Task<int> SaveProject(Project project)
+        public void SaveProject(Project project)
         {
             if (project.Rules != null)
             {
-                await SaveRules(project.Rules.ChildRules);
+                SaveRules(project.Rules.ChildRules);
             }
-            return await _db.InsertAsync(project);
+            _db.Insert(project);
         }
 
-        public async Task<Project> GetProject(int id)
+        public Project GetProject(int id)
         {
-            return await _db.GetAsync<Project>(p => p.Id == id);
+            return _db.Table<Project>().FirstOrDefault(x => x.Id == id);
         }
 
-        public async Task<List<Project>> GetAllProjects()
+        public List<Project> GetAllProjects()
         {
-            return await _db.Table<Project>().ToListAsync();
+            return _db.Table<Project>().ToList();
         }
 
-        public async Task<int> SaveRules(List<Rules> rules)
+        public void SaveRules(List<Rules> rules)
         {
             if (rules != null)
             {
                 foreach (var rule in rules)
                 {
-                    await _db.InsertAsync(rule);
-                    await SaveRules(rule.ChildRules);
+                    _db.Insert(rule);
+                    SaveRules(rule.ChildRules);
                 }
             }
-            return 0;
         }
 
-        public async Task<Rules> GetRulesForProject(int projectId)
+        public Rules GetRulesForProject(int projectId)
         {
-            var allRules = await _db.Table<Rules>().Where(r => r.ProjectId == projectId).ToListAsync();
+            var allRules = _db.Table<Rules>().Where(r => r.ProjectId == projectId).ToList();
             var mainRule = new Rules
             {
                 ProjectId = projectId,
@@ -76,21 +74,21 @@ namespace Experiment.DataLayer
             return childRules;
         }
 
-        public async Task<int> DeleteProject(Project project)
+        public void DeleteProject(Project project)
         {
-            return await _db.DeleteAsync(project);
+            if (GetProject(project.Id) != null)
+            {
+                _db.Delete(project);
+            }
         }
 
-        public async Task<int> DeleteRules(int projectId)
+        public void DeleteRules(int projectId)
         {
-            int lastDeletedId = 0;
-            var rulesList = await _db.Table<Rules>().Where(r => r.ProjectId == projectId).ToListAsync();
+            var rulesList = _db.Table<Rules>().Where(r => r.ProjectId == projectId).ToList();
             foreach (var rule in rulesList)
             {
-                lastDeletedId = await _db.DeleteAsync(rule);
+                _db.Delete(rule);
             }
-
-            return lastDeletedId;
         }
     }
 }

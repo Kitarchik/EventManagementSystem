@@ -26,7 +26,7 @@ namespace Experiment
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.DesignDemo", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        public static SQLiteAsyncConnection DbConnection;
+        public static SQLiteConnection DbConnection;
         private ProjectsSqliteRepository _repository;
         private static readonly string DbFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "projects.db3");
         private DrawerLayout _drawerLayout;
@@ -39,9 +39,9 @@ namespace Experiment
         public Project CurrentProject { get; set; }
         public Android.Widget.IFilterable SearchAdapter { get; set; }
 
-        protected override async void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
-            DbConnection = new SQLiteAsyncConnection(DbFilePath);
+            DbConnection = new SQLiteConnection(DbFilePath);
             _repository = new ProjectsSqliteRepository(DbConnection);
             SetContentView(Resource.Layout.activity_main);
 
@@ -62,15 +62,17 @@ namespace Experiment
             var previousMenuItem = savedInstanceState?.GetInt("menuItem");
             if (projectId != null)
             {
-                CurrentProject = await _repository.GetProject((int)projectId);
-                CurrentProject.Rules = await _repository.GetRulesForProject((int)projectId);
-                ActivateProjectSubmenu(CurrentProject);
+                CurrentProject = _repository.GetProject((int)projectId);
+                if (CurrentProject != null)
+                {
+                    ActivateProjectSubmenu(CurrentProject);
+                }
             }
 
             if (previousMenuItem != null && _navigationView !=null)
             {
                  _previousMenuItem = _navigationView.Menu.FindItem((int)previousMenuItem);
-                _previousMenuItem.SetChecked(true);
+                _previousMenuItem?.SetChecked(true);
             }
 
             _searchQuery = savedInstanceState?.GetString("searchQuery") ?? string.Empty;
@@ -156,7 +158,7 @@ namespace Experiment
             return base.OnOptionsItemSelected(item);
         }
 
-        private async void ShowFragment(int id)
+        private void ShowFragment(int id)
         {
             switch (id)
             {
@@ -176,7 +178,7 @@ namespace Experiment
                     {
                         if (CurrentProject.Rules == null)
                         {
-                            CurrentProject.Rules = await _repository.GetRulesForProject(CurrentProject.Id);
+                            CurrentProject.Rules = _repository.GetRulesForProject(CurrentProject.Id);
                         }
 
                         PopFragmentsOfType(typeof(BaseRulesFragment));
@@ -217,14 +219,11 @@ namespace Experiment
             CurrentProject = project;
         }
 
-        public void DeactivateProjectSubmenu(int projectId)
+        public void DeactivateProjectSubmenu(Project project)
         {
-            if (projectId == CurrentProject.Id)
-            {
-                var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
-                projectMenu.SetVisible(false);
-                CurrentProject = null;
-            }
+            var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
+            projectMenu.SetVisible(false);
+            CurrentProject = null;
         }
 
         private void LoadAllProjectsListFragment()

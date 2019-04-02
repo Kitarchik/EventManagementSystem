@@ -4066,8 +4066,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080069
 			public const int action_mode_close_button = 2131230825;
 			
-			// aapt resource value: 0x7f0800e7
-			public const int action_search = 2131230951;
+			// aapt resource value: 0x7f0800e8
+			public const int action_search = 2131230952;
 			
 			// aapt resource value: 0x7f0800b0
 			public const int action_text = 2131230896;
@@ -4306,17 +4306,20 @@ namespace Experiment
 			// aapt resource value: 0x7f08009a
 			public const int mainToolbar = 2131230874;
 			
+			// aapt resource value: 0x7f0800cb
+			public const int makeCurrentProjectBtn = 2131230923;
+			
 			// aapt resource value: 0x7f0800ac
 			public const int marker_progress = 2131230892;
 			
-			// aapt resource value: 0x7f0800df
-			public const int masked = 2131230943;
+			// aapt resource value: 0x7f0800e0
+			public const int masked = 2131230944;
 			
 			// aapt resource value: 0x7f0800b4
 			public const int media_actions = 2131230900;
 			
-			// aapt resource value: 0x7f0800dd
-			public const int message = 2131230941;
+			// aapt resource value: 0x7f0800de
+			public const int message = 2131230942;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -4330,17 +4333,17 @@ namespace Experiment
 			// aapt resource value: 0x7f0800ab
 			public const int my_text_view = 2131230891;
 			
-			// aapt resource value: 0x7f0800e2
-			public const int nav_allProjects = 2131230946;
-			
-			// aapt resource value: 0x7f0800e0
-			public const int nav_home = 2131230944;
+			// aapt resource value: 0x7f0800e3
+			public const int nav_allProjects = 2131230947;
 			
 			// aapt resource value: 0x7f0800e1
-			public const int nav_messages = 2131230945;
+			public const int nav_home = 2131230945;
 			
-			// aapt resource value: 0x7f0800e3
-			public const int nav_myProjects = 2131230947;
+			// aapt resource value: 0x7f0800e2
+			public const int nav_messages = 2131230946;
+			
+			// aapt resource value: 0x7f0800e4
+			public const int nav_myProjects = 2131230948;
 			
 			// aapt resource value: 0x7f08009c
 			public const int nav_view = 2131230876;
@@ -4366,8 +4369,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b6
 			public const int notification_main_column_container = 2131230902;
 			
-			// aapt resource value: 0x7f0800e6
-			public const int organizers = 2131230950;
+			// aapt resource value: 0x7f0800e7
+			public const int organizers = 2131230951;
 			
 			// aapt resource value: 0x7f080066
 			public const int overshoot = 2131230822;
@@ -4396,8 +4399,8 @@ namespace Experiment
 			// aapt resource value: 0x7f0800c1
 			public const int projectListView = 2131230913;
 			
-			// aapt resource value: 0x7f0800e4
-			public const int projectMenu = 2131230948;
+			// aapt resource value: 0x7f0800e5
+			public const int projectMenu = 2131230949;
 			
 			// aapt resource value: 0x7f0800c2
 			public const int projectNameTextView = 2131230914;
@@ -4420,62 +4423,62 @@ namespace Experiment
 			// aapt resource value: 0x7f0800b8
 			public const int right_side = 2131230904;
 			
-			// aapt resource value: 0x7f0800e5
-			public const int rules = 2131230949;
-			
-			// aapt resource value: 0x7f0800cf
-			public const int rulesExpandableHeader = 2131230927;
+			// aapt resource value: 0x7f0800e6
+			public const int rules = 2131230950;
 			
 			// aapt resource value: 0x7f0800d0
-			public const int rulesExpandableLayout = 2131230928;
+			public const int rulesExpandableHeader = 2131230928;
 			
 			// aapt resource value: 0x7f0800d1
-			public const int rulesExpandableRecyclerView = 2131230929;
-			
-			// aapt resource value: 0x7f0800dc
-			public const int rulesImage = 2131230940;
-			
-			// aapt resource value: 0x7f0800db
-			public const int rulesImageCaption = 2131230939;
-			
-			// aapt resource value: 0x7f0800d9
-			public const int rulesImagesRecyclerView = 2131230937;
-			
-			// aapt resource value: 0x7f0800d4
-			public const int rulesInnerExpandableView = 2131230932;
-			
-			// aapt resource value: 0x7f0800d3
-			public const int rulesInnerSectionIcon = 2131230931;
-			
-			// aapt resource value: 0x7f0800cc
-			public const int rulesSearchRecyclerView = 2131230924;
-			
-			// aapt resource value: 0x7f0800cd
-			public const int rulesSearchTextView = 2131230925;
-			
-			// aapt resource value: 0x7f0800ce
-			public const int rulesSectionExpandableIcon = 2131230926;
+			public const int rulesExpandableLayout = 2131230929;
 			
 			// aapt resource value: 0x7f0800d2
-			public const int rulesSectionsFragment = 2131230930;
+			public const int rulesExpandableRecyclerView = 2131230930;
 			
-			// aapt resource value: 0x7f0800d8
-			public const int rulesSubsectionExpandableDescription = 2131230936;
+			// aapt resource value: 0x7f0800dd
+			public const int rulesImage = 2131230941;
 			
-			// aapt resource value: 0x7f0800d6
-			public const int rulesSubsectionExpandableHeader = 2131230934;
-			
-			// aapt resource value: 0x7f0800d5
-			public const int rulesSubsectionExpandableIcon = 2131230933;
-			
-			// aapt resource value: 0x7f0800d7
-			public const int rulesSubsectionExpandableLayout = 2131230935;
-			
-			// aapt resource value: 0x7f0800cb
-			public const int rulesSubsectionExpandableRecyclerView = 2131230923;
+			// aapt resource value: 0x7f0800dc
+			public const int rulesImageCaption = 2131230940;
 			
 			// aapt resource value: 0x7f0800da
-			public const int rulesSubsectionsPager = 2131230938;
+			public const int rulesImagesRecyclerView = 2131230938;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int rulesInnerExpandableView = 2131230933;
+			
+			// aapt resource value: 0x7f0800d4
+			public const int rulesInnerSectionIcon = 2131230932;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int rulesSearchRecyclerView = 2131230925;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int rulesSearchTextView = 2131230926;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int rulesSectionExpandableIcon = 2131230927;
+			
+			// aapt resource value: 0x7f0800d3
+			public const int rulesSectionsFragment = 2131230931;
+			
+			// aapt resource value: 0x7f0800d9
+			public const int rulesSubsectionExpandableDescription = 2131230937;
+			
+			// aapt resource value: 0x7f0800d7
+			public const int rulesSubsectionExpandableHeader = 2131230935;
+			
+			// aapt resource value: 0x7f0800d6
+			public const int rulesSubsectionExpandableIcon = 2131230934;
+			
+			// aapt resource value: 0x7f0800d8
+			public const int rulesSubsectionExpandableLayout = 2131230936;
+			
+			// aapt resource value: 0x7f0800cc
+			public const int rulesSubsectionExpandableRecyclerView = 2131230924;
+			
+			// aapt resource value: 0x7f0800db
+			public const int rulesSubsectionsPager = 2131230939;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -4678,8 +4681,8 @@ namespace Experiment
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800de
-			public const int visible = 2131230942;
+			// aapt resource value: 0x7f0800df
+			public const int visible = 2131230943;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
