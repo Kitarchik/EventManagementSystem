@@ -16,8 +16,8 @@ namespace Experiment.Fragments.ProjectFragments
         private Project _project;
         private bool _inMyProjects;
         private int _projectId;
-        private bool _deleteInProgress = false;
-        private bool _saveInProgress = false;
+        private bool _deleteInProgress;
+        private bool _saveInProgress;
         private ProjectsSqliteRepository _repository;
 
         public ProjectViewFragment() { }
@@ -64,7 +64,7 @@ namespace Experiment.Fragments.ProjectFragments
 
             if (_saveInProgress)
             {
-                //TODO
+                _repository.SaveProject(_project);
             }
             base.OnSaveInstanceState(outState);
         }
