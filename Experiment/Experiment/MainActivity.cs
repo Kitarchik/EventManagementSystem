@@ -6,13 +6,16 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 using Android.Views;
-using Experiment.Fragments;
 using Experiment.Fragments.RulesFragments;
-using Experiment.LogicLayer;
 using Experiment.Model;
 using Experiment.Search;
 using System;
+using System.IO;
 using System.Linq;
+using Experiment.DataLayer;
+using Experiment.Fragments.ProjectFragments;
+using SQLite;
+using Environment = System.Environment;
 using SupportActionBar = Android.Support.V7.App.ActionBar;
 using SupportFragment = Android.Support.V4.App.Fragment;
 using SupportFragmentManager = Android.Support.V4.App.FragmentManager;
@@ -23,12 +26,14 @@ namespace Experiment
     [Activity(Label = "@string/app_name", Theme = "@style/Theme.DesignDemo", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        public static SQLiteConnection DbConnection;
+        private ProjectsSqliteRepository _repository;
+        private static readonly string DbFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "projects.db3");
         private DrawerLayout _drawerLayout;
         private NavigationView _navigationView;
         private IMenuItem _previousMenuItem;
         private IMenuItem _searchMenuItem;
         private SearchView _searchView;
-
         private string _searchQuery = string.Empty;
 
         public Project CurrentProject { get; set; }
@@ -36,6 +41,8 @@ namespace Experiment
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            DbConnection = new SQLiteConnection(DbFilePath);
+            _repository = new ProjectsSqliteRepository(DbConnection);
             SetContentView(Resource.Layout.activity_main);
 
             SupportToolbar toolbar = FindViewById<SupportToolbar>(Resource.Id.mainToolbar);
@@ -51,19 +58,21 @@ namespace Experiment
                 SetupDrawerContent(_navigationView);
             }
 
-            var projectName = savedInstanceState?.GetString("projectName");
+            var projectId = savedInstanceState?.GetInt(nameof(CurrentProject.Id));
             var previousMenuItem = savedInstanceState?.GetInt("menuItem");
-            if (projectName != null)
+            if (projectId != null)
             {
-                CurrentProject = ProjectsLogic.DownloadProjects().Find(p => p.Name == projectName);
-                CurrentProject.ProjectRules = RulesHelper.DownloadRules(Assets);
-                ActivateProjectSubmenu(CurrentProject);
+                CurrentProject = _repository.GetProject((int)projectId);
+                if (CurrentProject != null)
+                {
+                    ActivateProjectSubmenu(CurrentProject);
+                }
             }
 
             if (previousMenuItem != null && _navigationView !=null)
             {
                  _previousMenuItem = _navigationView.Menu.FindItem((int)previousMenuItem);
-                _previousMenuItem.SetChecked(true);
+                _previousMenuItem?.SetChecked(true);
             }
 
             _searchQuery = savedInstanceState?.GetString("searchQuery") ?? string.Empty;
@@ -71,7 +80,7 @@ namespace Experiment
             base.OnCreate(savedInstanceState);
             if (savedInstanceState == null)
             {
-                LoadProjectsListFragment();
+                LoadMyProjectsListFragment();
             }
         }
 
@@ -79,7 +88,7 @@ namespace Experiment
         {
             if (CurrentProject != null)
             {
-                outState.PutString("projectName",CurrentProject.Name);
+                outState.PutInt(nameof(CurrentProject.Id),CurrentProject.Id);
             }
 
             if (_previousMenuItem != null)
@@ -153,31 +162,31 @@ namespace Experiment
         {
             switch (id)
             {
-                case Resource.Id.nav_projects:
-                    {
-                        LoadProjectsListFragment();
-                        break;
-                    }
+                case Resource.Id.nav_allProjects:
+                {
+                    LoadAllProjectsListFragment();
+                    break;
+                }
+                case Resource.Id.nav_myProjects:
+                {
+                    LoadMyProjectsListFragment();
+                    break;
+                }
                 case Resource.Id.rules:
+                {
+                    if (CurrentProject != null)
                     {
-                        if (CurrentProject != null)
+                        if (CurrentProject.Rules == null)
                         {
-                            if (CurrentProject.ProjectRules == null)
-                            {
-                                DownloadRules();
-                            }
-
-                            PopFragmentsOfType(typeof(BaseRulesFragment));
-                            LoadRulesSectionsFragment(CurrentProject.ProjectRules);
+                            CurrentProject.Rules = _repository.GetRulesForProject(CurrentProject.Id);
                         }
-                        break;
-                    }
-            }
-        }
 
-        private void DownloadRules()
-        {
-            CurrentProject.ProjectRules = RulesHelper.DownloadRules(Assets);
+                        PopFragmentsOfType(typeof(BaseRulesFragment));
+                        LoadRulesSectionsFragment(CurrentProject.Rules);
+                    }
+                    break;
+                }
+            }
         }
 
         private void RefreshSearch()
@@ -198,12 +207,11 @@ namespace Experiment
 
         public void LoadProjectViewFragment(Project project)
         {
-            ActivateProjectSubmenu(project);
             var projectViewFragment = new ProjectViewFragment(project);
             PushFragment(projectViewFragment);
         }
 
-        private void ActivateProjectSubmenu(Project project)
+        public void ActivateProjectSubmenu(Project project)
         {
             var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
             projectMenu.SetVisible(true);
@@ -211,9 +219,22 @@ namespace Experiment
             CurrentProject = project;
         }
 
-        private void LoadProjectsListFragment()
+        public void DeactivateProjectSubmenu(Project project)
         {
-            var projectListFragment = new ProjectListFragment();
+            var projectMenu = _navigationView.Menu.FindItem(Resource.Id.projectMenu);
+            projectMenu.SetVisible(false);
+            CurrentProject = null;
+        }
+
+        private void LoadAllProjectsListFragment()
+        {
+            var allProjectsListFragment = new AllProjectsListFragment();
+            PushFragment(allProjectsListFragment);
+        }
+
+        private void LoadMyProjectsListFragment()
+        {
+            var projectListFragment = new MyProjectListFragment();
             PushFragment(projectListFragment);
         }
 
@@ -231,7 +252,7 @@ namespace Experiment
 
         public void LoadRulesSearchFragment()
         {
-            var rulesSearchFragment = new RulesSearchFragment(CurrentProject.ProjectRules);
+            var rulesSearchFragment = new RulesSearchFragment(CurrentProject.Rules);
             PushFragment(rulesSearchFragment);
         }
 

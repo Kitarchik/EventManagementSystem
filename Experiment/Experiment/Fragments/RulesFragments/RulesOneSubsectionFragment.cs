@@ -37,9 +37,9 @@ namespace Experiment.Fragments.RulesFragments
             }
             else
             {
-                if (!string.IsNullOrEmpty(Rules.Description))
+                if (!string.IsNullOrEmpty(Rules.Content))
                 {
-                    items.Add(new Rules { Name = "Описание", Description = Rules.Description });
+                    items.Add(new Rules { Name = "Описание", Content = Rules.Content });
                 }
 
                 var children = Rules.ChildRules.Where(c => c.ChildRules == null || c.ChildRules.Count == 0).ToList();

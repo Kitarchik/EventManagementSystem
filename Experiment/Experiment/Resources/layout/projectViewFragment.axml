@@ -1,15 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:padding="8dp"
 	android:id="@+id/projectViewFragment">
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:id="@+id/txtProjectName" />
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/txtProjectStartDate" />
-</LinearLayout>
+		android:layout_below="@+id/txtProjectName"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/txtProjectStatus" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/txtProjectStatus"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/txtProjectDates" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/txtProjectDates"
+		android:layout_marginBottom="15dp"
+		android:layout_toLeftOf="@+id/addToMyProjectsSwitch"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/txtAddToMyProjects" />
+	<Switch
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/txtProjectDates"
+		android:textOn="ДА"
+        android:textOff="НЕТ"
+		android:id="@+id/addToMyProjectsSwitch"/>
+	<Button 
+		android:text="Назначить активным проектом."
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/addToMyProjectsSwitch"
+		android:id="@+id/makeCurrentProjectBtn"
+	/>
+</RelativeLayout>

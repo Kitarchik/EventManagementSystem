@@ -34,6 +34,7 @@
 					android:id="@+id/rulesExpandableHeader"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content"
+					android:layout_toLeftOf="@+id/rulesSectionExpandableIcon"
 					android:textAppearance="?android:attr/textAppearanceLarge"
 					android:padding="8dp"/>
 			</RelativeLayout>

@@ -37,7 +37,7 @@ namespace Experiment.Search
             {
                 if (_parent.Activity is MainActivity activity)
                 {
-                    var rule = activity.CurrentProject.ProjectRules.FindRuleByName(_ruleNames[position]);
+                    var rule = activity.CurrentProject.Rules.FindRuleByName(_ruleNames[position]);
                     if (rule.IsCategory())
                     {
                         activity.LoadRulesSectionsFragment(rule);
